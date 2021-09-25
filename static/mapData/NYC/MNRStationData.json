@@ -1,0 +1,834 @@
+[
+    {
+        "MTA-MNR-GrandCentral": {
+            "name": "Grand Central Terminal",
+            "lines": ["Harlem", "Hudson", "New Haven", "New Canaan", "Danbury"],
+            "locations": [[1168.5, 3243]],
+            "dotRadius": 18
+        },
+        "MTA-MNR-125St": {
+            "name": "Harlem-125 St",
+            "lines": ["Harlem", "Hudson", "New Haven", "New Canaan", "Danbury"],
+            "locations": [[1238.5, 3069]],
+            "dotRadius": 18
+        },
+        "MTA-MNR-E153St": {
+            "name": "Yankees-E 153 St",
+            "lines": ["Hudson"],
+            "locations": [[1254.5, 2983]]
+        },
+        "MTA-MNR-MorrisHeights": {
+            "name": "Morris Heights",
+            "lines": ["Hudson"],
+            "locations": [[1275, 2886.5]]
+        },
+        "MTA-MNR-UniversityHeights": {
+            "name": "University Heights",
+            "lines": ["Hudson"],
+            "locations": [[1291.5, 2850]]
+        },
+        "MTA-MNR-MarbleHill": {
+            "name": "Marble Hill",
+            "lines": ["Hudson"],
+            "locations": [[1284.5, 2809]]
+        },
+        "MTA-MNR-SpuytenDuyvil": {
+            "name": "Spuyten Duyvil",
+            "lines": ["Hudson"],
+            "locations": [[1258.5, 2775]]
+        },
+        "MTA-MNR-Riverdale": {
+            "name": "Riverdale",
+            "lines": ["Hudson"],
+            "locations": [[1261.5, 2706.5]]
+        },
+        "MTA-MNR-Ludlow": {
+            "name": "Ludlow",
+            "lines": ["Hudson"],
+            "locations": [[1273, 2642]]
+        },
+        "MTA-MNR-Yonkers": {
+            "name": "Yonkers",
+            "lines": ["Hudson"],
+            "locations": [[1281, 2589.5]]
+        },
+        "MTA-MNR-Glenwood": {
+            "name": "Glenwood",
+            "lines": ["Hudson"],
+            "locations": [[1289, 2536]]
+        },
+        "MTA-MNR-Greystone": {
+            "name": "Greystone",
+            "lines": ["Hudson"],
+            "locations": [[1295.5, 2459]]
+        },
+        "MTA-MNR-HastingsOnHudson": {
+            "name": "Hastings-on-Hudson",
+            "lines": ["Hudson"],
+            "locations": [[1298, 2388]]
+        },
+        "MTA-MNR-DobbsFerry": {
+            "name": "Dobbs Ferry",
+            "lines": ["Hudson"],
+            "locations": [[1324.5, 2296]]
+        },
+        "MTA-MNR-ArdsleyOnHudson": {
+            "name": "Ardsley-on-Hudson",
+            "lines": ["Hudson"],
+            "locations": [[1344, 2232.5]]
+        },
+        "MTA-MNR-Irvington": {
+            "name": "Irvington",
+            "lines": ["Hudson"],
+            "locations": [[1366, 2156]]
+        },
+        "MTA-MNR-Tarrytown": {
+            "name": "Tarrytown",
+            "lines": ["Hudson"],
+            "locations": [[1374, 2038]]
+        },
+        "MTA-MNR-PhilipseManor": {
+            "name": "Philipse Manor",
+            "lines": ["Hudson"],
+            "locations": [[1363.5, 1970]]
+        },
+        "MTA-MNR-Scarborough": {
+            "name": "Scarborough",
+            "lines": ["Hudson"],
+            "locations": [[1367, 1824.5]]
+        },
+        "MTA-MNR-Ossining": {
+            "name": "Ossining",
+            "lines": ["Hudson"],
+            "locations": [[1361.5, 1745.5]]
+        },
+        "MTA-MNR-CrotonHarmon": {
+            "name": "Croton-Harmon",
+            "lines": ["Hudson"],
+            "locations": [[1329, 1628]]
+        },
+        "MTA-MNR-Cortlandt": {
+            "name": "Cortlandt",
+            "lines": ["Hudson"],
+            "locations": [[1236.5, 1454.5]]
+        },
+        "MTA-MNR-Peekskill": {
+            "name": "Peekskill",
+            "lines": ["Hudson"],
+            "locations": [[1220, 1292.5]]
+        },
+        "MTA-MNR-Manitou": {
+            "name": "Manitou",
+            "lines": ["Hudson"],
+            "locations": [[1123.5, 1132]]
+        },
+        "MTA-MNR-Garrison": {
+            "name": "Garrison",
+            "lines": ["Hudson"],
+            "locations": [[1180, 953]]
+        },
+        "MTA-MNR-ColdSpring": {
+            "name": "Cold Spring",
+            "lines": ["Hudson"],
+            "locations": [[1151, 831]]
+        },
+        "MTA-MNR-BreakneckRidge": {
+            "name": "Breakneck Ridge",
+            "lines": ["Hudson"],
+            "locations": [[1113.5, 765]]
+        },
+        "MTA-MNR-Beacon": {
+            "name": "Beacon",
+            "lines": ["Hudson"],
+            "locations": [[1076.5, 617.5]]
+        },
+        "MTA-MNR-NewHamburg": {
+            "name": "New Hamburg",
+            "lines": ["Hudson"],
+            "locations": [[1133.5, 451.5]]
+        },
+        "MTA-MNR-Poughkeepsie": {
+            "name": "Poughkeepsie",
+            "lines": ["Hudson"],
+            "locations": [[1182.5, 201]]
+        },
+        "MTA-MNR-Melrose": {
+            "name": "Melrose",
+            "lines": ["Harlem"],
+            "locations": [[1294.5, 2957]]
+        },
+        "MTA-MNR-Tremont": {
+            "name": "Tremont",
+            "lines": ["Harlem"],
+            "locations": [[1315.5, 2900]]
+        },
+        "MTA-MNR-Fordham": {
+            "name": "Fordham",
+            "lines": ["Harlem", "New Haven"],
+            "locations": [[1331.5, 2857.5]]
+        },
+        "MTA-MNR-BotanicalGarden": {
+            "name": "Botanical Garden",
+            "lines": ["Harlem"],
+            "locations": [[1360.5, 2806]]
+        },
+        "MTA-MNR-WilliamsBridge": {
+            "name": "Williams Bridge",
+            "lines": ["Harlem"],
+            "locations": [[1375.5, 2773.5]]
+        },
+        "MTA-MNR-Woodlawn": {
+            "name": "Woodlawn",
+            "lines": ["Harlem"],
+            "locations": [[1389, 2725.5]]
+        },
+        "MTA-MNR-Wakefield": {
+            "name": "Wakefield",
+            "lines": ["Harlem"],
+            "locations": [[1405, 2670.5]]
+        },
+        "MTA-MNR-MtVernonWest": {
+            "name": "Mt Vernon West",
+            "lines": ["Harlem"],
+            "locations": [[1420.5, 2621]]
+        },
+        "MTA-MNR-Fleetwood": {
+            "name": "Fleetwood",
+            "lines": ["Harlem"],
+            "locations": [[1428.5, 2590]]
+        },
+        "MTA-MNR-Bronxville": {
+            "name": "Bronxville",
+            "lines": ["Harlem"],
+            "locations": [[1439, 2526.5]]
+        },
+        "MTA-MNR-Tuckahoe": {
+            "name": "Tuckahoe",
+            "lines": ["Harlem"],
+            "locations": [[1451, 2487]]
+        },
+        "MTA-MNR-Crestwood": {
+            "name": "Crestwood",
+            "lines": ["Harlem"],
+            "locations": [[1465.5, 2449]]
+        },
+        "MTA-MNR-Scarsdale": {
+            "name": "Scarsdale",
+            "lines": ["Harlem"],
+            "locations": [[1513, 2343]]
+        },
+        "MTA-MNR-Hartsdale": {
+            "name": "Hartsdale",
+            "lines": ["Harlem"],
+            "locations": [[1547, 2260.5]]
+        },
+        "MTA-MNR-WhitePlains": {
+            "name": "White Plains",
+            "lines": ["Harlem"],
+            "locations": [[1584, 2201.5]]
+        },
+        "MTA-MNR-NorthWhitePlains": {
+            "name": "North White Plains",
+            "lines": ["Harlem"],
+            "locations": [[1602, 2116]]
+        },
+        "MTA-MNR-Valhalla": {
+            "name": "Valhalla",
+            "lines": ["Harlem"],
+            "locations": [[1587, 2051.5]]
+        },
+        "MTA-MNR-MtPleasant": {
+            "name": "Mt. Pleasant",
+            "lines": ["Harlem"],
+            "locations": [[1545, 1975]]
+        },
+        "MTA-MNR-Hawthorne": {
+            "name": "Hawthorne",
+            "lines": ["Harlem"],
+            "locations": [[1544.5, 1929.5]]
+        },
+        "MTA-MNR-Pleasantville": {
+            "name": "Pleasantville",
+            "lines": ["Harlem"],
+            "locations": [[1557, 1830.5]]
+        },
+        "MTA-MNR-Chappaqua": {
+            "name": "Chappaqua",
+            "lines": ["Harlem"],
+            "locations": [[1595.5, 1750.5]]
+        },
+        "MTA-MNR-MountKisco": {
+            "name": "Mount Kisco",
+            "lines": ["Harlem"],
+            "locations": [[1709, 1576.5]]
+        },
+        "MTA-MNR-BedfordHills": {
+            "name": "Bedford Hills",
+            "lines": ["Harlem"],
+            "locations": [[1787, 1481]]
+        },
+        "MTA-MNR-Katonah": {
+            "name": "Katonah",
+            "lines": ["Harlem"],
+            "locations": [[1822.5, 1389]]
+        },
+        "MTA-MNR-GoldensBridge": {
+            "name": "Goldens Bridge",
+            "lines": ["Harlem"],
+            "locations": [[1840, 1274.5]]
+        },
+        "MTA-MNR-Purdys": {
+            "name": "Purdy's",
+            "lines": ["Harlem"],
+            "locations": [[1892, 1166]]
+        },
+        "MTA-MNR-CrotonFalls": {
+            "name": "Croton Falls",
+            "lines": ["Harlem"],
+            "locations": [[1884, 1080]]
+        },
+        "MTA-MNR-Brewster": {
+            "name": "Brewster",
+            "lines": ["Harlem"],
+            "locations": [[1968, 923]]
+        },
+        "MTA-MNR-Southeast": {
+            "name": "Southeast",
+            "lines": ["Harlem"],
+            "locations": [[1983, 866]]
+        },
+        "MTA-MNR-Patterson": {
+            "name": "Patterson",
+            "lines": ["Harlem"],
+            "locations": [[2007, 603]]
+        },
+        "MTA-MNR-Pawling": {
+            "name": "Pawling",
+            "lines": ["Harlem"],
+            "locations": [[2031.5, 418]]
+        },
+        "MTA-MNR-AppalachianTrail": {
+            "name": "Appalachian Trail",
+            "lines": ["Harlem"],
+            "locations": [[2059, 324]]
+        },
+        "MTA-MNR-HarlemValley": {
+            "name": "Harlem Valley-Wingdale",
+            "lines": ["Harlem"],
+            "locations": [[2075, 261.5]]
+        },
+        "MTA-MNR-DoverPlains": {
+            "name": "Dover Plains",
+            "lines": ["Harlem"],
+            "locations": [[2048, 153]]
+        },
+        "MTA-MNR-TenmileRiver": {
+            "name": "Tenmile River",
+            "lines": ["Harlem"],
+            "locations": [[2056, 85.5]]
+        },
+        "MTA-MNR-Wassaic": {
+            "name": "Wassaic",
+            "lines": ["Harlem"],
+            "locations": [[2069, 33]]
+        },
+        "MTA-MNR-MtVernonEast": {
+            "name": "Mt. Vernon East",
+            "lines": ["New Haven"],
+            "locations": [[1456, 2662]]
+        },
+        "MTA-MNR-Pelham": {
+            "name": "Pelham",
+            "lines": ["New Haven"],
+            "locations": [[1510, 2654]]
+        },
+        "MTA-MNR-NewRochelle": {
+            "name": "New Rochelle",
+            "lines": ["New Haven"],
+            "locations": [[1570.5, 2635]]
+        },
+        "MTA-MNR-Larchmont": {
+            "name": "Larchmont",
+            "lines": ["New Haven"],
+            "locations": [[1624.5, 2553]]
+        },
+        "MTA-MNR-Mamaroneck": {
+            "name": "Mamaroneck",
+            "lines": ["New Haven"],
+            "locations": [[1686, 2478]]
+        },
+        "MTA-MNR-Harrison": {
+            "name": "Harrison",
+            "lines": ["New Haven"],
+            "locations": [[1753.5, 2418.5]]
+        },
+        "MTA-MNR-Rye": {
+            "name": "Rye",
+            "lines": ["New Haven"],
+            "locations": [[1821, 2359.5]]
+        },
+        "MTA-MNR-PortChesterNY": {
+            "name": "Port Chester, NY",
+            "lines": ["New Haven"],
+            "locations": [[1873, 2302]]
+        },
+        "MTA-MNR-GreenwichCT": {
+            "name": "Greenwich, CT",
+            "lines": ["New Haven", "New Canaan"],
+            "locations": [[1960.5, 2232]]
+        },
+        "MTA-MNR-CosCob": {
+            "name": "Cos Cob",
+            "lines": ["New Haven"],
+            "locations": [[2013, 2207]]
+        },
+        "MTA-MNR-Riverside": {
+            "name": "Riverside",
+            "lines": ["New Haven"],
+            "locations": [[2062.5, 2192.5]]
+        },
+        "MTA-MNR-OldGreenwich": {
+            "name": "Old Greenwich",
+            "lines": ["New Haven"],
+            "locations": [[2118.5, 2184]]
+        },
+        "MTA-MNR-Stamford": {
+            "name": "Stamford",
+            "lines": ["New Haven", "New Canaan", "Danbury", "Waterbury"],
+            "locations": [[2179, 2150]]
+        },
+        "MTA-MNR-Glenbrook": {
+            "name": "Glenbrook",
+            "lines": ["New Canaan"],
+            "locations": [[2230.5, 2046.5]]
+        },
+        "MTA-MNR-Springdale": {
+            "name": "Springdale",
+            "lines": ["New Canaan"],
+            "locations": [[2247, 1983]]
+        },
+        "MTA-MNR-TalmadgeHill": {
+            "name": "Talmadge Hill",
+            "lines": ["New Canaan"],
+            "locations": [[2278, 1899]]
+        },
+        "MTA-MNR-NewCanaan": {
+            "name": "New Canaan",
+            "lines": ["New Canaan"],
+            "locations": [[2279.5, 1804.5]]
+        },
+        "MTA-MNR-NorotonHeights": {
+            "name": "Noroton Heights",
+            "lines": ["New Haven", "Danbury"],
+            "locations": [[2298.5, 2063]]
+        },
+        "MTA-MNR-Darien": {
+            "name": "Darien",
+            "lines": ["New Haven", "Danbury"],
+            "locations": [[2355.5, 2049]]
+        },
+        "MTA-MNR-Rowayton": {
+            "name": "Rowayton",
+            "lines": ["New Haven", "Danbury"],
+            "locations": [[2415.5, 2042]]
+        },
+        "MTA-MNR-SouthNorwalk": {
+            "name": "South Norwalk",
+            "lines": ["New Haven", "Danbury"],
+            "locations": [[2478.5, 1983]]
+        },
+        "MTA-MNR-Merritt7": {
+            "name": "Merritt 7",
+            "lines": ["Danbury"],
+            "locations": [[2465, 1789.5]]
+        },
+        "MTA-MNR-Wilton": {
+            "name": "Wilton",
+            "lines": ["Danbury"],
+            "locations": [[2455.5, 1610.5]]
+        },
+        "MTA-MNR-Cannondale": {
+            "name": "Cannondale",
+            "lines": ["Danbury"],
+            "locations": [[2467.5, 1533.5]]
+        },
+        "MTA-MNR-Branchville": {
+            "name": "Branchville",
+            "lines": ["Danbury"],
+            "locations": [[2425, 1344.5]]
+        },
+        "MTA-MNR-Redding": {
+            "name": "Redding",
+            "lines": ["Danbury"],
+            "locations": [[2445, 1138]]
+        },
+        "MTA-MNR-Bethel": {
+            "name": "Bethel",
+            "lines": ["Danbury"],
+            "locations": [[2481.5, 983]]
+        },
+        "MTA-MNR-Danbury": {
+            "name": "Danbury",
+            "lines": ["Danbury"],
+            "locations": [[2406, 880]]
+        },
+        "MTA-MNR-EastNorwalk": {
+            "name": "East Norwalk",
+            "lines": ["New Haven"],
+            "locations": [[2525.5, 1937]]
+        },
+        "MTA-MNR-Westport": {
+            "name": "Westport",
+            "lines": ["New Haven"],
+            "locations": [[2612.5, 1881.5]]
+        },
+        "MTA-MNR-GreensFarms": {
+            "name": "Green's Farms",
+            "lines": ["New Haven"],
+            "locations": [[2740, 1879]]
+        },
+        "MTA-MNR-Southport": {
+            "name": "Southport",
+            "lines": ["New Haven"],
+            "locations": [[2825.5, 1825]]
+        },
+        "MTA-MNR-Fairfield": {
+            "name": "Fairfield",
+            "lines": ["New Haven"],
+            "locations": [[2897.5, 1794]]
+        },
+        "MTA-MNR-FairfieldMetro": {
+            "name": "Fairfield Metro",
+            "lines": ["New Haven"],
+            "locations": [[2976, 1731]]
+        },
+        "MTA-MNR-Bridgeport": {
+            "name": "Bridgeport",
+            "lines": ["New Haven", "Waterbury"],
+            "locations": [[3067, 1677.5]]
+        },
+        "MTA-MNR-Stratford": {
+            "name": "Stratford",
+            "lines": ["New Haven", "Waterbury"],
+            "locations": [[3205, 1618.5]]
+        },
+        "MTA-MNR-DerbyShelton": {
+            "name": "Derby-Shelton",
+            "lines": ["Waterbury"],
+            "locations": [[3343.5, 1125]]
+        },
+        "MTA-MNR-Ansonia": {
+            "name": "Ansonia",
+            "lines": ["Waterbury"],
+            "locations": [[3322.5, 1051]]
+        },
+        "MTA-MNR-Seymour": {
+            "name": "Seymour",
+            "lines": ["Waterbury"],
+            "locations": [[3349, 903]]
+        },
+        "MTA-MNR-BeaconFalls": {
+            "name": "Beacon Falls",
+            "lines": ["Waterbury"],
+            "locations": [[3348.5, 827.5]]
+        },
+        "MTA-MNR-Naugatuck": {
+            "name": "Naugatuck",
+            "lines": ["Waterbury"],
+            "locations": [[3396.5, 549]]
+        },
+        "MTA-MNR-Waterbury": {
+            "name": "Waterbury",
+            "lines": ["Waterbury"],
+            "locations": [[3406, 327]]
+        },
+        "MTA-MNR-Milford": {
+            "name": "Milford",
+            "lines": ["New Haven"],
+            "locations": [[3384, 1522]]
+        },
+        "MTA-MNR-WestHaven": {
+            "name": "West Haven",
+            "lines": ["New Haven"],
+            "locations": [[3557, 1391]]
+        },
+        "MTA-MNR-NewHavenUnionStation": {
+            "name": "New Haven-Union Station",
+            "lines": ["New Haven"],
+            "locations": [[3651.5, 1293.5]]
+        },
+        "MTA-MNR-NewHavenStateStreet": {
+            "name": "New Haven-State Street",
+            "lines": ["New Haven"],
+            "locations": [[3673.5, 1269]]
+        },
+        "MTA-MNR-PearlRiver": {
+            "name": "Pearl River, NY",
+            "lines": ["Pascack Valley"],
+            "locations": [[999, 2081.5]]
+        },
+        "MTA-MNR-Nanuet": {
+            "name": "Nanuet",
+            "lines": ["Pascack Valley"],
+            "locations": [[1006.5, 1989]]
+        },
+        "MTA-MNR-SpringValley": {
+            "name": "Spring Valley",
+            "lines": ["Pascack Valley"],
+            "locations": [[950, 1903]]
+        },
+        "MTA-MNR-Suffern": {
+            "name": "Suffern, NY",
+            "lines": ["Port Jervis"],
+            "locations": [[661, 1882]]
+        },
+        "MTA-MNR-Sloatsburg": {
+            "name": "Sloatsburg",
+            "lines": ["Port Jervis"],
+            "locations": [[592, 1699]]
+        },
+        "MTA-MNR-Tuxedo": {
+            "name": "Tuxedo",
+            "lines": ["Port Jervis"],
+            "locations": [[599, 1599.5]]
+        },
+        "MTA-MNR-Harriman": {
+            "name": "Harriman",
+            "lines": ["Port Jervis"],
+            "locations": [[754.5, 1279.5]]
+        },
+        "MTA-MNR-SalisburyMills": {
+            "name": "Salisbury Mills-Cornwall",
+            "lines": ["Port Jervis"],
+            "locations": [[832, 845.5]]
+        },
+        "MTA-MNR-CampbellHall": {
+            "name": "Campbell Hall",
+            "lines": ["Port Jervis"],
+            "locations": [[609.5, 806]]
+        },
+        "MTA-MNR-Middletown": {
+            "name": "Middletown/Town of Wallkill",
+            "lines": ["Port Jervis"],
+            "locations": [[445.5, 797.5]]
+        },
+        "MTA-MNR-Otisville": {
+            "name": "Otisville",
+            "lines": ["Port Jervis"],
+            "locations": [[196, 745]]
+        },
+        "MTA-MNR-PortJervis": {
+            "name": "Port Jervis",
+            "lines": ["Port Jervis"],
+            "locations": [[21.5, 1095]]
+        }
+    },
+    {
+        "NYCPennStation": {
+            "name": "Penn Station",
+            "lines": ["Montclair-Boonton", "Morristown", "Gladstone", "Northeast Corridor", "North Jersey Coast", "Raritan Valley"],
+            "locations": [[1113, 3276]],
+            "dotRadius": 18
+        },
+        "NJT-HobokenTerminal": {
+            "name": "Hoboken Terminal",
+            "lines": ["North Jersey Coast", "Raritan Valley", "Montclair-Boonton", "Morristown", "Gladstone", "Pascack Valley", "Main Line", "Bergen County", "Meadowlands"],
+            "locations": [[967, 3335]]
+        },
+        "NJT-Secaucus": {
+            "name": "Secaucus Junction",
+            "lines": ["Northeast Corridor", "North Jersey Coast", "Raritan Valley", "Montclair-Boonton", "Morristown", "Gladstone", "Pascack Valley", "Main Line", "Bergen County", "Meadowlands"],
+            "locations": [[875.5, 3240]]
+        },
+        "NJT-Kingsland": {
+            "name": "Kingsland",
+            "lines": ["Main Line"],
+            "locations": [[767.5, 3105.5]]
+        },
+        "NJT-Lyndhurst": {
+            "name": "Lyndhurst",
+            "lines": ["Main Line"],
+            "locations": [[743.5, 3057]]
+        },
+        "NJT-Delawanna": {
+            "name": "Delawanna",
+            "lines": ["Main Line"],
+            "locations": [[726, 2981]]
+        },
+        "NJT-Passaic": {
+            "name": "Passaic",
+            "lines": ["Main Line"],
+            "locations": [[699, 2905]]
+        },
+        "NJT-Clifton": {
+            "name": "Clifton",
+            "lines": ["Main Line"],
+            "locations": [[669, 2841.5]]
+        },
+        "NJT-Paterson": {
+            "name": "Paterson",
+            "lines": ["Main Line"],
+            "locations": [[636, 2675.5]]
+        },
+        "NJT-Hawthorne": {
+            "name": "Hawthorne",
+            "lines": ["Main Line"],
+            "locations": [[672, 2593.5]]
+        },
+        "NJT-GlenRock-MainLine": {
+            "name": "Glen Rock Main Line",
+            "lines": ["Main Line"],
+            "locations": [[726.5, 2500]]
+        },
+        "NJT-Ridgewood": {
+            "name": "Ridgewood",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[760.5, 2444.5]]
+        },
+        "NJT-HoHoKus": {
+            "name": "Ho-Ho-Kus",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[759.5, 2394]]
+        },
+        "NJT-Waldwick": {
+            "name": "Waldwick",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[738.5, 2325]]
+        },
+        "NJT-Allendale": {
+            "name": "Allendale",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[715.5, 2247.5]]
+        },
+        "NJT-Ramsey": {
+            "name": "Ramsey",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[700, 2190.5]]
+        },
+        "NJT-RamseyRoute17": {
+            "name": "Ramsey-Route 17",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[690, 2135]]
+        },
+        "NJT-Mahwah": {
+            "name": "Mahwah, NJ",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[672, 1983]]
+        },
+        "MTA-MNR-Suffern": {
+            "name": "Suffern, NY",
+            "lines": ["Main Line", "Bergen County"],
+            "locations": [[661, 1882]]
+        },
+        "NJT-Rutherford": {
+            "name": "Rutherford",
+            "lines": ["Bergen County"],
+            "locations": [[802, 3006.5]]
+        },
+        "NJT-Wesmont": {
+            "name": "Wesmont",
+            "lines": ["Bergen County"],
+            "locations": [[807, 2943.5]]
+        },
+        "NJT-Garfield": {
+            "name": "Garfield",
+            "lines": ["Bergen County"],
+            "locations": [[815.5, 2882]]
+        },
+        "NJT-Plauderville": {
+            "name": "Plaunderville",
+            "lines": ["Bergen County"],
+            "locations": [[795, 2786.5]]
+        },
+        "NJT-Broadway-Fairlawn": {
+            "name": "Broadway-Fairlawn",
+            "lines": ["Bergen County"],
+            "locations": [[763, 2655]]
+        },
+        "NJT-Radburn-Fairlawn": {
+            "name": "Radburn-Fairlawn",
+            "lines": ["Bergen County"],
+            "locations": [[752, 2607]]
+        },
+        "NJT-GlenRockBoroHall": {
+            "name": "Glen Rock Boro Hall",
+            "lines": ["Bergen County"],
+            "locations": [[754.5, 2496.5]]
+        },
+        "NJT-MeadowlandsSportsComplex": {
+            "name": "Meadowlands Sports Complex",
+            "lines": ["Meadowlands"],
+            "locations": [[875, 3014.5]]
+        },
+        "NJT-WoodRidge": {
+            "name": "Wood-Ridge",
+            "lines": ["Pascack Valley"],
+            "locations": [[861, 2942]]
+        },
+        "NJT-TeterboroWilliamsAv": {
+            "name": "Teterboro-Williams Av",
+            "lines": ["Pascack Valley"],
+            "locations": [[894, 2876]]
+        },
+        "NJT-EssexStHackensack": {
+            "name": "Essex St-Hackensack",
+            "lines": ["Pascack Valley"],
+            "locations": [[913.5, 2830]]
+        },
+        "NJT-AndersonStHackensack": {
+            "name": "Anderson St-Hackensack",
+            "lines": ["Pascack Valley"],
+            "locations": [[934.5, 2775]]
+        },
+        "NJT-NewBridgeLanding": {
+            "name": "New Bridge Landing",
+            "lines": ["Pascack Valley"],
+            "locations": [[958.5, 2695.5]]
+        },
+        "NJT-RiverEdge": {
+            "name": "River Edge",
+            "lines": ["Pascack Valley"],
+            "locations": [[974.5, 2620.5]]
+        },
+        "NJT-Oradell": {
+            "name": "Oradell",
+            "lines": ["Pascack Valley"],
+            "locations": [[983, 2549]]
+        },
+        "NJT-Emerson": {
+            "name": "Emerson",
+            "lines": ["Pascack Valley"],
+            "locations": [[984, 2503]]
+        },
+        "NJT-Westwood": {
+            "name": "Westwood",
+            "lines": ["Pascack Valley"],
+            "locations": [[967, 2421]]
+        },
+        "NJT-Hillsdale": {
+            "name": "Hillsdale",
+            "lines": ["Pascack Valley"],
+            "locations": [[945, 2348]]
+        },
+        "NJT-WoodcliffLake": {
+            "name": "Woodcliff Lake",
+            "lines": ["Pascack Valley"],
+            "locations": [[941.5, 2270]]
+        },
+        "NJT-ParkRidge": {
+            "name": "Park Ridge",
+            "lines": ["Pascack Valley"],
+            "locations": [[959.5, 2210.5]]
+        },
+        "NJT-Montvale": {
+            "name": "Montvale, NJ",
+            "lines": ["Pascack Valley"],
+            "locations": [[988, 2137]]
+        },
+        "MTA-MNR-PearlRiver": {
+            "name": "Pearl River, NY",
+            "lines": ["Pascack Valley"],
+            "locations": [[999, 2081.5]]
+        }
+    }
+]

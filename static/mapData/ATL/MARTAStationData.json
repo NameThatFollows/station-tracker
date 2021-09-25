@@ -1,0 +1,267 @@
+[
+    {
+        "MARTA-FivePoints": {
+            "name": "Five Points",
+            "lines": ["Red", "Gold", "Green", "Blue"],
+            "locations": [[1862.352, 2654.711]],
+            "dotRadius": 75
+        },
+        "MARTA-PeachtreeCenter": {
+            "name": "Peachtree Center",
+            "lines": ["Red", "Gold"],
+            "locations": [[1863.413, 2484.460]]
+        },
+        "MARTA-CivicCenter": {
+            "name": "Civic Center",
+            "lines": ["Red", "Gold"],
+            "locations": [[1863.234, 2340.523]]
+        },
+        "MARTA-NorthAvenue": {
+            "name": "North Avenue",
+            "lines": ["Red", "Gold"],
+            "locations": [[1863.323, 2231.712]]
+        },
+        "MARTA-Midtown": {
+            "name": "Midtown",
+            "lines": ["Red", "Gold"],
+            "locations": [[1863.323, 2122.115]]
+        },
+        "MARTA-ArtsCenter": {
+            "name": "Arts Center",
+            "lines": ["Red", "Gold"],
+            "locations": [[1863.957, 2013.798]]
+        },
+        "MARTA-LindberghCenter": {
+            "name": "Lindbergh Center",
+            "lines": ["Red", "Gold"],
+            "locations": [[1996.502, 1752.862]]
+        },
+        "MARTA-Lenox": {
+            "name": "Lenox",
+            "lines": ["Gold"],
+            "locations": [[2232.286, 1551.036]]
+        },
+        "MARTA-Brookhaven": {
+            "name": "Brookhaven/Oglethorpe",
+            "lines": ["Gold"],
+            "locations": [[2353.955, 1428.528]]
+        },
+        "MARTA-Chamblee": {
+            "name": "Chamblee",
+            "lines": ["Gold"],
+            "locations": [[2466.297, 1313.586]]
+        },
+        "MARTA-Doraville": {
+            "name": "Doraville",
+            "lines": ["Gold"],
+            "locations": [[2597.571, 1184.813]]
+        },
+        "MARTA-Buckhead": {
+            "name": "Buckhead",
+            "lines": ["Red"],
+            "locations": [[2105.017, 1479.882]]
+        },
+        "MARTA-MedicalCenter": {
+            "name": "Medical Center",
+            "lines": ["Red"],
+            "locations": [[2203.555, 1096.974]]
+        },
+        "MARTA-Dunwoody": {
+            "name": "Dunwoody",
+            "lines": ["Red"],
+            "locations": [[2255.074, 917.627]]
+        },
+        "MARTA-SandySprings": {
+            "name": "Sandy Springs",
+            "lines": ["Red"],
+            "locations": [[2175.759, 727.460]]
+        },
+        "MARTA-NorthSprings": {
+            "name": "North Springs",
+            "lines": ["Red"],
+            "locations": [[2107.211, 539.311]]
+        },
+        "MARTA-Garnett": {
+            "name": "Garnett",
+            "lines": ["Red", "Gold"],
+            "locations": [[1782, 2792]]
+        },
+        "MARTA-WestEnd": {
+            "name": "West End",
+            "lines": ["Red", "Gold"],
+            "locations": [[1648, 2990]]
+        },
+        "MARTA-OaklandCity": {
+            "name": "Oakland City",
+            "lines": ["Red", "Gold"],
+            "locations": [[1648, 3107]]
+        },
+        "MARTA-Lakewood": {
+            "name": "Lakewood/Ft. McPherson",
+            "lines": ["Red", "Gold"],
+            "locations": [[1648, 3223]]
+        },
+        "MARTA-EastPoint": {
+            "name": "East Point",
+            "lines": ["Red", "Gold"],
+            "locations": [[1648, 3339]]
+        },
+        "MARTA-CollegePark": {
+            "name": "College Park",
+            "lines": ["Red", "Gold"],
+            "locations": [[1648, 3515]]
+        },
+        "MARTA-Airport": {
+            "name": "Airport",
+            "lines": ["Red", "Gold"],
+            "locations": [[1821, 3801]]
+        },
+        "MARTA-Dome": {
+            "name": "GWCC/CNN Center",
+            "lines": ["Green", "Blue"],
+            "locations": [[1666, 2656]]
+        },
+        "MARTA-VineCity": {
+            "name": "Vine City",
+            "lines": ["Green", "Blue"],
+            "locations": [[1520, 2656]]
+        },
+        "MARTA-Ashby": {
+            "name": "Ashby",
+            "lines": ["Green", "Blue"],
+            "locations": [[1388, 2656]]
+        },
+        "MARTA-WestLake": {
+            "name": "West Lake",
+            "lines": ["Blue"],
+            "locations": [[1240, 2686]]
+        },
+        "MARTA-HEHolmes": {
+            "name": "Hamilton E. Holmes",
+            "lines": ["Blue"],
+            "locations": [[878, 2686]]
+        },
+        "MARTA-Bankhead": {
+            "name": "Bankhead",
+            "lines": ["Green"],
+            "locations": [[1159, 2453]]
+        },
+        "MARTA-GeorgiaState": {
+            "name": "Georgia State",
+            "lines": ["Green", "Blue"],
+            "locations": [[2015, 2656]]
+        },
+        "MARTA-KingMemorial": {
+            "name": "King Memorial",
+            "lines": ["Green", "Blue"],
+            "locations": [[2155, 2656]]
+        },
+        "MARTA-InmanPark": {
+            "name": "Inman Park/Reynoldstown",
+            "lines": ["Green", "Blue"],
+            "locations": [[2284, 2658]]
+        },
+        "MARTA-Edgewood": {
+            "name": "Edgewood/Candler Park",
+            "lines": ["Green", "Blue"],
+            "locations": [[2428, 2658]]
+        },
+        "MARTA-EastLake": {
+            "name": "East Lake",
+            "lines": ["Blue"],
+            "locations": [[2577, 2686]]
+        },
+        "MARTA-Decatur": {
+            "name": "Decatur",
+            "lines": ["Blue"],
+            "locations": [[2737, 2686]]
+        },
+        "MARTA-Avondale": {
+            "name": "Avondale",
+            "lines": ["Blue"],
+            "locations": [[2883, 2686]]
+        },
+        "MARTA-Kensington": {
+            "name": "Kensington",
+            "lines": ["Blue"],
+            "locations": [[3035, 2686]]
+        },
+        "MARTA-IndianCreek": {
+            "name": "Indian Creek",
+            "lines": ["Blue"],
+            "locations": [[3199, 2686]]
+        },
+        "MARTA-Streetcar-CentennialOlympicPark": {
+            "name": "Centennial Olympic Park",
+            "lines": ["A"],
+            "locations": [[2210, 4245]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-LuckieAtCone": {
+            "name": "Luckie at Cone",
+            "lines": ["A"],
+            "locations": [[2379, 4400]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-ParkPlace": {
+            "name": "Park Place",
+            "lines": ["A"],
+            "locations": [[2583, 4675]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-HurtPark": {
+            "name": "Hurt Park",
+            "lines": ["A"],
+            "locations": [[2776, 4787]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-SweetAuburnMarket": {
+            "name": "Sweet Auburn Market",
+            "lines": ["A"],
+            "locations": [[3317, 4787]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-EdgewoodAtHilliard": {
+            "name": "Edgewood at Hilliard",
+            "lines": ["A"],
+            "locations": [[3635, 4787]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-KingHistoricDistrict": {
+            "name": "King Historic District",
+            "lines": ["A"],
+            "locations": [[3795, 4657]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-DobbsPlaza": {
+            "name": "Dobbs Plaza",
+            "lines": ["A"],
+            "locations": [[3443, 4657]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-AuburnAtPiedmont": {
+            "name": "Auburn at Piedmont",
+            "lines": ["A"],
+            "locations": [[3142, 4657]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-WoodruffPark": {
+            "name": "Woodruff Park",
+            "lines": ["A"],
+            "locations": [[2584, 4589]],
+            "dotRadius": 25
+        },
+        "MARTA-Streetcar-PeachtreeCenter": {
+            "name": "Peachtree Center",
+            "lines": ["A"],
+            "locations": [[2610, 4408]],
+            "dotRadius": 30
+        },
+        "MARTA-Streetcar-CarnegieAtSpring": {
+            "name": "Carnegie at Spring",
+            "lines": ["A"],
+            "locations": [[2450, 4236]],
+            "dotRadius": 25
+        }
+    }
+]
