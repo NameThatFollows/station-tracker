@@ -1,0 +1,27 @@
+{
+  "mapWidth": 3600,
+  "mapHeight": 2700,
+  "tileSize": 1000,
+  "mapRows": 3,
+  "mapCols": 4,
+  "dotRadius": 20,
+  "dpi": 300,
+  "minZoom": 0.4,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "Penn",
+        "name": "Penn"
+      },
+      {
+        "key": "Camden",
+        "name": "Camden"
+      },
+      {
+        "key": "Brunswick",
+        "name": "Brunswick"
+      }
+    ]
+  ]
+}

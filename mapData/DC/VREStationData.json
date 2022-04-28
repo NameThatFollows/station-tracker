@@ -1,0 +1,135 @@
+[
+  {
+    "DCUnionStation": {
+      "name": "Union Station",
+      "lines": [
+        "Manassas",
+        "Fredericksburg"
+      ],
+      "locations": [
+        [
+          340,
+          58
+        ]
+      ],
+      "dotRadius": 10
+    },
+    "VRE-LEnfant": {
+      "name": "L'Enfant",
+      "lines": [
+        "Manassas",
+        "Fredericksburg"
+      ],
+      "locations": [
+        [
+          340,
+          102
+        ]
+      ],
+      "dotRadius": 10
+    },
+    "VRE-CrystalCity": {
+      "name": "Crystal City",
+      "lines": [
+        "Manassas",
+        "Fredericksburg"
+      ],
+      "locations": [
+        [
+          340,
+          143
+        ]
+      ],
+      "dotRadius": 10
+    },
+    "VRE-Alexandria": {
+      "name": "Alexandria",
+      "lines": [
+        "Manassas",
+        "Fredericksburg"
+      ],
+      "locations": [
+        [
+          340,
+          185
+        ]
+      ],
+      "dotRadius": 10
+    },
+    "VRE-BacklickRoad": {
+      "name": "Backlick Road",
+      "lines": ["Manassas"],
+      "locations": [[291.5, 225]]
+    },
+    "VRE-RollingRoad": {
+      "name": "Rolling Road",
+      "lines": ["Manassas"],
+      "locations": [[257.5, 254]]
+    },
+    "VRE-BurkeCentre": {
+      "name": "Burke Centre",
+      "lines": ["Manassas"],
+      "locations": [[225.5, 281]]
+    },
+    "VRE-ManassasPark": {
+      "name": "ManassasPark",
+      "lines": ["Manassas"],
+      "locations": [[192.5, 308]]
+    },
+    "VRE-Manassas": {
+      "name": "Manassas",
+      "lines": ["Manassas"],
+      "locations": [[159.5, 336]]
+    },
+    "VRE-BroadRun": {
+      "name": "Broad Run",
+      "lines": ["Manassas"],
+      "locations": [[126.5, 364]]
+    },
+    "VRE-FranconiaSpringfield": {
+      "name": "Franconia-Springfield",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 228]]
+    },
+    "VRE-Lorton": {
+      "name": "Lorton",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 284]]
+    },
+    "VRE-Woodbridge": {
+      "name": "Woodbridge",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 325]]
+    },
+    "VRE-Rippon": {
+      "name": "Rippon",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 368]]
+    },
+    "VRE-Quantico": {
+      "name": "Quantico",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 453]]
+    },
+    "VRE-Brooke": {
+      "name": "Brooke",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 495]]
+    },
+    "VRE-LeelandRoad": {
+      "name": "Leeland Road",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 538]]
+    },
+    "VRE-Fredericksburg": {
+      "name": "Fredericksburg",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 580]]
+    },
+    "VRE-Spotsylvania": {
+      "name": "Spotsylvania",
+      "lines": ["Fredericksburg"],
+      "locations": [[345, 623]]
+    }
+  }
+]

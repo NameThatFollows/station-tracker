@@ -1,0 +1,6397 @@
+[
+  {
+    "MTA-NYCSubway-IRT_Broadway-242St": {
+      "name": "Van Cortlandt Park-242 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          950.8,
+          555.278
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-238St": {
+      "name": "238 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          990.417,
+          725.025
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-231St": {
+      "name": "231 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          981.332,
+          815.328
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-225St": {
+      "name": "Marble Hill-225 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          953.332,
+          902.121
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-215St": {
+      "name": "215 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          707.586,
+          1092.389
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-207St": {
+      "name": "207 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          663.182,
+          1185.095
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-DyckmanSt": {
+      "name": "Dyckman St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          616.710,
+          1291.946
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-191St": {
+      "name": "191 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          596.327,
+          1368.236
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-181St": {
+      "name": "181 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          577.543,
+          1479.338
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-157St": {
+      "name": "157 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          572.013,
+          1890.454
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-145St": {
+      "name": "145 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          571.513,
+          2065.454
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-137St": {
+      "name": "137 St-City College",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          570.308,
+          2175.392
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-125St": {
+      "name": "125 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          569.799,
+          2282.405
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-116St": {
+      "name": "116 St-Columbia University",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          570.199,
+          2396.932
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-110St": {
+      "name": "Cathedral Pkwy (110 St)",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          582.199,
+          2493.932
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-103St": {
+      "name": "103 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          601.404,
+          2643.219
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-96St": {
+      "name": "96 St",
+      "lines": [
+        "1",
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          601.904,
+          2774.219
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-86St": {
+      "name": "86 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          599.839,
+          2896.303
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-79St": {
+      "name": "79 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          601.339,
+          3007.303
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-72St": {
+      "name": "72 St",
+      "lines": [
+        "1",
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          620.839,
+          3120.803
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-66St": {
+      "name": "66 St-Lincoln Center",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          663.784,
+          3236.847
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-50St": {
+      "name": "50 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          924.188,
+          3568.187
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-34St": {
+      "name": "34 St-Penn Station",
+      "lines": [
+        "1",
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1006.257,
+          3807.838
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-28St": {
+      "name": "28 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1005.757,
+          3890.838
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-23St": {
+      "name": "23 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1004.897,
+          3966.478
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-18St": {
+      "name": "18 St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1005.897,
+          4037.978
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-ChristopherSt": {
+      "name": "Christopher St-Sheridan Sq",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1006.883,
+          4288.621
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-HoustonSt": {
+      "name": "Houston St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1076.383,
+          4450.246
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-CanalSt": {
+      "name": "Canal St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1128.383,
+          4587.246
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-FranklinSt": {
+      "name": "Franklin St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1142.383,
+          4666.246
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-ChambersSt": {
+      "name": "Chambers St",
+      "lines": [
+        "1",
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1152.383,
+          4753.746
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-WTCCortlandt": {
+      "name": "WTC Courtlandt",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1153.953,
+          4994.993
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-RectorSt": {
+      "name": "Rector St",
+      "lines": [
+        "1"
+      ],
+      "locations": [
+        [
+          1158.453,
+          5105.493
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-WallSt": {
+      "name": "Wall St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1531.902,
+          5067.689
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Broadway-ClarkSt": {
+      "name": "Clark St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          2259.681,
+          4987.127
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_DyreAve-DyreAv": {
+      "name": "Eastchester-Dyre Av",
+      "lines": [
+        "5"
+      ],
+      "locations": [
+        [
+          2259.909,
+          296.847
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_DyreAve-BaychesterAv": {
+      "name": "Baychester Av",
+      "lines": [
+        "5"
+      ],
+      "locations": [
+        [
+          2253.996,
+          408.009
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_DyreAve-GunHillRd": {
+      "name": "Gun Hill Rd",
+      "lines": [
+        "5"
+      ],
+      "locations": [
+        [
+          2244.536,
+          640.385
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_DyreAve-PelhamPkwy": {
+      "name": "Pelham Pkwy",
+      "lines": [
+        "5"
+      ],
+      "locations": [
+        [
+          2242.955,
+          847.727
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_DyreAve-MorrisPark": {
+      "name": "Morris Park",
+      "lines": [
+        "5"
+      ],
+      "locations": [
+        [
+          2231.130,
+          1007.966
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-HoytSt": {
+      "name": "Hoyt St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          2623.471,
+          5023.271
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-NevinsSt": {
+      "name": "Nevins St",
+      "lines": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "locations": [
+        [
+          2748.068,
+          5039.537
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-BergenSt": {
+      "name": "Bergen St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          3008.602,
+          5170.801
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-GrandArmyPlaza": {
+      "name": "Grand Army Plaza",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          3107.602,
+          5210.301
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-EasternParkway": {
+      "name": "Eastern Pwky-Brooklyn Museum",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          3264.102,
+          5211.301
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-NostrandAv": {
+      "name": "Nostrand Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          3513.273,
+          5090.940
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-KingstonAv": {
+      "name": "Kingston Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          3674.901,
+          4997.068
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_EasternParkway-UticaAv": {
+      "name": "Crown Hts-Utica Av",
+      "lines": [
+        "3",
+        "4"
+      ],
+      "locations": [
+        [
+          3823.891,
+          4897.068
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-MainSt": {
+      "name": "Flushing-Main St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3628.276,
+          2364.177
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-WilletsPoint": {
+      "name": "Mets-Willets Point",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3511.201,
+          2541.563
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-111St": {
+      "name": "111 St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3443.204,
+          2642.673
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-103St": {
+      "name": "103 St-Corona Plaza",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3353.328,
+          2762.704
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-JunctionBlvd": {
+      "name": "Junction Blvd",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3285.330,
+          2827.745
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-90St": {
+      "name": "90 St-Elmhust Av",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3220.103,
+          2884.492
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-82St": {
+      "name": "82 St-Jackson Hts",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          3109.691,
+          2979.193
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-69St": {
+      "name": "69 St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2917.198,
+          3138.904
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-61St": {
+      "name": "61 St-Woodside",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2854.527,
+          3190.556
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-52St": {
+      "name": "52 St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2775.328,
+          3247.717
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-46St": {
+      "name": "46 St-Bliss St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2691.996,
+          3298.680
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-40St": {
+      "name": "40 St-Lowery St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2557.013,
+          3346.200
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-33St": {
+      "name": "33 St-Rawson St",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2422.029,
+          3354.464
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-HuntersPointAv": {
+      "name": "Hunters Point Av",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2190.041,
+          3694.752
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-VernonBlvd": {
+      "name": "Vernon Blvd-Jackson Av",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          2050.741,
+          3690.116
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Flushing-34St": {
+      "name": "34 St-Hudson Yards",
+      "lines": [
+        "7"
+      ],
+      "locations": [
+        [
+          596.595,
+          3806.613
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-Woodlawn": {
+      "name": "Woodlawn",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1530.044,
+          571.999
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-MosholuPkwy": {
+      "name": "Mosholu Pkwy",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1525.223,
+          705.605
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-BedfordPkBlvd": {
+      "name": "Bedford Pk Blvd-Lehman College",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1512.827,
+          838.522
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-KingsbridgeRd": {
+      "name": "Kingsbridge Rd",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1487.345,
+          984.525
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-FordhamRd": {
+      "name": "Fordham Rd",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1472.194,
+          1111.932
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-183St": {
+      "name": "183 St",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1468.750,
+          1183.556
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-BurnsideAv": {
+      "name": "Burnside Av",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1469.439,
+          1262.756
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-176St": {
+      "name": "176 St",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1470.817,
+          1361.927
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-MtEdenAv": {
+      "name": "Mt Eden Av",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1471.505,
+          1448.014
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-170St": {
+      "name": "170 St",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1470.940,
+          1531.452
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-167St": {
+      "name": "167 St",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1470.252,
+          1645.941
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_JeromeAve-138St": {
+      "name": "138 St-Grand Concourse",
+      "lines": [
+        "4"
+      ],
+      "locations": [
+        [
+          1534.3,
+          2110.118
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-148St": {
+      "name": "Harlem-148 St",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          1036.855,
+          2006.053
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-145St": {
+      "name": "145 St",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          1175.970,
+          2068.723
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-135St": {
+      "name": "135 St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1178.726,
+          2195.442
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-125St": {
+      "name": "125 St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1176.659,
+          2305.633
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-116St": {
+      "name": "116 St",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1178.037,
+          2400.672
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LenoxAve-110St": {
+      "name": "Central Park North (110 St)",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "locations": [
+        [
+          1175.971,
+          2495.712
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-125St": {
+      "name": "125 St",
+      "lines": [
+        "4",
+        "5",
+        "6"
+      ],
+      "locations": [
+        [
+          1511.487,
+          2306.485
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-116St": {
+      "name": "116 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1507.487,
+          2401.985
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-110St": {
+      "name": "110 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1507.487,
+          2500.485
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-103St": {
+      "name": "103 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1507.487,
+          2652.986
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-96St": {
+      "name": "96 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1507.487,
+          2755.986
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-86St": {
+      "name": "86 St",
+      "lines": [
+        "4",
+        "5",
+        "6"
+      ],
+      "locations": [
+        [
+          1507.487,
+          2886.985
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-77St": {
+      "name": "77 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1509.487,
+          3061.485
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-68St": {
+      "name": "68 St-Hunter College",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1508.987,
+          3200.485
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-33St": {
+      "name": "33 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1464.295,
+          3822.050
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-28St": {
+      "name": "28 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1460.795,
+          3885.550
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-23St": {
+      "name": "23 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1463.795,
+          3966.050
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-AstorPl": {
+      "name": "Astor Pl",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1489.795,
+          4188.050
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-SpringSt": {
+      "name": "Spring St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1522.604,
+          4503.579
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-WallSt": {
+      "name": "Wall St",
+      "lines": [
+        "4",
+        "5"
+      ],
+      "locations": [
+        [
+          1404.221,
+          5070.864
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_LexingtonAve-BowlingGreen": {
+      "name": "Bowling Green",
+      "lines": [
+        "4",
+        "5"
+      ],
+      "locations": [
+        [
+          1379.221,
+          5257.864
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-SutterAv": {
+      "name": "Sutter Av-Rutland Rd",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          3966.000,
+          4840.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-SaratogaAv": {
+      "name": "Saratoga Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4114.500,
+          4778.670
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-RockawayAv": {
+      "name": "Rockaway Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4198.500,
+          4706.670
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-JuniusSt": {
+      "name": "Junius St",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4286.124,
+          4625.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-PennsylvaniaAv": {
+      "name": "Pennsylvania Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4383.124,
+          4535.670
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-VanSiclenAv": {
+      "name": "Van Siclen Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4444.624,
+          4480.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NewLots-NewLotsAv": {
+      "name": "New Lots Av",
+      "lines": [
+        "3"
+      ],
+      "locations": [
+        [
+          4510.624,
+          4419.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAve-PresidentSt": {
+      "name": "President St-Medgar Evers College",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3486.054,
+          5204.413
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAve-SterlingSt": {
+      "name": "Sterling St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3540.461,
+          5262.263
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAve-WinthropSt": {
+      "name": "Winthrop St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3615.085,
+          5338.396
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAv-ChurchAv": {
+      "name": "Church Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3691.915,
+          5418.888
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAv-BeverlyRd": {
+      "name": "Beverly Rd",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3737.415,
+          5466.388
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAv-NewkirkAv": {
+      "name": "Newkirk Av-LIttle Haiti",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3786.915,
+          5517.888
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_NostrandAv-FlatbushAv": {
+      "name": "Flatbush Av-Brooklyn College",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          3901.181,
+          5636.598
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-PelhamBayPark": {
+      "name": "Pelham Bay Park",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2768.585,
+          753.797
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-BuhreAv": {
+      "name": "Buhre Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2760.585,
+          853.797
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-MiddletownRd": {
+      "name": "Middletown Rd",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2732.085,
+          959.297
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-EastTremontAv": {
+      "name": "Westchester Sq-East Tremont Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2668.237,
+          1089.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-ZeregaAv": {
+      "name": "Zerega Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2594.237,
+          1189.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-CastleHillAv": {
+      "name": "Castle Hill Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2527.110,
+          1258.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-Parkchester": {
+      "name": "Parkchester",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2450.110,
+          1331.170
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-StLawrenceAv": {
+      "name": "St Lawrence Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2363.769,
+          1403.351
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-MorrisonAv": {
+      "name": "Morrison Av-Soundview",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2272.204,
+          1486.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-ElderAv": {
+      "name": "Elder Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2200.704,
+          1565.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-WhitlockAv": {
+      "name": "Whitlock Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2170.704,
+          1639.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-HuntsPointAv": {
+      "name": "Hunts Point Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2137.704,
+          1778.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-LongwoodAv": {
+      "name": "Longwood Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2120.204,
+          1868.437
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-E149St": {
+      "name": "E 149 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2097.704,
+          1963.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-E143St": {
+      "name": "E 143 St-St Mary's St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          2067.758,
+          2047.833
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-CypressAv": {
+      "name": "Cypress Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1983.758,
+          2116.833
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-BrookAv": {
+      "name": "Brook Av",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1835.444,
+          2142.295
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_Pelham-3Av138St": {
+      "name": "3 Av-138 St",
+      "lines": [
+        "6"
+      ],
+      "locations": [
+        [
+          1637.797,
+          2144.795
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-241St": {
+      "name": "Wakefield-241 St",
+      "lines": [
+        "2"
+      ],
+      "locations": [
+        [
+          1885.242,
+          193.259
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-NereidAv": {
+      "name": "Nereid Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1884.742,
+          301.259
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-233St": {
+      "name": "233 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1881.242,
+          373.259
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-225St": {
+      "name": "225 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1883.242,
+          464.658
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-219St": {
+      "name": "219 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1898.242,
+          557.658
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-GunHillRd": {
+      "name": "Gun Hill Rd",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1942.440,
+          646.822
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-BurkeAv": {
+      "name": "Burke Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2016.316,
+          781.260
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-AllertonAv": {
+      "name": "Allerton Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2066.816,
+          864.760
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-PelhamPkwy": {
+      "name": "Pelham Pkwy",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2133.816,
+          1007.760
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-BronxParkEast": {
+      "name": "Bronx Park East",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2147.316,
+          1108.760
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-E180St": {
+      "name": "E 180 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2114.816,
+          1251.260
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-ETremontAv": {
+      "name": "West Farms Sq-E Tremont Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2027.696,
+          1316.487
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-174St": {
+      "name": "174 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2022.696,
+          1416.487
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-FreemanSt": {
+      "name": "Freeman St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2034.696,
+          1558.987
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-SimpsonSt": {
+      "name": "Simpson St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2039.196,
+          1664.487
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-IntervaleAv": {
+      "name": "Intervale Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          2013.696,
+          1790.987
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-ProspectAv": {
+      "name": "Intervale Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1961.196,
+          1865.987
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-JacksonAv": {
+      "name": "Jackson Av",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1882.196,
+          1924.487
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-3Av149St": {
+      "name": "3 Av-149 St",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "locations": [
+        [
+          1673.696,
+          1980.487
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-UnionSt": {
+      "name": "Union St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2807.407,
+          5283.849
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-ProspectAv": {
+      "name": "Prospect Av",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2805.341,
+          5568.966
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-25St": {
+      "name": "25 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2802.775,
+          5703.590
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-36St": {
+      "name": "36 St",
+      "lines": [
+        "D",
+        "N",
+        "R"
+      ],
+      "locations": [
+        [
+          2808.775,
+          5884.090
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-45St": {
+      "name": "45 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2799.775,
+          5987.090
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-53St": {
+      "name": "53 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2795.275,
+          6100.590
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-59St": {
+      "name": "59 St",
+      "lines": [
+        "N",
+        "R"
+      ],
+      "locations": [
+        [
+          2795.775,
+          6194.590
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-BayRidgeAv": {
+      "name": "Bay Ridge Av",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2794.775,
+          6339.673
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-77St": {
+      "name": "77 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2812.275,
+          6440.673
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-86St": {
+      "name": "86 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2843.775,
+          6548.673
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FourthAve-95St": {
+      "name": "Bay Ridge-95 St",
+      "lines": [
+        "R"
+      ],
+      "locations": [
+        [
+          2870.775,
+          6633.172
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-DitmarsBlvd": {
+      "name": "Astoria-Ditmars Blvd",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2309.191,
+          2620.139
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-AstoriaBlvd": {
+      "name": "Astoria Blvd",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2310.191,
+          2763.639
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-30Av": {
+      "name": "30 Av",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2310.691,
+          2888.639
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-Broadway": {
+      "name": "Broadway",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2308.691,
+          3023.779
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-36Av": {
+      "name": "36 Av",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2303.191,
+          3118.779
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Astoria-39Av": {
+      "name": "39 Av",
+      "lines": [
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2281.691,
+          3250.279
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-7Av": {
+      "name": "7 Av",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          3093.609,
+          5161.036
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-ParksideAv": {
+      "name": "Parkside Av",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3419.626,
+          5522.004
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-ChurchAv": {
+      "name": "Church Av",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          3466.626,
+          5632.504
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-BeverleyRd": {
+      "name": "Beverley Rd",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3499.626,
+          5697.504
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-CortelyouRd": {
+      "name": "Cortelyou Rd",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3544.126,
+          5744.504
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-NewkirkPlaza": {
+      "name": "Newkirk Plaza",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          3610.626,
+          5802.004
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-AvenueH": {
+      "name": "Avenue H",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3656.251,
+          5862.504
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-AvenueJ": {
+      "name": "Avenue J",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3760.180,
+          5970.280
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-AvenueM": {
+      "name": "Avenue M",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          3856.680,
+          6070.780
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-KingsHwy": {
+      "name": "Kings Hwy",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          3977.720,
+          6186.320
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-AvenueU": {
+      "name": "Avenue U",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          4079.720,
+          6307.820
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-NeckRd": {
+      "name": "Neck Rd",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          4142.220,
+          6374.820
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-SheepsheadBay": {
+      "name": "Sheepshead Bay",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          4200.720,
+          6423.320
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-BrightonBeach": {
+      "name": "Brighton Beach",
+      "lines": [
+        "B",
+        "Q"
+      ],
+      "locations": [
+        [
+          4224.220,
+          6513.820
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Brighton-OceanPkwy": {
+      "name": "Ocean Pkwy",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          4176.220,
+          6597.320
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-5Av": {
+      "name": "5 Av/59 St",
+      "lines": [
+        "N",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1386.794,
+          3377.100
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-57St": {
+      "name": "57 St-7 Av",
+      "lines": [
+        "N",
+        "Q",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          990.972,
+          3423.100
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-49St": {
+      "name": "49 St",
+      "lines": [
+        "N",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          989.472,
+          3580.600
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-28St": {
+      "name": "28 St",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1299.698,
+          3888.881
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-23St": {
+      "name": "23 St",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1385.698,
+          3965.881
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-8St": {
+      "name": "8 St-NYU",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1459.698,
+          4180.881
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-PrinceSt": {
+      "name": "Prince St",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1457.198,
+          4462.881
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-CityHall": {
+      "name": "City Hall",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1389.701,
+          4781.675
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Broadway-RectorSt": {
+      "name": "Rector St",
+      "lines": [
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1276.144,
+          5106.513
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-3Av": {
+      "name": "3 Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          1654.696,
+          4100.994
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-1Av": {
+      "name": "1 Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          1753.196,
+          4100.994
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-BedfordAv": {
+      "name": "Bedford Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          2343.330,
+          4099.582
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-GrahamAv": {
+      "name": "Graham Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          2742.186,
+          4090.614
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-GrandSt": {
+      "name": "Grand St",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          2844.686,
+          4102.114
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-MontroseAv": {
+      "name": "Montrose Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          2955.686,
+          4141.614
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-MorganAv": {
+      "name": "Morgan Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3052.186,
+          4141.114
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-JeffersonSt": {
+      "name": "Jefferson St",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3243.051,
+          4042.066
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-DeKalbAv": {
+      "name": "DeKalb Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3364.551,
+          4039.066
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-HalseySt": {
+      "name": "Halsey St",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3693.055,
+          4063.682
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-WilsonAv": {
+      "name": "Wilson Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3809.555,
+          4151.182
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-BushwickAv": {
+      "name": "Bushwick Av-Aberdeen St",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          3878.651,
+          4214.666
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-AtlanticAv": {
+      "name": "Atlantic Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4112.103,
+          4397.118
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-SutterAv": {
+      "name": "Sutter Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4260.103,
+          4533.118
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-LivoniaAv": {
+      "name": "Livonia Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4361.103,
+          4625.618
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-NewLotsAv": {
+      "name": "New Lots Av",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4458.603,
+          4741.618
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-East105St": {
+      "name": "East 105 St",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4504.103,
+          4847.618
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Canarsie-RockawayPkwy": {
+      "name": "Canarsie-Rockaway Pkwy",
+      "lines": [
+        "L"
+      ],
+      "locations": [
+        [
+          4518.103,
+          4989.118
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_FranklinAve-ParkPl": {
+      "name": "Park Pl",
+      "lines": [
+        "SF"
+      ],
+      "locations": [
+        [
+          3304.906,
+          5097.213
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-121St": {
+      "name": "121 St",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4745.269,
+          3398.728
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-111St": {
+      "name": "111 St",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          4664.269,
+          3476.728
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-104St": {
+      "name": "104 St",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4574.269,
+          3566.229
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-WoodhavenBlvd": {
+      "name": "Woodhaven Blvd",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4467.013,
+          3670.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-85St": {
+      "name": "85 St-Forest Pkwy",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          4392.513,
+          3741.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-75St": {
+      "name": "75 St-Elderts Ln",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4328.013,
+          3804.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-CypressHills": {
+      "name": "Cypress Hills",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          4291.013,
+          3899.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-CrescentSt": {
+      "name": "Crescent St",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4327.513,
+          3983.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-NorwoodAv": {
+      "name": "Norwood Av",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4317.013,
+          4066.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-ClevelandSt": {
+      "name": "Cleveland St",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          4263.513,
+          4133.169
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-VanSiclenAv": {
+      "name": "Van Siclen Av",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          4197.513,
+          4191.669
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-AlabamaAv": {
+      "name": "Alabama Av",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          4102.013,
+          4262.669
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-ChaunceySt": {
+      "name": "Chauncey St",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          3816.771,
+          4303.257
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-HalseySt": {
+      "name": "Halsey St",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          3707.771,
+          4310.257
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-GatesAv": {
+      "name": "Gates Av",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          3595.771,
+          4316.257
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-KosciuszkoSt": {
+      "name": "Kosciuszko St",
+      "lines": [
+        "J"
+      ],
+      "locations": [
+        [
+          3399.668,
+          4329.929
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-MyrtleAv": {
+      "name": "Myrtle Av",
+      "lines": [
+        "J",
+        "M",
+        "Z"
+      ],
+      "locations": [
+        [
+          3238.668,
+          4327.429
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-FlushingAv": {
+      "name": "Flushing Av",
+      "lines": [
+        "J",
+        "M"
+      ],
+      "locations": [
+        [
+          2975.703,
+          4340.243
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-LorimerSt": {
+      "name": "Lorimer St",
+      "lines": [
+        "J",
+        "M"
+      ],
+      "locations": [
+        [
+          2886.203,
+          4346.243
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-HewesSt": {
+      "name": "Hewes St",
+      "lines": [
+        "J",
+        "M"
+      ],
+      "locations": [
+        [
+          2746.703,
+          4355.743
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_Jamaica-MarcyAv": {
+      "name": "Marcy Av",
+      "lines": [
+        "J",
+        "M",
+        "Z"
+      ],
+      "locations": [
+        [
+          2585.703,
+          4369.243
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-MetropolitanAv": {
+      "name": "Middle Village-Metropolitan Av",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3614.095,
+          3647.084
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-FreshPondRd": {
+      "name": "Fresh Pond Rd",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3615.595,
+          3741.584
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-ForestAv": {
+      "name": "Forest Av",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3608.595,
+          3823.704
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-SenecaAv": {
+      "name": "Seneca Av",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3586.595,
+          3921.245
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-KnickerbockerAv": {
+      "name": "Knickerbocker Av",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3485.684,
+          4124.823
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_MyrtleAve-CentralAv": {
+      "name": "Central Av",
+      "lines": [
+        "M"
+      ],
+      "locations": [
+        [
+          3409.184,
+          4204.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_NassauStreet-Bowery": {
+      "name": "Bowery",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          1657.389,
+          4545.992
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_NassauStreet-BroadSt": {
+      "name": "Broad St",
+      "lines": [
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          1479.684,
+          5145.250
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-8Av": {
+      "name": "8 Av",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          2907.414,
+          6254.422
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-FortHamiltonPkwy": {
+      "name": "Fort Hamilton Pkwy",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3058.783,
+          6256.196
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-18Av": {
+      "name": "18 Av",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3466.409,
+          6256.300
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-20Av": {
+      "name": "20 Av",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3536.409,
+          6261.300
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-BayPkwy": {
+      "name": "Bay Pkwy",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3625.909,
+          6302.800
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-KingsHwy": {
+      "name": "Kings Hwy",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3700.909,
+          6376.800
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-AvenueU": {
+      "name": "Avenue U",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3851.409,
+          6519.800
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_SeaBeach-86St": {
+      "name": "86 St",
+      "lines": [
+        "N"
+      ],
+      "locations": [
+        [
+          3897.909,
+          6565.800
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-9Av": {
+      "name": "9 Av",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3026.040,
+          5962.794
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-FortHamiltonPkwy": {
+      "name": "Fort Hamilton Pkwy",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3093.541,
+          6001.294
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-50St": {
+      "name": "50 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3158.040,
+          6087.294
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-55St": {
+      "name": "55 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3196.540,
+          6152.294
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-71St": {
+      "name": "71 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3336.891,
+          6392.242
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-79St": {
+      "name": "79 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3393.391,
+          6483.742
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-18Av": {
+      "name": "18 Av",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3448.891,
+          6540.242
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-20Av": {
+      "name": "20 Av",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3511.891,
+          6564.242
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-BayPkwy": {
+      "name": "Bay Pkwy",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3598.891,
+          6566.742
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-25Av": {
+      "name": "25 Av",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3747.726,
+          6582.279
+        ]
+      ]
+    },
+    "MTA-NYCSubway-BMT_WestEnd-Bay50St": {
+      "name": "Bay 50 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          3842.226,
+          6663.279
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SecondAvenue-96St": {
+      "name": "96 St",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          1628.230,
+          2756.437
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SecondAvenue-86St": {
+      "name": "86 St",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          1628.230,
+          2887.437
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SecondAvenue-72St": {
+      "name": "72 St",
+      "lines": [
+        "Q"
+      ],
+      "locations": [
+        [
+          1628.230,
+          3123.937
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-57St": {
+      "name": "57 St",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          1203.278,
+          3427.265
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-4750Sts": {
+      "name": "47-50 Sts-Rockefeller Ctr",
+      "lines": [
+        "B",
+        "D",
+        "F",
+        "M"
+      ],
+      "locations": [
+        [
+          1204.278,
+          3593.765
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-23St": {
+      "name": "23 St",
+      "lines": [
+        "F",
+        "M"
+      ],
+      "locations": [
+        [
+          1204.678,
+          3966.600
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-2Av": {
+      "name": "2 Av",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          1720.211,
+          4423.440
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-EastBroadway": {
+      "name": "East Broadway",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          1876.211,
+          4609.440
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-GrandSt": {
+      "name": "Grand St",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1707.312,
+          4582.538
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_SixthAvenue-YorkSt": {
+      "name": "York St",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          2408.610,
+          4707.077
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-207St": {
+      "name": "Inwood-207 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          596.589,
+          1186.754
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-DyckmanSt": {
+      "name": "Dyckman St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          515.089,
+          1289.254
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-190St": {
+      "name": "190 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          460.001,
+          1386.606
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-181St": {
+      "name": "181 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          443.001,
+          1479.106
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-175St": {
+      "name": "175 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          486.001,
+          1606.606
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-163St": {
+      "name": "163 St-Amsterdam Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          636.283,
+          1796.374
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-155St": {
+      "name": "155 St",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          728.783,
+          1911.874
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-145St": {
+      "name": "145 St",
+      "lines": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "locations": [
+        [
+          757.783,
+          2062.874
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-135St": {
+      "name": "135 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          756.188,
+          2196.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-125St": {
+      "name": "125 St",
+      "lines": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "locations": [
+        [
+          758.688,
+          2297.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-116St": {
+      "name": "116 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.668,
+          2401.174
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-110St": {
+      "name": "Cathedral Pkwy (110 St)",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.188,
+          2491.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-103St": {
+      "name": "103 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.688,
+          2640.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-96St": {
+      "name": "96 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.188,
+          2771.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-86St": {
+      "name": "86 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.188,
+          2894.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-81St": {
+      "name": "81 St-Museum of Natural History",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.188,
+          2980.674
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-72St": {
+      "name": "72 St",
+      "lines": [
+        "B",
+        "C"
+      ],
+      "locations": [
+        [
+          758.188,
+          3122.174
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-50St": {
+      "name": "50 St",
+      "lines": [
+        "C",
+        "E"
+      ],
+      "locations": [
+        [
+          752.825,
+          3566.524
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-34St": {
+      "name": "34 St-Penn Station",
+      "lines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "locations": [
+        [
+          750.325,
+          3807.717
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-23St": {
+      "name": "23 St",
+      "lines": [
+        "C",
+        "E"
+      ],
+      "locations": [
+        [
+          750.325,
+          3966.717
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-SpringSt": {
+      "name": "Spring St",
+      "lines": [
+        "C",
+        "E"
+      ],
+      "locations": [
+        [
+          1209.101,
+          4503,
+          652
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-CanalSt": {
+      "name": "Canal St",
+      "lines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "locations": [
+        [
+          1211.730,
+          4597.662
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_EighthAvenue-HighSt": {
+      "name": "High St",
+      "lines": [
+        "A",
+        "C"
+      ],
+      "locations": [
+        [
+          2297.196,
+          4850.724
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_63Street-21St": {
+      "name": "21 St-Queensbridge",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          2145.888,
+          3276.252
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_63Street-RooseveltIsland": {
+      "name": "Roosevelt Island",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          1856.888,
+          3276.752
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_63Street-LexingtonAv": {
+      "name": "Lexington Av/63 St",
+      "lines": [
+        "F",
+        "Q"
+      ],
+      "locations": [
+        [
+          1488.023,
+          3266.236
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_ArcherAvenue-JamaicaCenter": {
+      "name": "Jamaica Center-Parsons/Archer",
+      "lines": [
+        "E",
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          5202.138,
+          3106.700
+        ]
+      ]
+    },
+    "NYCSubawy-IND_ArcherAvenue-SutphinBlvd": {
+      "name": "Sutphin Blvd-Archer Av-JFK Airport",
+      "lines": [
+        "E",
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          5102.676,
+          3201.790
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_ArcherAvenue-VanWyck": {
+      "name": "Jamaica-Van Wyck",
+      "lines": [
+        "E"
+      ],
+      "locations": [
+        [
+          4868.108,
+          3177.181
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-205St": {
+      "name": "Norwood-205 St",
+      "lines": [
+        "D"
+      ],
+      "locations": [
+        [
+          1726.752,
+          694.946
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-BedfordPkBlvd": {
+      "name": "Bedford Pk Blvd",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1572.252,
+          827.029
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-KingsbridgeRd": {
+      "name": "Kingsbridge Rd",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1565.752,
+          965.029
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-FordhamRd": {
+      "name": "Fordham Rd",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1561.752,
+          1082.529
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-182183Sts": {
+      "name": "182-183 Sts",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1561.752,
+          1194.029
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-TremontAv": {
+      "name": "Tremont Av",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1565.252,
+          1299.529
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-174175Sts": {
+      "name": "174-175 Sts",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1563.252,
+          1400.529
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-170St": {
+      "name": "170 St",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1564.752,
+          1529.029
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-167St": {
+      "name": "167 St",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1557.252,
+          1643.529
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Concourse-155St": {
+      "name": "155 St",
+      "lines": [
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          852.236,
+          1911.559
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-21St": {
+      "name": "21 St",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2155.570,
+          3654.851
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-GreenpointAv": {
+      "name": "Greenpoint Av",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2350.457,
+          3951.962
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-NassauAv": {
+      "name": "Nassau Av",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2464.457,
+          4048.462
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-Broadway": {
+      "name": "Broadway",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2793.513,
+          4323.079
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-FlushingAv": {
+      "name": "Flushing Av",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2913.513,
+          4426.579
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-MyrtleWilloughbyAvs": {
+      "name": "Myrtle-Willoughby Avs",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          3048.998,
+          4539.581
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-BedfordNostrandAvs": {
+      "name": "Bedford-Nostrand Avs",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          3144.498,
+          4699.081
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-ClassonAv": {
+      "name": "Classon Av",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          3048.498,
+          4795.581
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-ClintonWashingtonAvs": {
+      "name": "Clinton-Washington Avs",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2962.998,
+          4881.581
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Crosstown-FultonSt": {
+      "name": "Fulton St",
+      "lines": [
+        "G"
+      ],
+      "locations": [
+        [
+          2869.998,
+          4973.581
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-BergenSt": {
+      "name": "Bergen St",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          2532.454,
+          5238.716
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-CarrollSt": {
+      "name": "Carroll St",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          2534.954,
+          5339.716
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-Smith9Sts": {
+      "name": "Smith-9 Sts",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          2636.454,
+          5402.216
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-7Av": {
+      "name": "7 Av",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          3033.038,
+          5413.344
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-15St": {
+      "name": "15 St-Prospect Park",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          3129.038,
+          5474.844
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-FortHamiltonPkwy": {
+      "name": "Fort Hamilton Pkwy",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          3279.568,
+          5692.731
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-ChurchAv": {
+      "name": "Church Av",
+      "lines": [
+        "F",
+        "G"
+      ],
+      "locations": [
+        [
+          3321.568,
+          5813.231
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-DitmasAv": {
+      "name": "Ditmas Av",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3420.068,
+          5936.731
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-18Av": {
+      "name": "18 Av",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3467.568,
+          5984.231
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-AvenueI": {
+      "name": "Avenue I",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3529.110,
+          6047.774
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-BayPkwy": {
+      "name": "Bay Pkwy",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3592.110,
+          6112.274
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-AvenueN": {
+      "name": "Avenue N",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3715.110,
+          6240.274
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-AvenueP": {
+      "name": "Avenue P",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3762.610,
+          6285.774
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-KingsHwy": {
+      "name": "Kings Hwy",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3805.110,
+          6334.774
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-AvenueU": {
+      "name": "Avenue U",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3917.110,
+          6448.274
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-AvenueX": {
+      "name": "Avenue X",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          3999.610,
+          6534.774
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Culver-NeptuneAv": {
+      "name": "Neptune Av",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          4044.610,
+          6589.274
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-LafayetteAv": {
+      "name": "Lafayette Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          2891.558,
+          4998.300
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-ClintonWashingtonAvs": {
+      "name": "Clinton-Washington Avs",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          3032.558,
+          4945.800
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-NostrandAv": {
+      "name": "Nostrand Av",
+      "lines": [
+        "A",
+        "C"
+      ],
+      "locations": [
+        [
+          3358.028,
+          4794.283
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-KingstonThroopAvs": {
+      "name": "Kingston-Throop Avs",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          3447.028,
+          4728.783
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-UticaAv": {
+      "name": "Utica Av",
+      "lines": [
+        "A",
+        "C"
+      ],
+      "locations": [
+        [
+          3627.528,
+          4600.283
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-RalphAv": {
+      "name": "Ralph Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          3757.028,
+          4504.783
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-RockawayAv": {
+      "name": "Rockaway Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          3878.028,
+          4414.783
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-LibertyAv": {
+      "name": "Liberty Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          4243.318,
+          4330.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-VanSiclenAv": {
+      "name": "Van Siclen Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          4340.318,
+          4321.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-ShepherdAv": {
+      "name": "Shepherd Av",
+      "lines": [
+        "C"
+      ],
+      "locations": [
+        [
+          4455.318,
+          4257.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-EuclidAv": {
+      "name": "Euclid Av",
+      "lines": [
+        "A",
+        "C"
+      ],
+      "locations": [
+        [
+          4543.318,
+          4172.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-GrantAv": {
+      "name": "Grant Av",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          4619.318,
+          4072.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-80St": {
+      "name": "80 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          4680.318,
+          3954.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-88St": {
+      "name": "88 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          4741.318,
+          3864.341
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-RockawayBlvd": {
+      "name": "Rockaway Blvd",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          4800.318,
+          3813.341
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonSTreet-104St": {
+      "name": "104 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          4930.318,
+          3704.841
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-111St": {
+      "name": "111 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5018.818,
+          3631.341
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_FultonStreet-LeffertsBlvd": {
+      "name": "Ozone Park-Lefferts Blvd",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5107.190,
+          3554.737
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-179St": {
+      "name": "Jamaica-179 St",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          5187.300,
+          2725.992
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-169St": {
+      "name": "169 St",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          5097.800,
+          2824.992
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-ParsonsBlvd": {
+      "name": "Parsons Blvd",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          5024.800,
+          2912.992
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-SutphinBlvd": {
+      "name": "Sutphin Blvd",
+      "lines": [
+        "F"
+      ],
+      "locations": [
+        [
+          4936.800,
+          3006.492
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-Briarwood": {
+      "name": "Briarwood",
+      "lines": [
+        "E",
+        "F"
+      ],
+      "locations": [
+        [
+          4766.815,
+          3099.942
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-UnionTpke": {
+      "name": "Kew Gardens-Union Tpke",
+      "lines": [
+        "E",
+        "F"
+      ],
+      "locations": [
+        [
+          4571.004,
+          3104.873
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-75Av": {
+      "name": "75 Av",
+      "lines": [
+        "E",
+        "F"
+      ],
+      "locations": [
+        [
+          4351.004,
+          3111.373
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-71Av": {
+      "name": "Forest Hills-71 Av",
+      "lines": [
+        "E",
+        "F",
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          4040.944,
+          3104.730
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-67Av": {
+      "name": "67 Av",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3870.444,
+          3102.230
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-63Dr": {
+      "name": "63 Dr-Rego Park",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3692.944,
+          3119.730
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-WoodhavenBlvd": {
+      "name": "Woodhaven Blvd",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3491.444,
+          3137.730
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-GrandAv": {
+      "name": "Grand Av-Newtown",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3334.444,
+          3143.230
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-ElmhurstAv": {
+      "name": "Elmhurst Av",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3164.944,
+          3117.230
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-65St": {
+      "name": "65 St",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2911.149,
+          3057.357
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-NorthernBlvd": {
+      "name": "Northern Blvd",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2762.159,
+          3033.357
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-46St": {
+      "name": "46 St",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2616.159,
+          3027.857
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-SteinwaySt": {
+      "name": "Steinway St",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2509.159,
+          3048.357
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-36St": {
+      "name": "36 St",
+      "lines": [
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2393.159,
+          3210.357
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-5Av": {
+      "name": "5 Av/53 St",
+      "lines": [
+        "E",
+        "M"
+      ],
+      "locations": [
+        [
+          1386.391,
+          3499.778
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_QueensBlvd-7Av": {
+      "name": "7 Av/53 St",
+      "lines": [
+        "B",
+        "D",
+        "E"
+      ],
+      "locations": [
+        [
+          962.985,
+          3501.075
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-AqueductRacetrack": {
+      "name": "Aqueduct Racetrack",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5054.046,
+          4072.526
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-NorthConduitAv": {
+      "name": "Aqueduct-North Conduit Av",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5049.546,
+          4153.526
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-HowardBeach": {
+      "name": "Howard Beach-JFK Airport",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5099.546,
+          4315.526
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-BroadChannel": {
+      "name": "Broad Channel",
+      "lines": [
+        "A",
+        "SR"
+      ],
+      "locations": [
+        [
+          5353.303,
+          5097
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach67St": {
+      "name": "Beach 67 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5602.206,
+          5210.823
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach60St": {
+      "name": "Beach 60 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5643.706,
+          5145.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach44St": {
+      "name": "Beach 44 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5713.706,
+          5077.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach36St": {
+      "name": "Beach 36 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5766.706,
+          4997.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach25St": {
+      "name": "Beach 25 St",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5795.706,
+          4909.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-MottAv": {
+      "name": "Far Rockaway-Mott Av",
+      "lines": [
+        "A"
+      ],
+      "locations": [
+        [
+          5806.206,
+          4852.323
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach90St": {
+      "name": "Beach 90 St",
+      "lines": [
+        "A",
+        "SR"
+      ],
+      "locations": [
+        [
+          5469.401,
+          5445.996
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach98St": {
+      "name": "Beach 98 St",
+      "lines": [
+        "A",
+        "SR"
+      ],
+      "locations": [
+        [
+          5437.901,
+          5546.996
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach105St": {
+      "name": "Beach 105 St",
+      "lines": [
+        "A",
+        "SR"
+      ],
+      "locations": [
+        [
+          5385.901,
+          5645.496
+        ]
+      ]
+    },
+    "MTA-NYCSubway-IND_Rockaway-Beach116St": {
+      "name": "Beach 116 St",
+      "lines": [
+        "A",
+        "SR"
+      ],
+      "locations": [
+        [
+          5331.401,
+          5736.496
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-14St6Av": {
+      "name": "14 St/6 Av",
+      "lines": [
+        "1",
+        "2",
+        "3",
+        "F",
+        "L",
+        "M"
+      ],
+      "locations": [
+        [
+          1004.706,
+          4119.532
+        ],
+        [
+          1204.206,
+          4100.032
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-14St8Av": {
+      "name": "14 St/8 Av",
+      "lines": [
+        "A",
+        "C",
+        "E",
+        "L"
+      ],
+      "locations": [
+        [
+          765.061,
+          4100.291
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-UnionSquare": {
+      "name": "14 St-Union Sq",
+      "lines": [
+        "4",
+        "5",
+        "6",
+        "L",
+        "N",
+        "Q",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1463.954,
+          4099.658
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-HeraldSquare": {
+      "name": "34 St-Herald Sq",
+      "lines": [
+        "B",
+        "D",
+        "F",
+        "M",
+        "N",
+        "Q",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1203.969,
+          3818.671
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-BryantPark": {
+      "name": "42 St-Bryant Park/5 Av",
+      "lines": [
+        "7",
+        "B",
+        "D",
+        "F",
+        "M"
+      ],
+      "locations": [
+        [
+          1203.969,
+          3705.671
+        ],
+        [
+          1386.857,
+          3688.794
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-ColumbusCircle": {
+      "name": "59 St-Columbus Circle",
+      "lines": [
+        "1",
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "locations": [
+        [
+          757.366,
+          3399.173
+        ],
+        [
+          780.866,
+          3398.173
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-149StGrandConcourse": {
+      "name": "149 St-Grand Concourse",
+      "lines": [
+        "2",
+        "4",
+        "5"
+      ],
+      "locations": [
+        [
+          1521.579,
+          1933.782
+        ],
+        [
+          1592.579,
+          1991.282
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-YankeeStadium": {
+      "name": "161 St-Yankee Stadium",
+      "lines": [
+        "4",
+        "B",
+        "D"
+      ],
+      "locations": [
+        [
+          1490.722,
+          1811.174
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-168St": {
+      "name": "168 St",
+      "lines": [
+        "1",
+        "A",
+        "C"
+      ],
+      "locations": [
+        [
+          574.664,
+          1726.334
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-AtlanticAv": {
+      "name": "Atlantic Av-Barclays Ctr",
+      "lines": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "B",
+        "D",
+        "N",
+        "Q",
+        "R"
+      ],
+      "locations": [
+        [
+          2899.616,
+          5091.929
+        ],
+        [
+          2816.616,
+          5152.929
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-BoroughHall": {
+      "name": "Borough Hall/Court St",
+      "lines": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "R"
+      ],
+      "locations": [
+        [
+          2473.841,
+          5034.238
+        ],
+        [
+          2440.841,
+          5011.238
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-BroadwayLafayetteBleecker": {
+      "name": "Broadway-Lafayette St/Bleecker St",
+      "lines": [
+        "6",
+        "B",
+        "D",
+        "F",
+        "M"
+      ],
+      "locations": [
+        [
+          1499.223,
+          4425.554
+        ],
+        [
+          1513.782,
+          4392.941
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-BroadwayJunction": {
+      "name": "Broadway Junction",
+      "lines": [
+        "A",
+        "C",
+        "J",
+        "L",
+        "Z"
+      ],
+      "locations": [
+        [
+          4001.417,
+          4294.243
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-BrooklynBridgeCityHallChambers": {
+      "name": "Brooklyn Bridge-City Hall/Chambers St",
+      "lines": [
+        "4",
+        "5",
+        "6",
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          1517.545,
+          4782.692
+        ],
+        [
+          1553.545,
+          4755.692
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-CanalSt": {
+      "name": "Canal St",
+      "lines": [
+        "6",
+        "J",
+        "N",
+        "Q",
+        "R",
+        "W",
+        "Z"
+      ],
+      "locations": [
+        [
+          1439.045,
+          4609.692
+        ],
+        [
+          1527.545,
+          4621.692
+        ],
+        [
+          1547.045,
+          4621.192
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-OculusWTC": {
+      "name": "Chambers St-World Trade Center/Park Pl/Cortlandt St",
+      "lines": [
+        "2",
+        "3",
+        "A",
+        "C",
+        "E",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1223.993,
+          4754.010
+        ],
+        [
+          1314.493,
+          4838.010
+        ],
+        [
+          1232.493,
+          4901.010
+        ],
+        [
+          1288.493,
+          4996.010
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-CourtSquare": {
+      "name": "Court Sq-23 St",
+      "lines": [
+        "7",
+        "E",
+        "G",
+        "M"
+      ],
+      "locations": [
+        [
+          2140.560,
+          3496.008
+        ],
+        [
+          2179.060,
+          3532.008
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-DelancyStEssexSt": {
+      "name": "Delancey St/Essex St",
+      "lines": [
+        "F",
+        "J",
+        "M",
+        "Z"
+      ],
+      "locations": [
+        [
+          1839.573,
+          4531.906
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-4Av9St": {
+      "name": "4 Av/9 St",
+      "lines": [
+        "F",
+        "G",
+        "R"
+      ],
+      "locations": [
+        [
+          2768.640,
+          5403.314
+        ],
+        [
+          2806.640,
+          5380.314
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-FranklinAvBotanicGarden": {
+      "name": "Franklin Av/Botanic Garden",
+      "lines": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "SF"
+      ],
+      "locations": [
+        [
+          3368.781,
+          5163.143
+        ],
+        [
+          3336.281,
+          5229.143
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-FranklinAv": {
+      "name": "Franklin Av",
+      "lines": [
+        "C",
+        "SF"
+      ],
+      "locations": [
+        [
+          3243.849,
+          4859.531
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-FultonSt": {
+      "name": "Fulton St",
+      "lines": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "A",
+        "C",
+        "J",
+        "Z"
+      ],
+      "locations": [
+        [
+          1480.624,
+          4947.471
+        ],
+        [
+          1443.124,
+          4963.471
+        ],
+        [
+          1503.124,
+          4929.471
+        ],
+        [
+          1533.124,
+          4977.471
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-GrandCentral": {
+      "name": "Grand Central-42 St",
+      "lines": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "S"
+      ],
+      "locations": [
+        [
+          1494.221,
+          3679.259
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-JayStMetroTech": {
+      "name": "Jay St-MetroTech",
+      "lines": [
+        "A",
+        "C",
+        "F",
+        "R"
+      ],
+      "locations": [
+        [
+          2513.950,
+          4978.960
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-LexingtonAv53St": {
+      "name": "Lexington Av/53 St",
+      "lines": [
+        "6",
+        "E",
+        "M"
+      ],
+      "locations": [
+        [
+          1544.361,
+          3498.980
+        ],
+        [
+          1508.861,
+          3534.980
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-LexingtonAv59St": {
+      "name": "Lexington Av/59 St",
+      "lines": [
+        "4",
+        "5",
+        "6",
+        "N",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1508.361,
+          3395.980
+        ],
+        [
+          1546.861,
+          3375.480
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-MetropolitanAvLorimerSt": {
+      "name": "Metropolitan Av/Lorimer St",
+      "lines": [
+        "G",
+        "L"
+      ],
+      "locations": [
+        [
+          2594.821,
+          4157.027
+        ],
+        [
+          2602.321,
+          4112.527
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-MyrtleWyckoffAvs": {
+      "name": "Myrtle-Wyckoff Avs",
+      "lines": [
+        "L",
+        "M"
+      ],
+      "locations": [
+        [
+          3539.768,
+          4046.252
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-62StNewUtrechtAv": {
+      "name": "62 St/New Utrecht Av",
+      "lines": [
+        "D",
+        "N"
+      ],
+      "locations": [
+        [
+          3193.811,
+          6255.816
+        ],
+        [
+          3279.811,
+          6291.316
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-JacksonHtsRooseveltAv": {
+      "name": "Jackson Hts-Roosevelt Av",
+      "lines": [
+        "7",
+        "E",
+        "F",
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          3054.264,
+          3109.107
+        ],
+        [
+          3043.764,
+          3031.107
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-SouthFerryWhitehallSt": {
+      "name": "South Ferry/Whitehall St",
+      "lines": [
+        "1",
+        "R",
+        "W"
+      ],
+      "locations": [
+        [
+          1429.866,
+          5306.222
+        ],
+        [
+          1454.366,
+          5286.722
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-TimesSquarePABT": {
+      "name": "Times Square-42 St/Port Authority Bus Terminal",
+      "lines": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "A",
+        "C",
+        "E",
+        "N",
+        "Q",
+        "R",
+        "W",
+        "S"
+      ],
+      "locations": [
+        [
+          1006.342,
+          3680.924
+        ],
+        [
+          751.265,
+          3666.847
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-West8St": {
+      "name": "West 8 St-NY Aquarium",
+      "lines": [
+        "F",
+        "Q"
+      ],
+      "locations": [
+        [
+          4023.098,
+          6701.904
+        ]
+      ]
+    },
+    "MTA-NYCSubawy-Interchange-ConeyIslandStillwellAv": {
+      "name": "Coney Island-Stillwell Av",
+      "lines": [
+        "D",
+        "F",
+        "N",
+        "Q"
+      ],
+      "locations": [
+        [
+          3940.098,
+          6758.404
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-ProspectPark": {
+      "name": "Prospect Park",
+      "lines": [
+        "B",
+        "Q",
+        "SF"
+      ],
+      "locations": [
+        [
+          3361.351,
+          5353.459
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-HoytSchermerhorn": {
+      "name": "Hoyt-Schermerhron",
+      "lines": [
+        "A",
+        "C",
+        "G"
+      ],
+      "locations": [
+        [
+          2673.488,
+          5120.177
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-W4St": {
+      "name": "W 4 St-Wash Sq",
+      "lines": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "M"
+      ],
+      "locations": [
+        [
+          1204.954,
+          4302.909
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-QueensPlaza": {
+      "name": "Queens Plaza",
+      "lines": [
+        "E",
+        "M",
+        "R"
+      ],
+      "locations": [
+        [
+          2261.300,
+          3394.762
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-QueensboroPlaza": {
+      "name": "Queensboro Plaza",
+      "lines": [
+        "7",
+        "N",
+        "W"
+      ],
+      "locations": [
+        [
+          2209.800,
+          3331.262
+        ]
+      ]
+    },
+    "MTA-NYCSubway-Interchange-DeKalbAv": {
+      "name": "DeKalb Av",
+      "lines": [
+        "B",
+        "Q",
+        "R"
+      ],
+      "locations": [
+        [
+          2751.272,
+          4957.804
+        ]
+      ]
+    },
+    "MTA-SIR-StGeorge": {
+      "name": "St. George",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1232.02,
+          5711.374
+        ]
+      ]
+    },
+    "MTA-SIR-Tompkinsville": {
+      "name": "Tompkinsville",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1244.520,
+          5777.374
+        ]
+      ]
+    },
+    "MTA-SIR-Stapleton": {
+      "name": "Stapleton",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1279.699,
+          5830.157
+        ]
+      ]
+    },
+    "MTA-SIR-Clifton": {
+      "name": "Clifton",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1308.727,
+          5886.166
+        ]
+      ]
+    },
+    "MTA-SIR-Grasmere": {
+      "name": "Grasmere",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1210.727,
+          6078.666
+        ]
+      ]
+    },
+    "MTA-SIR-OldTown": {
+      "name": "Old Town",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1194.227,
+          6144.166
+        ]
+      ]
+    },
+    "MTA-SIR-DonganHills": {
+      "name": "Dongan Hills",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1159.727,
+          6214.666
+        ]
+      ]
+    },
+    "MTA-SIR-JeffersonAv": {
+      "name": "Jefferson Av",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1123.227,
+          6269.166
+        ]
+      ]
+    },
+    "MTA-SIR-GrantCity": {
+      "name": "Grant City",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1096.727,
+          6304.666
+        ]
+      ]
+    },
+    "MTA-SIR-NewDorp": {
+      "name": "New Dorp",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          1045.692,
+          6364.837
+        ]
+      ]
+    },
+    "MTA-SIR-OakwoodHeights": {
+      "name": "Oakwood Heights",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          991.692,
+          6434.837
+        ]
+      ]
+    },
+    "MTA-SIR-BayTerrace": {
+      "name": "Bay Terrace",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          940.192,
+          6525.337
+        ]
+      ]
+    },
+    "MTA-SIR-GreatKills": {
+      "name": "Great Kills",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          876.692,
+          6592.837
+        ]
+      ]
+    },
+    "MTA-SIR-Eltingville": {
+      "name": "Eltingville",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          728.692,
+          6680.337
+        ]
+      ]
+    },
+    "MTA-SIR-Annadale": {
+      "name": "Annadale",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          661.192,
+          6731.837
+        ]
+      ]
+    },
+    "MTA-SIR-Huguenot": {
+      "name": "Huguenot",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          582.692,
+          6806.837
+        ]
+      ]
+    },
+    "MTA-SIR-PrincesBay": {
+      "name": "Prince's Bay",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          512.692,
+          6875.837
+        ]
+      ]
+    },
+    "MTA-SIR-PleasantPlains": {
+      "name": "Pleasant Plains",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          420.192,
+          6940.837
+        ]
+      ]
+    },
+    "MTA-SIR-RichmondValley": {
+      "name": "Richmond Valley",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          355.692,
+          6971.337
+        ]
+      ]
+    },
+    "MTA-SIR-ArthurKill": {
+      "name": "Arthur Kill",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          247.192,
+          7014.837
+        ]
+      ]
+    },
+    "MTA-SIR-Tottenville": {
+      "name": "Tottenville",
+      "lines": [
+        "SIR"
+      ],
+      "locations": [
+        [
+          185.692,
+          7092.837
+        ]
+      ]
+    }
+  },
+  {
+    "PANYNJ-PATH-33St": {
+      "name": "33 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          1222.145,
+          3859.196
+        ]
+      ]
+    },
+    "PANYNJ-PATH-23St": {
+      "name": "23 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          1222.712,
+          3964.898
+        ]
+      ]
+    },
+    "PANYNJ-PATH-14St": {
+      "name": "14 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          1224.212,
+          4084.898
+        ]
+      ]
+    },
+    "PANYNJ-PATH-9St": {
+      "name": "9 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          1223.212,
+          4167.265
+        ]
+      ]
+    },
+    "PANYNJ-PATH-ChristopherSt": {
+      "name": "Christopher St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          855.710,
+          4318.823
+        ]
+      ]
+    },
+    "PANYNJ-PATH-WTC": {
+      "name": "World Trade Center",
+      "lines": [
+        "N-WTC",
+        "HB-WTC"
+      ],
+      "locations": [
+        [
+          1116.862,
+          4954.145
+        ]
+      ]
+    },
+    "MTA-LIRR-LongIslandCity": {
+      "name": "Long Island City",
+      "lines": [
+        "Port Jefferson",
+        "Oyster Bay",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2032.216,
+          3790.526
+        ]
+      ]
+    },
+    "MTA-LIRR-HunterspointAv": {
+      "name": "Hunterspoint Av",
+      "lines": [
+        "Port Jefferson",
+        "Oyster Bay",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2236.095,
+          3693.846
+        ]
+      ]
+    },
+    "MTA-LIRR-Woodside": {
+      "name": "Woodside",
+      "lines": [
+        "Port Washington",
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          2888.720,
+          3201,
+          801
+        ]
+      ]
+    },
+    "MTA-LIRR-MetsWilletsPoint": {
+      "name": "Mets-Willets Point",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          3537.706,
+          2604.947
+        ]
+      ]
+    },
+    "MTA-LIRR-Flushing": {
+      "name": "Flushing-Main St",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          3657.082,
+          2392.447
+        ]
+      ]
+    },
+    "MTA-LIRR-MurrayHill": {
+      "name": "Murray Hill",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          3822.082,
+          2161.847
+        ]
+      ]
+    },
+    "MTA-LIRR-ForestHills": {
+      "name": "Forest Hills",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          4039.036,
+          3192.559
+        ]
+      ]
+    },
+    "MTA-LIRR-KewGardens": {
+      "name": "Kew Gardens",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          4604.822,
+          3146.119
+        ]
+      ]
+    },
+    "MTA-LIRR-Jamaica": {
+      "name": "Jamaica",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Oyster Bay",
+        "Ronkonkoma",
+        "Montauk",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway",
+        "Belmont Park"
+      ],
+      "locations": [
+        [
+          5117.815,
+          3217.458
+        ]
+      ]
+    },
+    "MTA-LIRR-Hollis": {
+      "name": "Hollis",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          5767.154,
+          2584.182
+        ]
+      ]
+    },
+    "MTA-LIRR-LocustManor": {
+      "name": "Locust Manor",
+      "lines": [
+        "Far Rockaway",
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          5909.170,
+          3475.079
+        ]
+      ]
+    },
+    "MTA-LIRR-FarRockaway": {
+      "name": "Far Rockaway",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          5828.5,
+          4797.286
+        ]
+      ]
+    },
+    "MTA-LIRR-Inwood": {
+      "name": "Inwood",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          5910.5,
+          4730.786
+        ]
+      ]
+    },
+    "MTA-LIRR-Lawrence": {
+      "name": "Lawrence",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          5983,
+          4690.786
+        ]
+      ]
+    },
+    "MTA-LIRR-EastNY": {
+      "name": "East NY",
+      "lines": [
+        "Atlantic"
+      ],
+      "locations": [
+        [
+          4075.366,
+          4398.746
+        ]
+      ]
+    },
+    "MTA-LIRR-NostrandAv": {
+      "name": "Nostrand Av",
+      "lines": [
+        "Atlantic"
+      ],
+      "locations": [
+        [
+          3427.504,
+          4840.064
+        ]
+      ]
+    },
+    "MTA-MNR-GrandCentral": {
+      "name": "Grand Central Terminal",
+      "lines": [
+        "Harlem",
+        "Hudson",
+        "New Haven",
+        "New Canaan",
+        "Danbury"
+      ],
+      "locations": [
+        [
+          1473.815,
+          3654.073
+        ]
+      ]
+    },
+    "MTA-MNR-125St": {
+      "name": "Harlem-125 St",
+      "lines": [
+        "Harlem",
+        "Hudson",
+        "New Haven",
+        "New Canaan",
+        "Danbury"
+      ],
+      "locations": [
+        [
+          1474.737,
+          2318.157
+        ]
+      ]
+    },
+    "MTA-MNR-E153St": {
+      "name": "Yankees-E 153 St",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          1338.099,
+          1824.061
+        ]
+      ]
+    },
+    "MTA-MNR-MorrisHeights": {
+      "name": "Morris Heights",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          1143.086,
+          1368.553
+        ]
+      ]
+    },
+    "MTA-MNR-UniversityHeights": {
+      "name": "University Heights",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          1137.660,
+          1191.125
+        ]
+      ]
+    },
+    "MTA-MNR-MarbleHill": {
+      "name": "Marble Hill",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          908.660,
+          917.625
+        ]
+      ]
+    },
+    "MTA-MNR-SpuytenDuyvil": {
+      "name": "Spuyten Duyvil",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          477.426,
+          918.742
+        ]
+      ]
+    },
+    "MTA-MNR-Riverdale": {
+      "name": "Riverdale",
+      "lines": [
+        "Hudson"
+      ],
+      "locations": [
+        [
+          160.5,
+          360.637
+        ]
+      ]
+    },
+    "MTA-MNR-Melrose": {
+      "name": "Melrose",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1750.149,
+          1790.748
+        ]
+      ]
+    },
+    "MTA-MNR-Tremont": {
+      "name": "Tremont",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1766.079,
+          1315.538
+        ]
+      ]
+    },
+    "MTA-MNR-Fordham": {
+      "name": "Fordham",
+      "lines": [
+        "Harlem",
+        "New Haven"
+      ],
+      "locations": [
+        [
+          1740.581,
+          1092.070
+        ]
+      ]
+    },
+    "MTA-MNR-BotanicalGarden": {
+      "name": "Botanical Garden",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1737.081,
+          927.570
+        ]
+      ]
+    },
+    "MTA-MNR-WilliamsBridge": {
+      "name": "Williams Bridge",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1816.581,
+          656.070
+        ]
+      ]
+    },
+    "MTA-MNR-Woodlawn": {
+      "name": "Woodlawn",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1851.581,
+          375.070
+        ]
+      ]
+    },
+    "MTA-MNR-Wakefield": {
+      "name": "Wakefield",
+      "lines": [
+        "Harlem"
+      ],
+      "locations": [
+        [
+          1849.500,
+          164.631
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Jamaica": {
+      "name": "Jamaica",
+      "lines": [
+        "Jamaica"
+      ],
+      "locations": [
+        [
+          5102.137,
+          3234.422
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-HowardBeach": {
+      "name": "Howard Beach",
+      "lines": [
+        "Howard Beach"
+      ],
+      "locations": [
+        [
+          5119.762,
+          4314.059
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-LeffertsBlvd": {
+      "name": "Lefferts Blvd",
+      "lines": [
+        "Howard Beach"
+      ],
+      "locations": [
+        [
+          5215.941,
+          4292.535
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-FederalCircle": {
+      "name": "Federal Circle",
+      "lines": [
+        "Howard Beach",
+        "Jamaica"
+      ],
+      "locations": [
+        [
+          5410.643,
+          4262.086
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal1": {
+      "name": "Terminal 1",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5608.850,
+          4425.399
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal2": {
+      "name": "Terminal 2",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5719.350,
+          4464.399
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal4": {
+      "name": "Terminal 4",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5801.5,
+          4384.899
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal5": {
+      "name": "Terminal 5",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5849.5,
+          4259.899
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal7": {
+      "name": "Terminal 7",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5772.935,
+          4215.720
+        ]
+      ]
+    },
+    "PANYNJ-AirTrainJFK-Terminal8": {
+      "name": "Terminal 8",
+      "lines": [
+        "Howard Beach",
+        "Jamaica",
+        "Airport Terminals"
+      ],
+      "locations": [
+        [
+          5596.935,
+          4298.720
+        ]
+      ]
+    }
+  }
+]

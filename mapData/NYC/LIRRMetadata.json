@@ -1,0 +1,55 @@
+{
+  "mapWidth": 5225,
+  "mapHeight": 2621,
+  "tileSize": 2500,
+  "mapRows": 2,
+  "mapCols": 3,
+  "dotRadius": 15,
+  "dpi": 300,
+  "minZoom": 0.4,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "Atlantic",
+        "name": "Atlantic"
+      },
+      {
+        "key": "Far Rockaway",
+        "name": "Far Rockaway"
+      },
+      {
+        "key": "Hempstead",
+        "name": "Hempstead"
+      },
+      {
+        "key": "Long Beach",
+        "name": "Long Beach"
+      },
+      {
+        "key": "Montauk",
+        "name": "Montauk"
+      },
+      {
+        "key": "Oyster Bay",
+        "name": "Oyster Bay"
+      },
+      {
+        "key": "Port Jefferson",
+        "name": "Port Jefferson"
+      },
+      {
+        "key": "Port Washington",
+        "name": "Port Washington"
+      },
+      {
+        "key": "Ronkonkoma",
+        "name": "Ronkonkoma"
+      },
+      {
+        "key": "West Hempstead",
+        "name": "West Hempstead"
+      }
+    ]
+  ]
+}

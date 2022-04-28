@@ -1,0 +1,2306 @@
+[
+  {
+    "MBTA-RT-Wonderland": {
+      "name": "Wonderland",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          4466.5,
+          513.5
+        ]
+      ]
+    },
+    "MBTA-RT-RevereBeach": {
+      "name": "Revere Beach",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          4332,
+          649
+        ]
+      ]
+    },
+    "MBTA-RT-Beachmont": {
+      "name": "Beachmont",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          4203.5,
+          777.5
+        ]
+      ]
+    },
+    "MBTA-RT-SuffolkDowns": {
+      "name": "Suffolk Downs",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          4082.5,
+          898
+        ]
+      ]
+    },
+    "MBTA-RT-OrientHeights": {
+      "name": "Orient Heights",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          3961.5,
+          1019.5
+        ]
+      ]
+    },
+    "MBTA-RT-WoodIsland": {
+      "name": "Wood Island",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          3840.5,
+          1140
+        ]
+      ]
+    },
+    "MBTA-RT-Airport": {
+      "name": "Airport",
+      "lines": [
+        "Blue",
+        "SL3"
+      ],
+      "locations": [
+        [
+          3744.5,
+          1238
+        ]
+      ],
+      "dotRadius": 30
+    },
+    "MBTA-RT-Maverick": {
+      "name": "Maverick",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          3621,
+          1361
+        ]
+      ]
+    },
+    "MBTA-RT-Aquarium": {
+      "name": "Aquarium",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          3383,
+          1597
+        ]
+      ]
+    },
+    "MBTA-RT-State": {
+      "name": "State",
+      "lines": [
+        "Blue",
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209.5,
+          1741
+        ]
+      ],
+      "dotRadius": 30
+    },
+    "MBTA-RT-GovernmentCenter": {
+      "name": "Government Center",
+      "lines": [
+        "Blue",
+        "GLB",
+        "GLC",
+        "GLD",
+        "GLE"
+      ],
+      "locations": [
+        [
+          3032,
+          1607
+        ]
+      ],
+      "dotRadius": 30
+    },
+    "MBTA-RT-Bowdoin": {
+      "name": "Bowdoin",
+      "lines": [
+        "Blue"
+      ],
+      "locations": [
+        [
+          2917.5,
+          1495
+        ]
+      ]
+    },
+    "MBTA-RT-OakGrove": {
+      "name": "Oak Grove",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          337.5
+        ]
+      ]
+    },
+    "MBTA-RT-MaldenCenter": {
+      "name": "Malden Center",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          464
+        ]
+      ]
+    },
+    "MBTA-RT-Wellington": {
+      "name": "Wellington",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          588
+        ]
+      ]
+    },
+    "MBTA-RT-Assembly": {
+      "name": "Assembly",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          711
+        ]
+      ]
+    },
+    "MBTA-RT-SullivanSq": {
+      "name": "Sullivan Sq",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          836
+        ]
+      ]
+    },
+    "MBTA-RT-CommunityCollege": {
+      "name": "Community College",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          3209,
+          960
+        ]
+      ]
+    },
+    "MBTA-RT-NorthStation": {
+      "name": "North Station",
+      "lines": [
+        "Orange",
+        "GLD",
+        "GLE"
+      ],
+      "locations": [
+        [
+          3209,
+          1313
+        ],
+        [
+          3153,
+          1313
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-Haymarket": {
+      "name": "Haymarket",
+      "lines": [
+        "Orange",
+        "GLD",
+        "GLE"
+      ],
+      "locations": [
+        [
+          3209,
+          1486
+        ],
+        [
+          3145,
+          1486
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-DowntownCrossing": {
+      "name": "Downtown Crossing",
+      "lines": [
+        "Orange",
+        "Red",
+        "SL5"
+      ],
+      "locations": [
+        [
+          3059,
+          1961
+        ]
+      ],
+      "dotRadius": 30
+    },
+    "MBTA-RT-Chinatown": {
+      "name": "Chinatown",
+      "lines": [
+        "Orange",
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2870,
+          2151
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-TuftsMedicalCenter": {
+      "name": "Tufts Medical Center",
+      "lines": [
+        "Orange",
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2363
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-BackBay": {
+      "name": "Back Bay",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          2537,
+          2485
+        ]
+      ]
+    },
+    "MBTA-RT-MassAve": {
+      "name": "Massachusetts Ave",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          2428.5,
+          2593.5
+        ]
+      ]
+    },
+    "MBTA-RT-Ruggles": {
+      "name": "Ruggles",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          2312.5,
+          2710
+        ]
+      ]
+    },
+    "MBTA-RT-RoxburyCrossing": {
+      "name": "Roxbury Crossing",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          2197,
+          2825
+        ]
+      ]
+    },
+    "MBTA-RT-JacksonSq": {
+      "name": "Jackson Sq",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          2052,
+          2970
+        ]
+      ]
+    },
+    "MBTA-RT-StonyBrook": {
+      "name": "Stony Brook",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          1905.5,
+          3116.5
+        ]
+      ]
+    },
+    "MBTA-RT-GreenSt": {
+      "name": "Green St",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          1760.5,
+          3261.5
+        ]
+      ]
+    },
+    "MBTA-RT-ForestHills": {
+      "name": "Forest Hills",
+      "lines": [
+        "Orange"
+      ],
+      "locations": [
+        [
+          1615.5,
+          3407
+        ]
+      ]
+    },
+    "MBTA-RT-Alewife": {
+      "name": "Alewife",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          1741,
+          641
+        ]
+      ]
+    },
+    "MBTA-RT-Davis": {
+      "name": "Davis",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          1902,
+          802
+        ]
+      ]
+    },
+    "MBTA-RT-Porter": {
+      "name": "Porter",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2063,
+          964
+        ]
+      ]
+    },
+    "MBTA-RT-Harvard": {
+      "name": "Harvard",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2224,
+          1127
+        ]
+      ]
+    },
+    "MBTA-RT-Central": {
+      "name": "Central",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2386,
+          1287
+        ]
+      ]
+    },
+    "MBTA-RT-KendallMIT": {
+      "name": "Kendall/MIT",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2546,
+          1448
+        ]
+      ]
+    },
+    "MBTA-RT-CharlesMGH": {
+      "name": "Charles/MGH",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2739,
+          1642
+        ]
+      ]
+    },
+    "MBTA-RT-ParkSt": {
+      "name": "Park St",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          2868,
+          1771.5
+        ]
+      ],
+      "dotRadius": 30
+    },
+    "MBTA-RT-SouthStation": {
+      "name": "South Station",
+      "lines": [
+        "Red",
+        "SL1",
+        "SL2",
+        "SL3",
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          3247,
+          2151
+        ],
+        [
+          3174.5,
+          2151
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-Broadway": {
+      "name": "Broadway",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3374,
+          2530
+        ]
+      ]
+    },
+    "MBTA-RT-Andrew": {
+      "name": "Andrew",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3374,
+          2721
+        ]
+      ]
+    },
+    "MBTA-RT-JFKUMass": {
+      "name": "JFK/UMass",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3374,
+          2908
+        ]
+      ]
+    },
+    "MBTA-RT-SavinHill": {
+      "name": "Savin Hill",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3198.5,
+          3350
+        ]
+      ]
+    },
+    "MBTA-RT-FieldsCorner": {
+      "name": "Fields Corner",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3195.5,
+          3439.5
+        ]
+      ]
+    },
+    "MBTA-RT-Shawmut": {
+      "name": "Shawmut",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3195,
+          3525
+        ]
+      ]
+    },
+    "MBTA-RT-Ashmont": {
+      "name": "Ashmont",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3195.5,
+          3611
+        ],
+        [
+          3195.5,
+          3663
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-NorthQuincy": {
+      "name": "North Quincy",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3677,
+          3440
+        ]
+      ]
+    },
+    "MBTA-RT-Wollaston": {
+      "name": "Wollaston",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3803,
+          3567
+        ]
+      ]
+    },
+    "MBTA-RT-QuincyCenter": {
+      "name": "Quincy Center",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          3931,
+          3692
+        ]
+      ]
+    },
+    "MBTA-RT-QuincyAdams": {
+      "name": "Quincy Adams",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          4019,
+          3824
+        ]
+      ]
+    },
+    "MBTA-RT-Braintree": {
+      "name": "Braintree",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [
+          4021,
+          4017
+        ]
+      ]
+    },
+    "MBTA-RT-Mattapan": {
+      "name": "Mattapan",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          2659,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-CapenSt": {
+      "name": "Capen St",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          2759,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-ValleyRd": {
+      "name": "Valley Rd",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          2856,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-CentralAve": {
+      "name": "Central Ave",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          2956,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-Milton": {
+      "name": "Milton",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          3053.5,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-Butler": {
+      "name": "Butler",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          3152,
+          3845
+        ]
+      ]
+    },
+    "MBTA-RT-CedarGrove": {
+      "name": "Cedar Grove",
+      "lines": [
+        "Mattapan"
+      ],
+      "locations": [
+        [
+          3195,
+          3754
+        ]
+      ]
+    },
+    "MBTA-RT-UnionSq": {
+      "name": "Union Sq",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2755.5,
+          1055.5
+        ]
+      ]
+    },
+    "MBTA-RT-Lechmere": {
+      "name": "Lechmere",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2993,
+          1100
+        ]
+      ]
+    },
+    "MBTA-RT-ScienceParkWestEnd": {
+      "name": "Science Park/West End",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          3083.5,
+          1195.5
+        ]
+      ]
+    },
+    "MBTA-RT-Boylston": {
+      "name": "Boylston",
+      "lines": [
+        "GLB",
+        "GLC",
+        "GLD",
+        "GLE",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2658,
+          1960
+        ],
+        [
+          2743,
+          1960
+        ]
+      ],
+      "dotRadius": 25
+    },
+    "MBTA-RT-Arlington": {
+      "name": "Arlington",
+      "lines": [
+        "GLB",
+        "GLC",
+        "GLD",
+        "GLE"
+      ],
+      "locations": [
+        [
+          2467.5,
+          1967.5
+        ]
+      ]
+    },
+    "MBTA-RT-Copley": {
+      "name": "Copley",
+      "lines": [
+        "GLB",
+        "GLC",
+        "GLD",
+        "GLE"
+      ],
+      "locations": [
+        [
+          2276.5,
+          1967
+        ]
+      ]
+    },
+    "MBTA-RT-Prudential": {
+      "name": "Prudential",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2155,
+          2173
+        ]
+      ]
+    },
+    "MBTA-RT-Symphony": {
+      "name": "Symphony",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2148,
+          2312
+        ]
+      ]
+    },
+    "MBTA-RT-Northeastern": {
+      "name": "Northeastern",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2100,
+          2376
+        ]
+      ]
+    },
+    "MBTA-RT-MuseumOfFindArts": {
+      "name": "Museum of Fine Arts",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          2041,
+          2435
+        ]
+      ]
+    },
+    "MBTA-RT-LongwoodMedicalArea": {
+      "name": "Longwood Medical Area",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1982,
+          2494.5
+        ]
+      ]
+    },
+    "MBTA-RT-BrighamCircle": {
+      "name": "Brigham Circle",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1924,
+          2551.5
+        ]
+      ]
+    },
+    "MBTA-RT-FenwoodRd": {
+      "name": "Fenwood Rd",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1863,
+          2613.5
+        ]
+      ]
+    },
+    "MBTA-RT-MissionPark": {
+      "name": "Mission Park",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1804,
+          2672
+        ]
+      ]
+    },
+    "MBTA-RT-Riverway": {
+      "name": "Riverway",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1746,
+          2730
+        ]
+      ]
+    },
+    "MBTA-RT-BackOfTheHill": {
+      "name": "Back of the Hill",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1686,
+          2790
+        ]
+      ]
+    },
+    "MBTA-RT-HeathSt": {
+      "name": "Heath St",
+      "lines": [
+        "GLE"
+      ],
+      "locations": [
+        [
+          1628,
+          2848
+        ]
+      ]
+    },
+    "MBTA-RT-HynesConventionCtr": {
+      "name": "Hynes Convention Ctr",
+      "lines": [
+        "GLB",
+        "GLC",
+        "GLD"
+      ],
+      "locations": [
+        [
+          2084.5,
+          1967.5
+        ]
+      ]
+    },
+    "MBTA-RT-Kenmore": {
+      "name": "Kenmore",
+      "lines": [
+        "GLB",
+        "GLC",
+        "GLD"
+      ],
+      "locations": [
+        [
+          1880.5,
+          1967.5
+        ]
+      ]
+    },
+    "MBTA-RT-Fenway": {
+      "name": "Fenway",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1733,
+          2082.5
+        ]
+      ]
+    },
+    "MBTA-RT-Longwood": {
+      "name": "Longwood",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1663,
+          2152.5
+        ]
+      ]
+    },
+    "MBTA-RT-BrooklineVillage": {
+      "name": "Brookline Village",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1593.5,
+          2221.5
+        ]
+      ]
+    },
+    "MBTA-RT-BrooklineHills": {
+      "name": "Brookline Hills",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1523,
+          2291
+        ]
+      ]
+    },
+    "MBTA-RT-Beaconsfield": {
+      "name": "Beaconsfield",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1454,
+          2361
+        ]
+      ]
+    },
+    "MBTA-RT-Reservoir": {
+      "name": "Reservoir",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1385,
+          2429.5
+        ]
+      ]
+    },
+    "MBTA-RT-ChestnutHill": {
+      "name": "Chestnut Hill",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1315.5,
+          2498.5
+        ]
+      ]
+    },
+    "MBTA-RT-NewtonCentre": {
+      "name": "Newton Centre",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1247,
+          2567
+        ]
+      ]
+    },
+    "MBTA-RT-NewtonHighlands": {
+      "name": "Newton Highlands",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1175,
+          2638
+        ]
+      ]
+    },
+    "MBTA-RT-Eliot": {
+      "name": "Eliot",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1106,
+          2707
+        ]
+      ]
+    },
+    "MBTA-RT-Waban": {
+      "name": "Waban",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          1037,
+          2776
+        ]
+      ]
+    },
+    "MBTA-RT-Woodland": {
+      "name": "Woodland",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          967,
+          2845
+        ]
+      ]
+    },
+    "MBTA-RT-Riverside": {
+      "name": "Riverside",
+      "lines": [
+        "GLD"
+      ],
+      "locations": [
+        [
+          857.5,
+          2904
+        ]
+      ]
+    },
+    "MBTA-RT-StMarysSt": {
+      "name": "St. Mary's St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1615.5,
+          1898.5
+        ]
+      ]
+    },
+    "MBTA-RT-HawesSt": {
+      "name": "Hawes St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1556.5,
+          1838
+        ]
+      ]
+    },
+    "MBTA-RT-KentSt": {
+      "name": "Kent St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1441,
+          1773
+        ]
+      ]
+    },
+    "MBTA-RT-StPaulSt": {
+      "name": "St. Paul St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1326.5,
+          1838.5
+        ]
+      ]
+    },
+    "MBTA-RT-CoolidgeCorner": {
+      "name": "Coolidge Corner",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1269,
+          1897.5
+        ]
+      ]
+    },
+    "MBTA-RT-SummitAve": {
+      "name": "Summit Ave",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1199.5,
+          1966
+        ]
+      ]
+    },
+    "MBTA-RT-BrandonHall": {
+      "name": "Brandon Hall",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1130,
+          2035
+        ]
+      ]
+    },
+    "MBTA-RT-FairbanksSt": {
+      "name": "Fairbanks St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          1061,
+          2104
+        ]
+      ]
+    },
+    "MBTA-RT-WashingtonSq": {
+      "name": "Washington Sq",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          992,
+          2173
+        ]
+      ]
+    },
+    "MBTA-RT-TappanSt": {
+      "name": "Tappan St",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          923,
+          2242
+        ]
+      ]
+    },
+    "MBTA-RT-DeanRd": {
+      "name": "Dean Rd",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          854,
+          2311
+        ]
+      ]
+    },
+    "MBTA-RT-EnglewoodAve": {
+      "name": "Englewood Ave",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          784.5,
+          2380.5
+        ]
+      ]
+    },
+    "MBTA-RT-ClevelandCircle": {
+      "name": "Cleveland Circle",
+      "lines": [
+        "GLC"
+      ],
+      "locations": [
+        [
+          674.5,
+          2440.5
+        ]
+      ]
+    },
+    "MBTA-RT-BlandfordSt": {
+      "name": "Blandford St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1706,
+          1841.5
+        ]
+      ]
+    },
+    "MBTA-RT-BUEast": {
+      "name": "BU East",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1627.5,
+          1764
+        ]
+      ]
+    },
+    "MBTA-RT-BUCentral": {
+      "name": "BU Central",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1549.5,
+          1685.5
+        ]
+      ]
+    },
+    "MBTA-RT-AmorySt": {
+      "name": "Amory St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1471,
+          1608
+        ]
+      ]
+    },
+    "MBTA-RT-BabcockSt": {
+      "name": "Babcock St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1393,
+          1530
+        ]
+      ]
+    },
+    "MBTA-RT-PackardsCorner": {
+      "name": "Packard's Corner",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1315,
+          1452
+        ]
+      ]
+    },
+    "MBTA-RT-HarvardAve": {
+      "name": "Harvard Ave",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1199,
+          1414.5
+        ]
+      ]
+    },
+    "MBTA-RT-GriggsSt": {
+      "name": "Griggs St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1083,
+          1452
+        ]
+      ]
+    },
+    "MBTA-RT-AllstonSt": {
+      "name": "Allston St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          1016,
+          1517.5
+        ]
+      ]
+    },
+    "MBTA-RT-WarrenSt": {
+      "name": "Warren St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          951,
+          1582.5
+        ]
+      ]
+    },
+    "MBTA-RT-WashingtonSt": {
+      "name": "Washington St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          885.5,
+          1648
+        ]
+      ]
+    },
+    "MBTA-RT-SutherlandRd": {
+      "name": "Sutherland Rd",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          820.5,
+          1713.5
+        ]
+      ]
+    },
+    "MBTA-RT-ChiswickRd": {
+      "name": "Chiswick Rd",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          755,
+          1778
+        ]
+      ]
+    },
+    "MBTA-RT-ChestnutHillAve": {
+      "name": "Chestnut Hill Ave",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          690,
+          1844
+        ]
+      ]
+    },
+    "MBTA-RT-SouthSt": {
+      "name": "South St",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          625,
+          1909
+        ]
+      ]
+    },
+    "MBTA-RT-BostonCollege": {
+      "name": "Boston College",
+      "lines": [
+        "GLB"
+      ],
+      "locations": [
+        [
+          515,
+          1969
+        ]
+      ]
+    },
+    "MBTA-RT-HeraldSt": {
+      "name": "Herald St",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2440
+        ]
+      ]
+    },
+    "MBTA-RT-EastBerkeleySt": {
+      "name": "East Berkeley St",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2517
+        ]
+      ]
+    },
+    "MBTA-RT-UnionParkSt": {
+      "name": "Union Park St",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2594
+        ]
+      ]
+    },
+    "MBTA-RT-NewtonSt": {
+      "name": "Newton St",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2671
+        ]
+      ]
+    },
+    "MBTA-RT-WorcesterSq": {
+      "name": "Worcester Sq",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2747
+        ]
+      ]
+    },
+    "MBTA-RT-MassAve2": {
+      "name": "Massachusetts Ave",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2660,
+          2824
+        ]
+      ]
+    },
+    "MBTA-RT-LenoxSt": {
+      "name": "Lenox St",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2900
+        ]
+      ]
+    },
+    "MBTA-RT-MelneaCassBlvd": {
+      "name": "Melnea Cass Blvd",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2659.5,
+          2978
+        ]
+      ]
+    },
+    "MBTA-RT-Nubian": {
+      "name": "Nubian",
+      "lines": [
+        "SL4",
+        "SL5"
+      ],
+      "locations": [
+        [
+          2660,
+          3054.5
+        ]
+      ]
+    },
+    "MBTA-RT-Courthouse": {
+      "name": "Courthouse",
+      "lines": [
+        "SL1",
+        "SL2",
+        "SL3"
+      ],
+      "locations": [
+        [
+          3431,
+          2151
+        ]
+      ]
+    },
+    "MBTA-RT-WorldTradeCenter": {
+      "name": "World Trade Center",
+      "lines": [
+        "SL1",
+        "SL2",
+        "SL3"
+      ],
+      "locations": [
+        [
+          3506,
+          2151
+        ]
+      ]
+    },
+    "MBTA-RT-SilverLineWay": {
+      "name": "Silver Line Way",
+      "lines": [
+        "SL1",
+        "SL2",
+        "SL3"
+      ],
+      "locations": [
+        [
+          3581,
+          2151
+        ]
+      ]
+    },
+    "MBTA-RT-EasternAve": {
+      "name": "Eastern Ave",
+      "lines": [
+        "SL3"
+      ],
+      "locations": [
+        [
+          3744,
+          863
+        ]
+      ]
+    },
+    "MBTA-RT-BoxDistrict": {
+      "name": "Box District",
+      "lines": [
+        "SL3"
+      ],
+      "locations": [
+        [
+          3734,
+          767
+        ]
+      ]
+    },
+    "MBTA-RT-BellinghamSq": {
+      "name": "Bellingham Sq",
+      "lines": [
+        "SL3"
+      ],
+      "locations": [
+        [
+          3604,
+          723.5
+        ]
+      ]
+    },
+    "MBTA-RT-Chelsea": {
+      "name": "Chelsea",
+      "lines": [
+        "SL3"
+      ],
+      "locations": [
+        [
+          3474.5,
+          723.5
+        ]
+      ]
+    },
+    "MBTA-RT-TerminalA": {
+      "name": "Terminal A",
+      "lines": [
+        "SL1"
+      ],
+      "locations": [
+        [
+          4031,
+          1617
+        ]
+      ]
+    },
+    "MBTA-RT-TerminalB1": {
+      "name": "Terminal B - Stop 1",
+      "lines": [
+        "SL1"
+      ],
+      "locations": [
+        [
+          4135,
+          1698
+        ]
+      ]
+    },
+    "MBTA-RT-TerminalB2": {
+      "name": "Terminal B - Stop 2",
+      "lines": [
+        "SL1"
+      ],
+      "locations": [
+        [
+          4192,
+          1662
+        ]
+      ]
+    },
+    "MBTA-RT-TerminalC": {
+      "name": "Terminal C",
+      "lines": [
+        "SL1"
+      ],
+      "locations": [
+        [
+          4154,
+          1559
+        ]
+      ]
+    },
+    "MBTA-RT-TerminalE": {
+      "name": "Terminal E",
+      "lines": [
+        "SL1"
+      ],
+      "locations": [
+        [
+          4095,
+          1499
+        ]
+      ]
+    },
+    "MBTA-RT-HarborSt": {
+      "name": "Harbor St",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3630,
+          2208
+        ]
+      ]
+    },
+    "MBTA-RT-TideSt": {
+      "name": "Tide St",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3686,
+          2257
+        ]
+      ]
+    },
+    "MBTA-RT-23DrydockAve": {
+      "name": "23 Drydock Ave",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3797,
+          2271
+        ]
+      ]
+    },
+    "MBTA-RT-27DrydockAve": {
+      "name": "27 Drydock Ave",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3892.5,
+          2271.5
+        ]
+      ]
+    },
+    "MBTA-RT-BlackFalconAve": {
+      "name": "Black Falcon Ave",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3908,
+          2353.5
+        ]
+      ]
+    },
+    "MBTA-RT-DesignCenter": {
+      "name": "Design Center",
+      "lines": [
+        "SL2"
+      ],
+      "locations": [
+        [
+          3749,
+          2323.5
+        ]
+      ]
+    }
+  },
+  {
+    "BostonSouthStation": {
+      "name": "South Station",
+      "lines": [
+        "Fairmount",
+        "Farmingham",
+        "Franklin",
+        "Greenbush",
+        "Kingston",
+        "Middleborough",
+        "Needham",
+        "Providence"
+      ],
+      "locations": [
+        [
+          3247,
+          2225
+        ]
+      ]
+    },
+    "BostonNorthStation": {
+      "name": "North Station",
+      "lines": [
+        "Fitchburg",
+        "Haverhill",
+        "Lowell",
+        "Newburyport"
+      ],
+      "locations": [
+        [
+          3260,
+          1314
+        ]
+      ]
+    },
+    "MBTA-CR-JFKUMass": {
+      "name": "JFK/UMass",
+      "lines": [
+        "Greenbush",
+        "Kingston",
+        "Middleborough"
+      ],
+      "locations": [
+        [
+          3328,
+          2907
+        ]
+      ]
+    },
+    "MBTA-CR-QuincyCenter": {
+      "name": "Quincy Center",
+      "lines": [
+        "Greenbush",
+        "Kingston",
+        "Middleborough"
+      ],
+      "locations": [
+        [
+          3897,
+          3726
+        ]
+      ]
+    },
+    "MBTA-CR-Braintree": {
+      "name": "Braintree",
+      "lines": [
+        "Kingston",
+        "Middleborough"
+      ],
+      "locations": [
+        [
+          3974,
+          4016
+        ]
+      ]
+    },
+    "MBTA-CR-Newmarket": {
+      "name": "Newmarket",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          3091,
+          2812.5
+        ]
+      ]
+    },
+    "MBTA-CR-UphamsCorner": {
+      "name": "Uphams Corner",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          3089.5,
+          3186
+        ]
+      ]
+    },
+    "MBTA-CR-FourCornersGeneva": {
+      "name": "Four Corners/Geneva",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          3019,
+          3327
+        ]
+      ]
+    },
+    "MBTA-CR-TalbotAve": {
+      "name": "Talbot Ave",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          2877,
+          3402
+        ]
+      ]
+    },
+    "MBTA-CR-MortonSt": {
+      "name": "Morton St",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          2768,
+          3510
+        ]
+      ]
+    },
+    "MBTA-CR-BlueHillAve": {
+      "name": "Blue Hill Ave",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          2660,
+          3620
+        ]
+      ]
+    },
+    "MBTA-CR-Fairmount": {
+      "name": "Fairmount",
+      "lines": [
+        "Fairmount"
+      ],
+      "locations": [
+        [
+          2392.5,
+          3888.5
+        ]
+      ]
+    },
+    "MBTA-CR-Readville": {
+      "name": "Readville",
+      "lines": [
+        "Fairmount",
+        "Franklin"
+      ],
+      "locations": [
+        [
+          1601,
+          4099
+        ]
+      ]
+    },
+    "MBTA-CR-BackBay": {
+      "name": "Back Bay",
+      "lines": [
+        "Farmingham",
+        "Franklin",
+        "Needham",
+        "Providence"
+      ],
+      "locations": [
+        [
+          2537,
+          2424
+        ]
+      ]
+    },
+    "MBTA-CR-Ruggles": {
+      "name": "Ruggles",
+      "lines": [
+        "Franklin",
+        "Needham",
+        "Providence"
+      ],
+      "locations": [
+        [
+          2278,
+          2676
+        ]
+      ]
+    },
+    "MBTA-CR-HydePark": {
+      "name": "Hyde Park",
+      "lines": [
+        "Franklin",
+        "Providence"
+      ],
+      "locations": [
+        [
+          1614,
+          3795
+        ]
+      ]
+    },
+    "MBTA-CR-ForestHills": {
+      "name": "Forest Hills",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          1581,
+          3373
+        ]
+      ]
+    },
+    "MBTA-CR-RoslindaleVillage": {
+      "name": "Roslindale Village",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          1402,
+          3431
+        ]
+      ]
+    },
+    "MBTA-CR-Bellevue": {
+      "name": "Bellevue",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          1205.5,
+          3506
+        ]
+      ]
+    },
+    "MBTA-CR-Highland": {
+      "name": "Highland",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          921.5,
+          3506
+        ]
+      ]
+    },
+    "MBTA-CR-WRoxbury": {
+      "name": "W. Roxbury",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          637,
+          3506
+        ]
+      ]
+    },
+    "MBTA-CR-Hersey": {
+      "name": "Hersey",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          353,
+          3506
+        ]
+      ]
+    },
+    "MBTA-CR-NeedhamJunction": {
+      "name": "Needham Junction",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          290,
+          3412
+        ]
+      ]
+    },
+    "MBTA-CR-NeedhamCenter": {
+      "name": "Needham Center",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          290,
+          3288
+        ]
+      ]
+    },
+    "MBTA-CR-NeedhamHeights": {
+      "name": "Needham Heights",
+      "lines": [
+        "Needham"
+      ],
+      "locations": [
+        [
+          290,
+          3163.5
+        ]
+      ]
+    },
+    "MBTA-CR-Lansdowne": {
+      "name": "Lansdowne",
+      "lines": [
+        "Farmingham"
+      ],
+      "locations": [
+        [
+          1864,
+          2107
+        ]
+      ]
+    },
+    "MBTA-CR-BostonLanding": {
+      "name": "Boston Landing",
+      "lines": [
+        "Farmingham"
+      ],
+      "locations": [
+        [
+          583,
+          1422
+        ]
+      ]
+    },
+    "MBTA-CR-Newtonville": {
+      "name": "Newtonville",
+      "lines": [
+        "Farmingham"
+      ],
+      "locations": [
+        [
+          388,
+          1422
+        ]
+      ]
+    },
+    "MBTA-CR-Porter": {
+      "name": "Porter",
+      "lines": [
+        "Fitchburg"
+      ],
+      "locations": [
+        [
+          1987,
+          965
+        ]
+      ]
+    },
+    "MBTA-CR-Belmont": {
+      "name": "Belmont",
+      "lines": [
+        "Fitchburg"
+      ],
+      "locations": [
+        [
+          1211,
+          914
+        ]
+      ]
+    },
+    "MBTA-CR-Waverley": {
+      "name": "Waverley",
+      "lines": [
+        "Fitchburg"
+      ],
+      "locations": [
+        [
+          787,
+          914
+        ]
+      ]
+    },
+    "MBTA-CR-Waltham": {
+      "name": "Waltham",
+      "lines": [
+        "Fitchburg"
+      ],
+      "locations": [
+        [
+          362,
+          914
+        ]
+      ]
+    },
+    "MBTA-CR-WestMedford": {
+      "name": "West Medford",
+      "lines": [
+        "Lowell"
+      ],
+      "locations": [
+        [
+          2483,
+          382
+        ]
+      ]
+    },
+    "MBTA-CR-MaldenCenter": {
+      "name": "Malden Center",
+      "lines": [
+        "Haverhill"
+      ],
+      "locations": [
+        [
+          3257,
+          463
+        ]
+      ]
+    },
+    "MBTA-CR-Chelsea": {
+      "name": "Chelsea",
+      "lines": [
+        "Newburyport"
+      ],
+      "locations": [
+        [
+          3475,
+          658
+        ]
+      ]
+    },
+    "MBTA-CR-Lynn": {
+      "name": "Lynn",
+      "lines": [
+        "Newburyport"
+      ],
+      "locations": [
+        [
+          4375,
+          355
+        ]
+      ]
+    }
+  }
+]

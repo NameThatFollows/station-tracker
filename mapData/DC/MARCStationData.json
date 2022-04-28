@@ -1,0 +1,518 @@
+[
+  {
+    "DCUnionStation": {
+      "name": "Union Station",
+      "lines": [
+        "Penn",
+        "Camden",
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1801,
+          2248
+        ],
+        [
+          1725,
+          2248
+        ],
+        [
+          1876,
+          2248
+        ]
+      ]
+    },
+    "MARC-NewCarrollton": {
+      "name": "New Carrollton",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          1875,
+          2075
+        ]
+      ]
+    },
+    "MARC-Seabrook": {
+      "name": "Seabrook",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          1924,
+          1761
+        ]
+      ]
+    },
+    "MARC-BowieStateUniversity": {
+      "name": "Bowie State University",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2079,
+          1597
+        ]
+      ]
+    },
+    "MARC-Odenton": {
+      "name": "Odenton",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2238,
+          1437
+        ]
+      ]
+    },
+    "MARC-BWI": {
+      "name": "BWI Rail Station",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2319,
+          1233
+        ]
+      ]
+    },
+    "MARC-Halethorpe": {
+      "name": "Halethorpe",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2319,
+          980
+        ]
+      ]
+    },
+    "MARC-WestBaltimore": {
+      "name": "West Baltimore",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2413,
+          802
+        ]
+      ]
+    },
+    "BaltimorePennStation": {
+      "name": "Penn Station",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2629,
+          791
+        ]
+      ]
+    },
+    "MARC-MartinAirport": {
+      "name": "Martin Airport",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          2846,
+          779
+        ]
+      ]
+    },
+    "MARC-Edgewood": {
+      "name": "Edgewood",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          3021,
+          655
+        ]
+      ]
+    },
+    "MARC-Aberdeen": {
+      "name": "Aberdeen",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          3174,
+          502
+        ]
+      ]
+    },
+    "MARC-Perryville": {
+      "name": "Perryville",
+      "lines": [
+        "Penn"
+      ],
+      "locations": [
+        [
+          3328,
+          348
+        ]
+      ]
+    },
+    "MARC-Riverdale": {
+      "name": "Riverdale",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          1800,
+          2002
+        ]
+      ]
+    },
+    "MARC-CollegePark": {
+      "name": "College Park",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          1805,
+          1656
+        ]
+      ]
+    },
+    "MARC-Greenbelt": {
+      "name": "Greenbelt",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          1832,
+          1569
+        ]
+      ]
+    },
+    "MARC-Muirkirk": {
+      "name": "Muirkirk",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          1882,
+          1496
+        ]
+      ]
+    },
+    "MARC-Laurel": {
+      "name": "Laurel",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          1945,
+          1435
+        ]
+      ]
+    },
+    "MARC-LaurelPark": {
+      "name": "Laurel Park",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2007,
+          1375
+        ]
+      ]
+    },
+    "MARC-Savage": {
+      "name": "Savage",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2067,
+          1318
+        ]
+      ]
+    },
+    "MARC-Jessup": {
+      "name": "Jessup",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2127,
+          1260
+        ]
+      ]
+    },
+    "MARC-Dorsey": {
+      "name": "Dorsey",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2186,
+          1203
+        ]
+      ]
+    },
+    "MARC-StDenis": {
+      "name": "St. Denis",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2249,
+          1143
+        ]
+      ]
+    },
+    "MARC-Camden": {
+      "name": "Camden Station/Camden Yards",
+      "lines": [
+        "Camden"
+      ],
+      "locations": [
+        [
+          2630,
+          1075
+        ]
+      ]
+    },
+    "MARC-SilverSpring": {
+      "name": "Silver Spring",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1725,
+          1929
+        ]
+      ]
+    },
+    "MARC-Kensington": {
+      "name": "Kensington",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1676,
+          1761
+        ]
+      ]
+    },
+    "MARC-GarrettPark": {
+      "name": "Garrett Park",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1581,
+          1656
+        ]
+      ]
+    },
+    "MARC-Rockville": {
+      "name": "Rockville",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1480,
+          1556
+        ]
+      ]
+    },
+    "MARC-WashingtonGrove": {
+      "name": "Washington Grove",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1380,
+          1455
+        ]
+      ]
+    },
+    "MARC-Gaithersburg": {
+      "name": "Gaithersburg",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1279,
+          1354
+        ]
+      ]
+    },
+    "MARC-MetropolitanGrove": {
+      "name": "Metropolitan Grove",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1178,
+          1254
+        ]
+      ]
+    },
+    "MARC-Germantown": {
+      "name": "Germantown",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1078,
+          1153
+        ]
+      ]
+    },
+    "MARC-Boyds": {
+      "name": "Boyds",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          976,
+          1052
+        ]
+      ]
+    },
+    "MARC-Barnesville": {
+      "name": "Barnesville",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          876,
+          952
+        ]
+      ]
+    },
+    "MARC-Dickerson": {
+      "name": "Dickerson",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          775,
+          851
+        ]
+      ]
+    },
+    "MARC-Monocacy": {
+      "name": "Monocacy",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          876,
+          550
+        ]
+      ]
+    },
+    "MARC-Frederick": {
+      "name": "Frederick",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          1077,
+          348
+        ]
+      ]
+    },
+    "MARC-PointOfRocks": {
+      "name": "Point of Rocks",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          675,
+          751
+        ]
+      ]
+    },
+    "MARC-Brunswick": {
+      "name": "Brunswick",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          574,
+          650
+        ]
+      ]
+    },
+    "MARC-HarpersFerry": {
+      "name": "HarpersFerry",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          473,
+          549
+        ]
+      ]
+    },
+    "MARC-Duffields": {
+      "name": "Duffields",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          373,
+          449
+        ]
+      ]
+    },
+    "MARC-Martinsburg": {
+      "name": "Martinsburg",
+      "lines": [
+        "Brunswick"
+      ],
+      "locations": [
+        [
+          272,
+          347
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "mapWidth": 5100,
+  "mapHeight": 5700,
+  "tileSize": 2000,
+  "mapRows": 3,
+  "mapCols": 3,
+  "dotRadius": 35,
+  "dpi": 300,
+  "minZoom": 0.4,
+  "maxZoom": 0.75,
+  "lines": [
+    [
+      {
+        "key": "Red",
+        "name": "Red"
+      },
+      {
+        "key": "Orange",
+        "name": "Orange"
+      },
+      {
+        "key": "Yellow",
+        "name": "Yellow"
+      },
+      {
+        "key": "Green",
+        "name": "Green"
+      },
+      {
+        "key": "Blue",
+        "name": "Blue"
+      },
+      {
+        "key": "Silver",
+        "name": "Silver"
+      }
+    ]
+  ]
+}
