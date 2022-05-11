@@ -46,25 +46,26 @@ export class MapScene extends Container implements IScene {
       .pinch()
       .wheel()
       .decelerate()
-      .clamp({
-        left: -mapMetadata.mapWidth * 0.5,
-        right: mapMetadata.mapWidth * 1.5,
-        top: -mapMetadata.mapHeight * 0.5,
-        bottom: mapMetadata.mapHeight * 1.5,
-        underflow: 'center',
-      })
+      // .clamp({
+      //   left: -mapMetadata.mapWidth * 0.5,
+      //   right: mapMetadata.mapWidth * 1.5,
+      //   top: -mapMetadata.mapHeight * 0.5,
+      //   bottom: mapMetadata.mapHeight * 1.5,
+      //   underflow: 'center',
+      // })
       .clampZoom({
-        minScale: 0.1,
+        // minScale: 0.1,
         maxScale: mapMetadata.maxZoom,
       })
-      .fitWorld();
+      .fitWorld(false)
 
-    this.viewport.on("drag-start", () => this.isDragging = true);
-    this.viewport.on("drag-end", () => this.isDragging = false);
-    this.viewport.on("clicked", (event) => console.log(event.world));
 
-    this.mapContainer = new Container();
-    this.mapContainer.name = "Map Container";
+      this.viewport.on("drag-start", () => this.isDragging = true);
+      this.viewport.on("drag-end", () => this.isDragging = false);
+      this.viewport.on("clicked", (event) => console.log(event.world));
+
+      this.mapContainer = new Container();
+      this.mapContainer.name = "Map Container";
     this.mapContainer.addChild(map);
 
 
@@ -107,10 +108,11 @@ export class MapScene extends Container implements IScene {
     }));
     this.viewport.animate({
       time: 500,
-      scale: this.maxZoom,
+      width: 500,
+      // scale: this.maxZoom,
       position: new Point(
         (total[0] / waypointsCoords.length) + (160 / this.maxZoom),
-        total[1] / waypointsCoords.length),
+        (total[1] / waypointsCoords.length) * 2),
       ease: "easeInOutSine",
     })
   }
