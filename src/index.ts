@@ -80,7 +80,7 @@ function populateStationsList() {
         });
     });
 
-    const stationGroups: {key: string, name: string}[][] = Loader.shared.resources["Metadata"].data.lines;
+    const stationGroups: { key: string, name: string }[][] = Loader.shared.resources["Metadata"].data.lines;
     for (let stationGroupNum = 0; stationGroupNum < stationGroups.length; stationGroupNum++) {
         const stationGroupDiv = document.createElement("div");
         stationsList.appendChild(stationGroupDiv);
@@ -139,15 +139,6 @@ function populateStationsList() {
                 stationName.className = "name";
                 stationName.innerHTML = stationData.name;
                 stationElement.appendChild(stationName);
-
-                const locateButton = document.createElement("div");
-                locateButton.addEventListener("click", (event) => {
-                    event.stopPropagation();
-                    currentMapScene.zoomToDot(stationId);
-                });
-                locateButton.className = "locate-button";
-                locateButton.style.backgroundImage = "url(map-pin-point.svg)"
-                stationElement.appendChild(locateButton);
             });
         }
     }

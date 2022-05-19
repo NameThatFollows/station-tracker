@@ -91,13 +91,13 @@
 			transition: 0.25s ease-in-out;
 		}
 
-        #menu .app-title {
-            background-color: #E0E0E0;
-            padding: 15px;
-            box-sizing: border-box;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+		#menu .app-title {
+			background-color: #E0E0E0;
+			padding: 15px;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			text-align: center;
+		}
 
 		#menu h1 {
 			font-size: 20pt;
@@ -121,7 +121,7 @@
 		.menu-item {
 			width: 100%;
 			height: 100px;
-            box-sizing: border-box;
+			box-sizing: border-box;
 			background-color: lightgray;
 			padding: 0 20px;
 			color: #EEEEEE;
@@ -143,7 +143,7 @@
 			position: absolute;
 			filter: drop-shadow(0px 0px 10px #00000066);
 			height: 100%;
-			width: 370px;
+			width: 340px;
 			right: 0;
 			top: 0;
 			transition-property: right, opacity;
@@ -152,7 +152,7 @@
 		}
 
 		#stations-list-container.closed {
-			right: -320px;
+			right: -290px;
 			transition-property: right, opacity;
 			transition: 0.25s ease-in-out;
 			box-shadow: none;
@@ -185,7 +185,7 @@
 			left: 50px;
 			height: 100%;
 			background-color: #EEEEEE;
-			width: 320px;
+			width: 290px;
 			filter: none;
 			overflow: auto;
 			user-select: none;
@@ -213,7 +213,7 @@
 		}
 
 		.stations-list-item:active {
-			background-color: #CCCCCC;;
+			background-color: #CCCCCC;
 		}
 
 		.stations-list-item .icon-container {
@@ -246,30 +246,6 @@
 			flex-grow: 1;
 			padding: 10px;
 		}
-
-		.stations-list-item .locate-button {
-			width: 30px;
-			height: 30px;
-			margin-right: 5px;
-			flex-shrink: 0;
-			background-size: 50%;
-			background-repeat: no-repeat;
-			background-position: center;
-			opacity: 0;
-		}
-
-		.stations-list-item:hover > .locate-button {
-			opacity: 1;
-		}
-
-		.stations-list-item .locate-button:hover {
-			background-color: #CCCCCC;
-			border-radius: 35px;
-		}
-
-		.stations-list-item .locate-button:active {
-			background-color: #BBBBBB;
-		}
 	</style>
 </head>
 
@@ -283,9 +259,9 @@
 	<div id="menu-shade"></div>
 	<div id="menu-button" title="Switch Maps"></div>
 	<div id="menu">
-        <div class="app-title">
-            <h1>Station Explorer</h1>
-        </div>
+		<div class="app-title">
+			<h1>Station Explorer</h1>
+		</div>
 		<h2 id="maps-loading-indicator">Loading maps...</h2>
 	</div>
 	<div id="pixi-content"><canvas id="pixi-canvas" /></div>

@@ -17,7 +17,7 @@ export class MapScene extends Container implements IScene {
   private viewport: Viewport;
   private mapContainer: Container;
   private allStationsContainer: Container;
-  private allStationContainersMap: {[stationId: string]: number} = {};
+  private allStationContainersMap: { [stationId: string]: number } = {};
   private stationData = {};
   private maxZoom = 1;
   private dotRadius = 0;
@@ -46,26 +46,19 @@ export class MapScene extends Container implements IScene {
       .pinch()
       .wheel()
       .decelerate()
-      // .clamp({
-      //   left: -mapMetadata.mapWidth * 0.5,
-      //   right: mapMetadata.mapWidth * 1.5,
-      //   top: -mapMetadata.mapHeight * 0.5,
-      //   bottom: mapMetadata.mapHeight * 1.5,
-      //   underflow: 'center',
-      // })
       .clampZoom({
-        // minScale: 0.1,
+        minScale: 0.05,
         maxScale: mapMetadata.maxZoom,
       })
       .fitWorld(false)
 
 
-      this.viewport.on("drag-start", () => this.isDragging = true);
-      this.viewport.on("drag-end", () => this.isDragging = false);
-      this.viewport.on("clicked", (event) => console.log(event.world));
+    this.viewport.on("drag-start", () => this.isDragging = true);
+    this.viewport.on("drag-end", () => this.isDragging = false);
+    this.viewport.on("clicked", (event) => console.log(event.world));
 
-      this.mapContainer = new Container();
-      this.mapContainer.name = "Map Container";
+    this.mapContainer = new Container();
+    this.mapContainer.name = "Map Container";
     this.mapContainer.addChild(map);
 
 
@@ -101,31 +94,15 @@ export class MapScene extends Container implements IScene {
     this.addChild(this.viewport);
   }
 
-  public zoomToDot(stationId: string) {
-    const waypointsCoords: number[][] = this.stationData[stationId].locations;
-    const total = waypointsCoords.reduce(((sum, cur) => {
-      return [sum[0] + cur[0], sum[1] + cur[1]];
-    }));
-    this.viewport.animate({
-      time: 500,
-      width: 500,
-      // scale: this.maxZoom,
-      position: new Point(
-        (total[0] / waypointsCoords.length) + (160 / this.maxZoom),
-        (total[1] / waypointsCoords.length) * 2),
-      ease: "easeInOutSine",
-    })
-  }
-
   private createCheck(x, y, size, tint) {
-      const checkSprite = Sprite.from("check.svg");
-      checkSprite.anchor.set(0.5);
-      checkSprite.x = x;
-      checkSprite.y = y;
-      checkSprite.width = size;
-      checkSprite.height = size;
-      checkSprite.tint = tint;
-      return checkSprite;
+    const checkSprite = Sprite.from("check.svg");
+    checkSprite.anchor.set(0.5);
+    checkSprite.x = x;
+    checkSprite.y = y;
+    checkSprite.width = size;
+    checkSprite.height = size;
+    checkSprite.tint = tint;
+    return checkSprite;
   }
 
   private createDot(x: number, y: number, type: DotStyle, dotRadius: number = this.dotRadius) {
