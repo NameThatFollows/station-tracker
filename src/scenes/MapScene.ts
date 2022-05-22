@@ -35,7 +35,6 @@ export class MapScene extends Container implements IScene {
     const mapMetadata = Loader.shared.resources["Metadata"].data;
     this.dotRadius = mapMetadata.dotRadius;
     this.maxZoom = mapMetadata.maxZoom;
-    let map = Sprite.from("Map");
     this.viewport = new Viewport({
       worldHeight: mapMetadata.mapHeight,
       worldWidth: mapMetadata.mapWidth,
@@ -59,7 +58,22 @@ export class MapScene extends Container implements IScene {
 
     this.mapContainer = new Container();
     this.mapContainer.name = "Map Container";
-    this.mapContainer.addChild(map);
+
+    if ("tileSize" in mapMetadata) {
+      console.log("TILING");
+      for (let row = 0; row < mapMetadata["mapRows"]; row++) {
+        for (let col = 0; col < mapMetadata["mapCols"]; col++) {
+          let tile = Sprite.from(`Map-${row}-${col}`);
+          tile.y = mapMetadata["tileSize"] * row;
+          tile.x = mapMetadata["tileSize"] * col;
+          this.mapContainer.addChild(tile);
+        }
+      }
+    } else {
+      let map = Sprite.from("Map");
+      this.mapContainer.addChild(map);
+    }
+
 
 
     this.allStationsContainer = new Container();

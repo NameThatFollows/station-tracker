@@ -1,6 +1,9 @@
 {
     "mapWidth": 6004,
     "mapHeight": 7259,
+    "tileSize": 2500,
+    "mapRows": 3,
+    "mapCols": 3,
     "dotRadius": 18,
     "dpi": 300,
     "minZoom": 0.2,

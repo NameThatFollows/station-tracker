@@ -3,8 +3,13 @@ import { MapScene } from './scenes/MapScene';
 import { MAP_DATA } from './mapData';
 import { Loader } from 'pixi.js';
 
+const STATION_LIST_TITLE = "All Stations";
+
 let currentMap = null;
 let currentMapScene = null;
+let stationCountBadgeContent: { [badgeName: string]: HTMLElement } = {};
+let stationAssociatedListCategories = {};
+let stationGroupStationLists: { [badgeName: string]: Set<string> } = {};
 
 Manager.initialize(0xDDDDDD);
 
@@ -32,6 +37,19 @@ stationsButton.addEventListener("click", () => {
     }
 });
 
+const totalStationsCountElement = document.getElementById("total-station-count");
+
+function updateTotalStationCount() {
+    totalStationsCountElement.innerHTML = `<strong>${Manager.visitedStations.size}</strong> Stations Visited`;
+}
+
+function updateStationListCounts() {
+    for (const [badgeName, headerDiv] of Object.entries(stationCountBadgeContent)) {
+        const stationGroupList = stationGroupStationLists[badgeName];
+        const visitedStations = new Set(Array.from(stationGroupList).filter(x => Manager.visitedStations.has(x)));
+        headerDiv.innerHTML = `${visitedStations.size}/${stationGroupList.size}`;
+    }
+}
 
 function closeMapsMenu() {
     menu.className = "closed";
@@ -60,36 +78,66 @@ function clickStation(stationName) {
             element.children[0].classList.add("hidden");
         }
     }
+    updateStationListCounts();
+    updateTotalStationCount();
+}
+
+function createStationListHeader(header: number, content: string, key: string) {
+    const containerDiv = document.createElement("div");
+    containerDiv.className = "header";
+
+    const headerElement = document.createElement(`h${header}`);
+    headerElement.innerHTML = content;
+    containerDiv.appendChild(headerElement);
+
+    const counterElement = document.createElement("div");
+    counterElement.className = "counter";
+
+    const counterHeaderElement = document.createElement(`h${header + 1}`);
+    stationCountBadgeContent[key] = counterHeaderElement;
+
+    counterHeaderElement.innerHTML = "0/0";
+    counterElement.appendChild(counterHeaderElement);
+
+    containerDiv.appendChild(counterElement);
+
+    return containerDiv;
 }
 
 function populateStationsList() {
     stationsList.innerHTML = "";
+    stationsList.appendChild(createStationListHeader(1, STATION_LIST_TITLE, STATION_LIST_TITLE));
     const stationDataGroups = Loader.shared.resources["Station Data"].data;
     const stationsByLine: { [line: string]: Set<[string, any]> }[] = [];
+    stationGroupStationLists[STATION_LIST_TITLE] = new Set();
     stationDataGroups.forEach((stationDataGroup, index) => {
         stationsByLine.push({});
+        stationGroupStationLists[`StationGroup${index}`] = new Set();
         Object.entries(stationDataGroup).forEach(([stationId, stationData]: [string, any]) => {
             const stationLines = stationData.lines;
             stationLines.forEach((line) => {
                 line = line as string;
                 if (!(line in stationsByLine[index])) {
+                    stationGroupStationLists[line] = new Set();
                     stationsByLine[index][line] = new Set();
                 }
                 stationsByLine[index][line].add([stationId, stationData]);
+                stationGroupStationLists[STATION_LIST_TITLE].add(stationId);
+                stationGroupStationLists[`StationGroup${index}`].add(stationId);
+                stationGroupStationLists[line].add(stationId);
             });
         });
     });
+
 
     const stationGroups: { key: string, name: string }[][] = Loader.shared.resources["Metadata"].data.lines;
     for (let stationGroupNum = 0; stationGroupNum < stationGroups.length; stationGroupNum++) {
         const stationGroupDiv = document.createElement("div");
         stationsList.appendChild(stationGroupDiv);
-        const groupHeader = document.createElement("h1");
-        stationGroupDiv.appendChild(groupHeader);
-        groupHeader.innerHTML = stationGroupNum === 0 ? "Stations" : "Other Systems";
+        let headerTitle = stationGroupNum === 0 ? "Stations" : "Other Systems";
+        stationGroupDiv.appendChild(createStationListHeader(2, headerTitle, `StationGroup${stationGroupNum}`));
 
         const stationGroupLines = stationGroups[stationGroupNum];
-        console.log(stationGroupLines);
         for (const stationGroupLine of stationGroupLines) {
             const stationsGroupData: { [line: string]: Set<[string, any]> } = stationsByLine[stationGroupNum];
 
@@ -102,9 +150,8 @@ function populateStationsList() {
             const lineGroupDiv = document.createElement("div");
             stationGroupDiv.appendChild(lineGroupDiv);
 
-            const lineGroupHeader = document.createElement("h2");
-            lineGroupDiv.appendChild(lineGroupHeader);
-            lineGroupHeader.innerHTML = stationGroupLine.name;
+
+            lineGroupDiv.appendChild(createStationListHeader(3, stationGroupLine.name, stationGroupLine.key));
 
             const lineStations = document.createElement("div");
             lineGroupDiv.appendChild(lineStations);
@@ -139,12 +186,17 @@ function populateStationsList() {
                 stationName.className = "name";
                 stationName.innerHTML = stationData.name;
                 stationElement.appendChild(stationName);
+
+                stationAssociatedListCategories[stationId] = [STATION_LIST_TITLE, `StationGroup${stationGroupNum}`, stationGroupLine.key]
             });
         }
     }
 }
 
 function changeScene(region, mapName) {
+    stationCountBadgeContent = {};
+    stationAssociatedListCategories = {};
+    stationGroupStationLists = {};
     loadingShade.className = "";
     setTimeout(() => {
         Manager.changeScene(null);
@@ -159,11 +211,13 @@ function changeScene(region, mapName) {
             loadingShade.className = "done";
             populateStationsList();
             Manager.changeScene(mapScene);
+            updateStationListCounts();
         }, this);
         Loader.shared.load();
     }, 250);
 }
 
+updateTotalStationCount();
 const mapsLoadingIndicator = document.getElementById("maps-loading-indicator");
 mapsLoadingIndicator.remove();
 for (const [region, mapsMap] of Object.entries(MAP_DATA)) {
