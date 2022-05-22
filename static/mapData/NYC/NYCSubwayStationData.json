@@ -1228,7 +1228,7 @@
         ]
       ]
     },
-    "MTA-NYCSubway-IRT_NewLots-Junius St": {
+    "MTA-NYCSubway-IRT_NewLots-JuniusSt": {
       "name": "Junius St",
       "lines": [
         "3"
@@ -1764,7 +1764,7 @@
         ]
       ]
     },
-    "MTA-NYCSubway-IRT_WhitePlainsRoad-Simpson St": {
+    "MTA-NYCSubway-IRT_WhitePlainsRoad-SimpsonSt": {
       "name": "Simpson St",
       "lines": [
         "2",
@@ -2190,7 +2190,7 @@
         ]
       ]
     },
-    "MTA-NYCSubway-BMT_Brighton-Sheepshead Bay": {
+    "MTA-NYCSubway-BMT_Brighton-SheepsheadBay": {
       "name": "Sheepshead Bay",
       "lines": [
         "B",
@@ -2505,7 +2505,7 @@
         ]
       ]
     },
-    "MTA-NYCSubway-BMT_Canarsie-Sutter Av": {
+    "MTA-NYCSubway-BMT_Canarsie-SutterAv": {
       "name": "Sutter Av",
       "lines": [
         "L"
@@ -6284,7 +6284,7 @@
         ]
       ]
     },
-    "PANYNJ-AirTrainJFK-Lefferts Blvd": {
+    "PANYNJ-AirTrainJFK-LeffertsBlvd": {
       "name": "Lefferts Blvd",
       "lines": [
         "Howard Beach"
