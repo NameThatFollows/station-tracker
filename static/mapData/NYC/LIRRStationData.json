@@ -1,632 +1,1563 @@
 [
-    {
-        "NYCPennStation": {
-            "name": "Penn Station",
-            "lines": ["Babylon", "Belmont Park", "Far Rockaway", "Hempstead", "Long Beach", "Montauk", "Oyster Bay", "Port Jefferson", "Port Washington", "Ronkonkoma", "West Hempstead"],
-            "locations": [[194, 1700]],
-            "dotRadius": 18
-        },
-        "MTA-LIRR-LongIslandCity": {
-            "name": "Long Island City",
-            "lines": ["Port Jefferson", "Oyster Bay", "Montauk"],
-            "locations": [[319, 1734]]
-        },
-        "MTA-LIRR-HunterspointAv": {
-            "name": "Hunterspoint Av",
-            "lines": ["Port Jefferson", "Oyster Bay", "Montauk"] ,
-            "locations": [[373, 1717]]
-        },
-        "MTA-LIRR-Woodside": {
-            "name": "Woodside",
-            "lines": ["Port Washington", "Hempstead", "Port Jefferson", "Ronkonkoma", "West Hempstead", "Babylon", "Long Beach", "Far Rockaway"],
-            "locations": [[478, 1683]]
-        },
-        "MTA-LIRR-ForestHills": {
-            "name": "Forest Hills",
-            "lines": ["Hempstead", "Port Jefferson", "Ronkonkoma", "West Hempstead", "Babylon", "Long Beach", "Far Rockaway"],
-            "locations": [[727, 1790]]
-        },
-        "MTA-LIRR-KewGardens": {
-            "name": "Kew Gardens",
-            "lines": ["Hempstead", "Port Jefferson", "Ronkonkoma", "West Hempstead", "Babylon", "Long Beach", "Far Rockaway"],
-            "locations": [[783, 1815]]
-        },
-        "MTA-LIRR-EastNY": {
-            "name": "East NY",
-            "lines": ["Atlantic"],
-            "locations": [[579, 2011]]
-        },
-        "MTA-LIRR-NostrandAv": {
-            "name": "Nostrand Av",
-            "lines": ["Atlantic"],
-            "locations": [[398, 2030]]
-        },
-        "MTA-LIRR-AtlanticTerminal": {
-            "name": "Atlantic Terminal-Brooklyn",
-            "lines": ["Atlantic"],
-            "locations": [[326, 2021]],
-            "dotRadius": 18
-        },
-        "MTA-LIRR-Jamaica": {
-            "name": "Jamaica",
-            "lines": ["Hempstead", "Port Jefferson", "Oyster Bay", "Ronkonkoma", "Montauk", "West Hempstead", "Babylon", "Long Beach", "Far Rockaway", "Belmont Park"],
-            "locations": [[871, 1858]],
-            "dotRadius": 18
-        },
-        "MTA-LIRR-MetsWilletsPoint": {
-            "name": "Mets-Willets Point",
-            "lines": ["Port Washington"],
-            "locations": [[711, 1647]]
-        },
-        "MTA-LIRR-Flushing": {
-            "name": "Flushing-Main St",
-            "lines": ["Port Washington"],
-            "locations": [[766, 1611]]
-        },
-        "MTA-LIRR-MurrayHill": {
-            "name": "Murray Hill",
-            "lines": ["Port Washington"],
-            "locations": [[813, 1587]]
-        },
-        "MTA-LIRR-Broadway": {
-            "name": "Broadway",
-            "lines": ["Port Washington"],
-            "locations": [[861.5, 1576]]
-        },
-        "MTA-LIRR-Auburndale": {
-            "name": "Auburndale",
-            "lines": ["Port Washington"],
-            "locations": [[901, 1568.5]]
-        },
-        "MTA-LIRR-Bayside": {
-            "name": "Bayside",
-            "lines": ["Port Washington"],
-            "locations": [[955, 1558]]
-        },
-        "MTA-LIRR-Douglaston": {
-            "name": "Douglaston",
-            "lines": ["Port Washington"],
-            "locations": [[1003.5, 1535]]
-        },
-        "MTA-LIRR-LittleNeck": {
-            "name": "Little Neck",
-            "lines": ["Port Washington"],
-            "locations": [[1029, 1503]]
-        },
-        "MTA-LIRR-GreatNeck": {
-            "name": "Great Neck",
-            "lines": ["Port Washington"],
-            "locations": [[1071.5, 1436.5]]
-        },
-        "MTA-LIRR-Manhasset": {
-            "name": "Manhasset",
-            "lines": ["Port Washington"],
-            "locations": [[1127.5, 1385]]
-        },
-        "MTA-LIRR-Plandome": {
-            "name": "Plandome",
-            "lines": ["Port Washington"],
-            "locations": [[1159, 1292]]
-        },
-        "MTA-LIRR-PortWashington": {
-            "name": "Port Washington",
-            "lines": ["Port Washington"],
-            "locations": [[1159, 1237]]
-        },
-        "MTA-LIRR-LocustManor": {
-            "name": "Locust Manor",
-            "lines": ["Far Rockaway", "Long Beach"],
-            "locations": [[970, 1989]]
-        },
-        "MTA-LIRR-Laurelton": {
-            "name": "Laurelton",
-            "lines": ["Far Rockaway", "Long Beach"],
-            "locations": [[1089, 2058]]
-        },
-        "MTA-LIRR-Rosedale": {
-            "name": "Rosedale",
-            "lines": ["Far Rockaway", "Long Beach"],
-            "locations": [[1170.5, 2056]]
-        },
-        "MTA-LIRR-ValleyStream": {
-            "name": "Valley Stream",
-            "lines": ["Far Rockaway", "Long Beach", "West Hempstead"],
-            "locations": [[1218.5, 2057]]
-        },
-        "MTA-LIRR-Westwood": {
-            "name": "Westwood",
-            "lines": ["West Hempstead"],
-            "locations": [[1328.5, 2017.5]]
-        },
-        "MTA-LIRR-Malverne": {
-            "name": "Malverne",
-            "lines": ["West Hempstead"],
-            "locations": [[1360.5, 1969]]
-        },
-        "MTA-LIRR-Lakeview": {
-            "name": "Lakeview",
-            "lines": ["West Hempstead"],
-            "locations": [[1390, 1916]]
-        },
-        "MTA-LIRR-HempsteadGardens": {
-            "name": "Hempstead Gardens",
-            "lines": ["West Hempstead"],
-            "locations": [[1417, 1850]]
-        },
-        "MTA-LIRR-WestHempstead": {
-            "name": "West Hempstead",
-            "lines": ["West Hempstead"],
-            "locations": [[1427.5, 1790]]
-        },
-        "MTA-LIRR-Gibson": {
-            "name": "Gibson",
-            "lines": ["Far Rockaway"],
-            "locations": [[1251, 2105]]
-        },
-        "MTA-LIRR-Hewlett": {
-            "name": "Hewlett",
-            "lines": ["Far Rockaway"],
-            "locations": [[1259, 2148]]
-        },
-        "MTA-LIRR-Woodmere": {
-            "name": "Woodmere",
-            "lines": ["Far Rockaway"],
-            "locations": [[1257, 2197]]
-        },
-        "MTA-LIRR-Cedarhurst": {
-            "name": "Cedarhurst",
-            "lines": ["Far Rockaway"],
-            "locations": [[1228, 2245]]
-        },
-        "MTA-LIRR-Lawrence": {
-            "name": "Lawrence",
-            "lines": ["Far Rockaway"],
-            "locations": [[1192, 2284]]
-        },
-        "MTA-LIRR-Inwood": {
-            "name": "Inwood",
-            "lines": ["Far Rockaway"],
-            "locations": [[1170.5, 2322]]
-        },
-        "MTA-LIRR-FarRockaway": {
-            "name": "Far Rockaway",
-            "lines": ["Far Rockaway"],
-            "locations": [[1164.5, 2360.5]]
-        },
-        "MTA-LIRR-StAlbans": {
-            "name": "St. Albans",
-            "lines": ["Babylon", "West Hempstead"],
-            "locations": [[1008, 1894]]
-        },
-        "MTA-LIRR-Lynbrook": {
-            "name": "Lynbrook",
-            "lines": ["Babylon", "Long Beach"],
-            "locations": [[1353, 2056]]
-        },
-        "MTA-LIRR-CentreAv": {
-            "name": "Centre Av",
-            "lines": ["Long Beach"],
-            "locations": [[1416, 2122]]
-        },
-        "MTA-LIRR-ERockaway": {
-            "name": "E. Rockaway",
-            "lines": ["Long Beach"],
-            "locations": [[1433, 2159]]
-        },
-        "MTA-LIRR-Oceanside": {
-            "name": "Oceanside",
-            "lines": ["Long Beach"],
-            "locations": [[1451, 2212]]
-        },
-        "MTA-LIRR-IslandPark": {
-            "name": "Island Park",
-            "lines": ["Long Beach"],
-            "locations": [[1454, 2290]]
-        },
-        "MTA-LIRR-LongBeach": {
-            "name": "Long Beach",
-            "lines": ["Long Beach"],
-            "locations": [[1443, 2344]]
-        },
-        "MTA-LIRR-RockvilleCentre": {
-            "name": "Rockville Centre",
-            "lines": ["Babylon"],
-            "locations": [[1430, 2039]]
-        },
-        "MTA-LIRR-Baldwin": {
-            "name": "Baldwin",
-            "lines": ["Babylon"],
-            "locations": [[1544, 2008]]
-        },
-        "MTA-LIRR-Freeport": {
-            "name": "Freeport",
-            "lines": ["Babylon"],
-            "locations": [[1620, 1986]]
-        },
-        "MTA-LIRR-Merrick": {
-            "name": "Merrick",
-            "lines": ["Babylon"],
-            "locations": [[1702.5, 1942.5]]
-        },
-        "MTA-LIRR-Bellmore": {
-            "name": "Bellmore",
-            "lines": ["Babylon"],
-            "locations": [[1768, 1904]]
-        },
-        "MTA-LIRR-Wantagh": {
-            "name": "Wantagh",
-            "lines": ["Babylon"],
-            "locations": [[1813, 1878.5]]
-        },
-        "MTA-LIRR-Seaford": {
-            "name": "Seaford",
-            "lines": ["Babylon"],
-            "locations": [[1855, 1858]]
-        },
-        "MTA-LIRR-Massapequa": {
-            "name": "Massapequa",
-            "lines": ["Babylon"],
-            "locations": [[1906, 1846.5]]
-        },
-        "MTA-LIRR-MassapequaPark": {
-            "name": "Massapequa Park",
-            "lines": ["Babylon"],
-            "locations": [[1953.5, 1836.5]]
-        },
-        "MTA-LIRR-Amityville": {
-            "name": "Amityville",
-            "lines": ["Babylon"],
-            "locations": [[2054.5, 1820]]
-        },
-        "MTA-LIRR-Copiague": {
-            "name": "Copiague",
-            "lines": ["Babylon"],
-            "locations": [[2105.5, 1811.5]]
-        },
-        "MTA-LIRR-Lindenhurst": {
-            "name": "Lindenhurst",
-            "lines": ["Babylon"],
-            "locations": [[2178, 1785]]
-        },
-        "MTA-LIRR-Babylon": {
-            "name": "Babylon",
-            "lines": ["Babylon", "Montauk"],
-            "locations": [[2310, 1703]]
-        },
-        "MTA-LIRR-BayShore": {
-            "name": "Bay Shore",
-            "lines": ["Montauk"],
-            "locations": [[2474, 1602]]
-        },
-        "MTA-LIRR-Islip": {
-            "name": "Islip",
-            "lines": ["Montauk"],
-            "locations": [[2589, 1547]]
-        },
-        "MTA-LIRR-GreatRiver": {
-            "name": "Great River",
-            "lines": ["Montauk"],
-            "locations": [[2659, 1512.5]]
-        },
-        "MTA-LIRR-Oakdale": {
-            "name": "Oakdale",
-            "lines": ["Montauk"],
-            "locations": [[2752.5, 1491]]
-        },
-        "MTA-LIRR-Sayville": {
-            "name": "Sayville",
-            "lines": ["Montauk"],
-            "locations": [[2858.5, 1509.5]]
-        },
-        "MTA-LIRR-Patchogue": {
-            "name": "Patchogue",
-            "lines": ["Montauk"],
-            "locations": [[3029, 1414]]
-        },
-        "MTA-LIRR-Bellport": {
-            "name": "Bellport",
-            "lines": ["Montauk"],
-            "locations": [[3173.5, 1368.5]]
-        },
-        "MTA-LIRR-MasticShirley": {
-            "name": "Mastic-Shirley",
-            "lines": ["Montauk"],
-            "locations": [[3351.5, 1259]]
-        },
-        "MTA-LIRR-Speonk": {
-            "name": "Speonk",
-            "lines": ["Montauk"],
-            "locations": [[3681, 1151.5]]
-        },
-        "MTA-LIRR-Westhampton": {
-            "name": "Westhampton",
-            "lines": ["Montauk"],
-            "locations": [[3772.5, 1115.5]]
-        },
-        "MTA-LIRR-HamptonBays": {
-            "name": "Hampton Bays",
-            "lines": ["Montauk"],
-            "locations": [[3997, 959]]
-        },
-        "MTA-LIRR-Southampton": {
-            "name": "Southampton",
-            "lines": ["Montauk"],
-            "locations": [[4191, 899]]
-        },
-        "MTA-LIRR-Bridgehampton": {
-            "name": "Bridgehampton",
-            "lines": ["Montauk"],
-            "locations": [[4370.5, 765]]
-        },
-        "MTA-LIRR-EastHampton": {
-            "name": "East Hampton",
-            "lines": ["Montauk"],
-            "locations": [[4574, 653]]
-        },
-        "MTA-LIRR-Amagansett": {
-            "name": "Amagansett",
-            "lines": ["Montauk"],
-            "locations": [[4640, 621]]
-        },
-        "MTA-LIRR-Montauk": {
-            "name": "Montauk",
-            "lines": ["Montauk"],
-            "locations": [[4875, 453]]
-        },
-        "MTA-LIRR-Hollis": {
-            "name": "Hollis",
-            "lines": ["Hempstead"],
-            "locations": [[988, 1795.5]]
-        },
-        "MTA-LIRR-QueensVillage": {
-            "name": "Queens Village",
-            "lines": ["Hempstead"],
-            "locations": [[1058, 1763.5]]
-        },
-        "MTA-LIRR-BelmontPk": {
-            "name": "Belmont Pk",
-            "lines": ["Belmont Park"],
-            "locations": [[1157, 1761]]
-        },
-        "MTA-LIRR-Elmont": {
-            "name": "Elmont",
-            "lines": ["Hempstead"],
-            "locations": [[1115, 1737.5]]
-        },
-        "MTA-LIRR-Bellerose": {
-            "name": "Bellerose",
-            "lines": ["Hempstead"],
-            "locations": [[1152, 1723]]
-        },
-        "MTA-LIRR-FloralPark": {
-            "name": "Floral Park",
-            "lines": ["Hempstead", "Port Jefferson"],
-            "locations": [[1206.5, 1702.5]]
-        },
-        "MTA-LIRR-StewartManor": {
-            "name": "Stewart Manor",
-            "lines": ["Hempstead"],
-            "locations": [[1260, 1714]]
-        },
-        "MTA-LIRR-NassauBlvd": {
-            "name": "Nassau Blvd",
-            "lines": ["Hempstead"],
-            "locations": [[1319, 1711]]
-        },
-        "MTA-LIRR-GardenCity": {
-            "name": "Garden City",
-            "lines": ["Hempstead"],
-            "locations": [[1373, 1705]]
-        },
-        "MTA-LIRR-CountryLifePress": {
-            "name": "Country Life Press",
-            "lines": ["Hempstead"],
-            "locations": [[1413.5, 1708]]
-        },
-        "MTA-LIRR-Hempstead": {
-            "name": "Hempstead",
-            "lines": ["Hempstead"],
-            "locations": [[1447, 1741]]
-        },
-        "MTA-LIRR-NewHydePk": {
-            "name": "New Hyde Pk",
-            "lines": ["Port Jefferson"],
-            "locations": [[1259, 1678]]
-        },
-        "MTA-LIRR-MerillonAv": {
-            "name": "Merillon Av",
-            "lines": ["Port Jefferson"],
-            "locations": [[1311, 1657]]
-        },
-        "MTA-LIRR-Mineola": {
-            "name": "Mineola",
-            "lines": ["Port Jefferson", "Ronkonkoma", "Oyster Bay", "Montauk"],
-            "locations": [[1377.5, 1628.5]]
-        },
-        "MTA-LIRR-EastWilliston": {
-            "name": "East Williston",
-            "lines": ["Oyster Bay"],
-            "locations": [[1385, 1559]]
-        },
-        "MTA-LIRR-Albertson": {
-            "name": "Albertson",
-            "lines": ["Oyster Bay"],
-            "locations": [[1376, 1474]]
-        },
-        "MTA-LIRR-Roslyn": {
-            "name": "Roslyn",
-            "lines": ["Oyster Bay"],
-            "locations": [[1375.5, 1398.5]]
-        },
-        "MTA-LIRR-Greenvale": {
-            "name": "Greenvale",
-            "lines": ["Oyster Bay"],
-            "locations": [[1383, 1295]]
-        },
-        "MTA-LIRR-GlenHead": {
-            "name": "Glen Head",
-            "lines": ["Oyster Bay"],
-            "locations": [[1395.5, 1223.5]]
-        },
-        "MTA-LIRR-SeaCliff": {
-            "name": "Sea Cliff",
-            "lines": ["Oyster Bay"],
-            "locations": [[1386, 1167]]
-        },
-        "MTA-LIRR-GlenStreet": {
-            "name": "Glen Street",
-            "lines": ["Oyster Bay"],
-            "locations": [[1392, 1119]]
-        },
-        "MTA-LIRR-GlenCove": {
-            "name": "Glen Cove",
-            "lines": ["Oyster Bay"],
-            "locations": [[1434, 1069.5]]
-        },
-        "MTA-LIRR-LocustValley": {
-            "name": "Locust Valley",
-            "lines": ["Oyster Bay"],
-            "locations": [[1478, 1041]]
-        },
-        "MTA-LIRR-OysterBay": {
-            "name": "Oyster Bay",
-            "lines": ["Oyster Bay"],
-            "locations": [[1650.5, 1046.5]]
-        },
-        "MTA-LIRR-CarlePlace": {
-            "name": "Carle Place",
-            "lines": ["Port Jefferson"],
-            "locations": [[1486.5, 1584.5]]
-        },
-        "MTA-LIRR-Westbury": {
-            "name": "Westbury",
-            "lines": ["Port Jefferson"],
-            "locations": [[1565.5, 1550]]
-        },
-        "MTA-LIRR-Hicksville": {
-            "name": "Hicksville",
-            "lines": ["Port Jefferson", "Ronkonkoma", "Montauk"],
-            "locations": [[1699, 1491.5]]
-        },
-        "MTA-LIRR-Syosset": {
-            "name": "Syosset",
-            "lines": ["Port Jefferson"],
-            "locations": [[1778.5, 1237.5]]
-        },
-        "MTA-LIRR-ColdSpringHarbor": {
-            "name": "Cold Spring Harbor",
-            "lines": ["Port Jefferson"],
-            "locations": [[1907, 1175]]
-        },
-        "MTA-LIRR-Huntington": {
-            "name": "Huntington",
-            "lines": ["Port Jefferson"],
-            "locations": [[2018, 1105]]
-        },
-        "MTA-LIRR-Greenlawn": {
-            "name": "Greenlawn",
-            "lines": ["Port Jefferson"],
-            "locations": [[2133, 1041]]
-        },
-        "MTA-LIRR-Northport": {
-            "name": "Northport",
-            "lines": ["Port Jefferson"],
-            "locations": [[2235.5, 988.5]]
-        },
-        "MTA-LIRR-KingsPark": {
-            "name": "Kings Park",
-            "lines": ["Port Jefferson"],
-            "locations": [[2394.5, 983]]
-        },
-        "MTA-LIRR-Smithtown": {
-            "name": "Smithtown",
-            "lines": ["Port Jefferson"],
-            "locations": [[2581.5, 1054.5]]
-        },
-        "MTA-LIRR-StJames": {
-            "name": "St. James",
-            "lines": ["Port Jefferson"],
-            "locations": [[2632.5, 978]]
-        },
-        "MTA-LIRR-StonyBrook": {
-            "name": "Stony Brook",
-            "lines": ["Port Jefferson"],
-            "locations": [[2720, 813]]
-        },
-        "MTA-LIRR-PortJefferson": {
-            "name": "Port Jefferson",
-            "lines": ["Port Jefferson"],
-            "locations": [[2886.5, 758]]
-        },
-        "MTA-LIRR-Bethpage": {
-            "name": "Bethpage",
-            "lines": ["Ronkonkoma"],
-            "locations": [[1851.5, 1593]]
-        },
-        "MTA-LIRR-Farmingdale": {
-            "name": "Farmingdale",
-            "lines": ["Ronkonkoma"],
-            "locations": [[1962, 1592]]
-        },
-        "MTA-LIRR-Pinelawn": {
-            "name": "Pinelawn",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2079, 1539]]
-        },
-        "MTA-LIRR-Wyandanch": {
-            "name": "Wyandanch",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2197.5, 1485]]
-        },
-        "MTA-LIRR-DeerPark": {
-            "name": "Deer Park",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2276.5, 1449.5]]
-        },
-        "MTA-LIRR-Brentwood": {
-            "name": "Brentwood",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2434.5, 1386]]
-        },
-        "MTA-LIRR-CentralIslip": {
-            "name": "Central Islip",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2554, 1337]]
-        },
-        "MTA-LIRR-Ronkonkoma": {
-            "name": "Ronkonkoma",
-            "lines": ["Ronkonkoma"],
-            "locations": [[2771, 1258]]
-        },
-        "MTA-LIRR-Medford": {
-            "name": "Medford",
-            "lines": ["Ronkonkoma"],
-            "locations": [[3055.5, 1198.5]]
-        },
-        "MTA-LIRR-Yaphank": {
-            "name": "Yaphank",
-            "lines": ["Ronkonkoma"],
-            "locations": [[3234, 1148]]
-        },
-        "MTA-LIRR-Riverhead": {
-            "name": "Riverhead",
-            "lines": ["Ronkonkoma"],
-            "locations": [[3705.5, 808.5]]
-        },
-        "MTA-LIRR-Mattituck": {
-            "name": "Mattituck",
-            "lines": ["Ronkonkoma"],
-            "locations": [[3929, 597]]
-        },
-        "MTA-LIRR-Southold": {
-            "name": "Southold",
-            "lines": ["Ronkonkoma"],
-            "locations": [[4086, 370.5]]
-        },
-        "MTA-LIRR-Greenport": {
-            "name": "Greenport",
-            "lines": ["Ronkonkoma"],
-            "locations": [[4180.5, 224.5]]
-        }
+  {
+    "NYCPennStation": {
+      "name": "Penn Station",
+      "lines": [
+        "Babylon",
+        "Belmont Park",
+        "Far Rockaway",
+        "Hempstead",
+        "Long Beach",
+        "Montauk",
+        "Oyster Bay",
+        "Port Jefferson",
+        "Port Washington",
+        "Ronkonkoma",
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          194,
+          1700
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "MTA-LIRR-LongIslandCity": {
+      "name": "Long Island City",
+      "lines": [
+        "Port Jefferson",
+        "Oyster Bay",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          319,
+          1734
+        ]
+      ]
+    },
+    "MTA-LIRR-HunterspointAv": {
+      "name": "Hunterspoint Av",
+      "lines": [
+        "Port Jefferson",
+        "Oyster Bay",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          373,
+          1717
+        ]
+      ]
+    },
+    "MTA-LIRR-Woodside": {
+      "name": "Woodside",
+      "lines": [
+        "Port Washington",
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          478,
+          1683
+        ]
+      ]
+    },
+    "MTA-LIRR-ForestHills": {
+      "name": "Forest Hills",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          727,
+          1790
+        ]
+      ]
+    },
+    "MTA-LIRR-KewGardens": {
+      "name": "Kew Gardens",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Ronkonkoma",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          783,
+          1815
+        ]
+      ]
+    },
+    "MTA-LIRR-EastNY": {
+      "name": "East NY",
+      "lines": [
+        "Atlantic"
+      ],
+      "locations": [
+        [
+          579,
+          2011
+        ]
+      ]
+    },
+    "MTA-LIRR-NostrandAv": {
+      "name": "Nostrand Av",
+      "lines": [
+        "Atlantic"
+      ],
+      "locations": [
+        [
+          398,
+          2030
+        ]
+      ]
+    },
+    "MTA-LIRR-AtlanticTerminal": {
+      "name": "Atlantic Terminal-Brooklyn",
+      "lines": [
+        "Atlantic"
+      ],
+      "locations": [
+        [
+          326,
+          2021
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "MTA-LIRR-Jamaica": {
+      "name": "Jamaica",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson",
+        "Oyster Bay",
+        "Ronkonkoma",
+        "Montauk",
+        "West Hempstead",
+        "Babylon",
+        "Long Beach",
+        "Far Rockaway",
+        "Belmont Park"
+      ],
+      "locations": [
+        [
+          871,
+          1858
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "MTA-LIRR-MetsWilletsPoint": {
+      "name": "Mets-Willets Point",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          711,
+          1647
+        ]
+      ]
+    },
+    "MTA-LIRR-Flushing": {
+      "name": "Flushing-Main St",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          766,
+          1611
+        ]
+      ]
+    },
+    "MTA-LIRR-MurrayHill": {
+      "name": "Murray Hill",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          813,
+          1587
+        ]
+      ]
+    },
+    "MTA-LIRR-Broadway": {
+      "name": "Broadway",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          861.5,
+          1576
+        ]
+      ]
+    },
+    "MTA-LIRR-Auburndale": {
+      "name": "Auburndale",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          901,
+          1568.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Bayside": {
+      "name": "Bayside",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          955,
+          1558
+        ]
+      ]
+    },
+    "MTA-LIRR-Douglaston": {
+      "name": "Douglaston",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1003.5,
+          1535
+        ]
+      ]
+    },
+    "MTA-LIRR-LittleNeck": {
+      "name": "Little Neck",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1029,
+          1503
+        ]
+      ]
+    },
+    "MTA-LIRR-GreatNeck": {
+      "name": "Great Neck",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1071.5,
+          1436.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Manhasset": {
+      "name": "Manhasset",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1127.5,
+          1385
+        ]
+      ]
+    },
+    "MTA-LIRR-Plandome": {
+      "name": "Plandome",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1159,
+          1292
+        ]
+      ]
+    },
+    "MTA-LIRR-PortWashington": {
+      "name": "Port Washington",
+      "lines": [
+        "Port Washington"
+      ],
+      "locations": [
+        [
+          1159,
+          1237
+        ]
+      ]
+    },
+    "MTA-LIRR-LocustManor": {
+      "name": "Locust Manor",
+      "lines": [
+        "Far Rockaway",
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          970,
+          1989
+        ]
+      ]
+    },
+    "MTA-LIRR-Laurelton": {
+      "name": "Laurelton",
+      "lines": [
+        "Far Rockaway",
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1089,
+          2058
+        ]
+      ]
+    },
+    "MTA-LIRR-Rosedale": {
+      "name": "Rosedale",
+      "lines": [
+        "Far Rockaway",
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1170.5,
+          2056
+        ]
+      ]
+    },
+    "MTA-LIRR-ValleyStream": {
+      "name": "Valley Stream",
+      "lines": [
+        "Far Rockaway",
+        "Long Beach",
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1218.5,
+          2057
+        ]
+      ]
+    },
+    "MTA-LIRR-Westwood": {
+      "name": "Westwood",
+      "lines": [
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1328.5,
+          2017.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Malverne": {
+      "name": "Malverne",
+      "lines": [
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1360.5,
+          1969
+        ]
+      ]
+    },
+    "MTA-LIRR-Lakeview": {
+      "name": "Lakeview",
+      "lines": [
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1390,
+          1916
+        ]
+      ]
+    },
+    "MTA-LIRR-HempsteadGardens": {
+      "name": "Hempstead Gardens",
+      "lines": [
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1417,
+          1850
+        ]
+      ]
+    },
+    "MTA-LIRR-WestHempstead": {
+      "name": "West Hempstead",
+      "lines": [
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1427.5,
+          1790
+        ]
+      ]
+    },
+    "MTA-LIRR-Gibson": {
+      "name": "Gibson",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1251,
+          2105
+        ]
+      ]
+    },
+    "MTA-LIRR-Hewlett": {
+      "name": "Hewlett",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1259,
+          2148
+        ]
+      ]
+    },
+    "MTA-LIRR-Woodmere": {
+      "name": "Woodmere",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1257,
+          2197
+        ]
+      ]
+    },
+    "MTA-LIRR-Cedarhurst": {
+      "name": "Cedarhurst",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1228,
+          2245
+        ]
+      ]
+    },
+    "MTA-LIRR-Lawrence": {
+      "name": "Lawrence",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1192,
+          2284
+        ]
+      ]
+    },
+    "MTA-LIRR-Inwood": {
+      "name": "Inwood",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1170.5,
+          2322
+        ]
+      ]
+    },
+    "MTA-LIRR-FarRockaway": {
+      "name": "Far Rockaway",
+      "lines": [
+        "Far Rockaway"
+      ],
+      "locations": [
+        [
+          1164.5,
+          2360.5
+        ]
+      ]
+    },
+    "MTA-LIRR-StAlbans": {
+      "name": "St. Albans",
+      "lines": [
+        "Babylon",
+        "West Hempstead"
+      ],
+      "locations": [
+        [
+          1008,
+          1894
+        ]
+      ]
+    },
+    "MTA-LIRR-Lynbrook": {
+      "name": "Lynbrook",
+      "lines": [
+        "Babylon",
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1353,
+          2056
+        ]
+      ]
+    },
+    "MTA-LIRR-CentreAv": {
+      "name": "Centre Av",
+      "lines": [
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1416,
+          2122
+        ]
+      ]
+    },
+    "MTA-LIRR-ERockaway": {
+      "name": "E. Rockaway",
+      "lines": [
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1433,
+          2159
+        ]
+      ]
+    },
+    "MTA-LIRR-Oceanside": {
+      "name": "Oceanside",
+      "lines": [
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1451,
+          2212
+        ]
+      ]
+    },
+    "MTA-LIRR-IslandPark": {
+      "name": "Island Park",
+      "lines": [
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1454,
+          2290
+        ]
+      ]
+    },
+    "MTA-LIRR-LongBeach": {
+      "name": "Long Beach",
+      "lines": [
+        "Long Beach"
+      ],
+      "locations": [
+        [
+          1443,
+          2344
+        ]
+      ]
+    },
+    "MTA-LIRR-RockvilleCentre": {
+      "name": "Rockville Centre",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1430,
+          2039
+        ]
+      ]
+    },
+    "MTA-LIRR-Baldwin": {
+      "name": "Baldwin",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1544,
+          2008
+        ]
+      ]
+    },
+    "MTA-LIRR-Freeport": {
+      "name": "Freeport",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1620,
+          1986
+        ]
+      ]
+    },
+    "MTA-LIRR-Merrick": {
+      "name": "Merrick",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1702.5,
+          1942.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Bellmore": {
+      "name": "Bellmore",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1768,
+          1904
+        ]
+      ]
+    },
+    "MTA-LIRR-Wantagh": {
+      "name": "Wantagh",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1813,
+          1878.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Seaford": {
+      "name": "Seaford",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1855,
+          1858
+        ]
+      ]
+    },
+    "MTA-LIRR-Massapequa": {
+      "name": "Massapequa",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1906,
+          1846.5
+        ]
+      ]
+    },
+    "MTA-LIRR-MassapequaPark": {
+      "name": "Massapequa Park",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          1953.5,
+          1836.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Amityville": {
+      "name": "Amityville",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          2054.5,
+          1820
+        ]
+      ]
+    },
+    "MTA-LIRR-Copiague": {
+      "name": "Copiague",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          2105.5,
+          1811.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Lindenhurst": {
+      "name": "Lindenhurst",
+      "lines": [
+        "Babylon"
+      ],
+      "locations": [
+        [
+          2178,
+          1785
+        ]
+      ]
+    },
+    "MTA-LIRR-Babylon": {
+      "name": "Babylon",
+      "lines": [
+        "Babylon",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2310,
+          1703
+        ]
+      ]
+    },
+    "MTA-LIRR-BayShore": {
+      "name": "Bay Shore",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2474,
+          1602
+        ]
+      ]
+    },
+    "MTA-LIRR-Islip": {
+      "name": "Islip",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2589,
+          1547
+        ]
+      ]
+    },
+    "MTA-LIRR-GreatRiver": {
+      "name": "Great River",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2659,
+          1512.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Oakdale": {
+      "name": "Oakdale",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2752.5,
+          1491
+        ]
+      ]
+    },
+    "MTA-LIRR-Sayville": {
+      "name": "Sayville",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          2858.5,
+          1509.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Patchogue": {
+      "name": "Patchogue",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3029,
+          1414
+        ]
+      ]
+    },
+    "MTA-LIRR-Bellport": {
+      "name": "Bellport",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3173.5,
+          1368.5
+        ]
+      ]
+    },
+    "MTA-LIRR-MasticShirley": {
+      "name": "Mastic-Shirley",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3351.5,
+          1259
+        ]
+      ]
+    },
+    "MTA-LIRR-Speonk": {
+      "name": "Speonk",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3681,
+          1151.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Westhampton": {
+      "name": "Westhampton",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3772.5,
+          1115.5
+        ]
+      ]
+    },
+    "MTA-LIRR-HamptonBays": {
+      "name": "Hampton Bays",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          3997,
+          959
+        ]
+      ]
+    },
+    "MTA-LIRR-Southampton": {
+      "name": "Southampton",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          4191,
+          899
+        ]
+      ]
+    },
+    "MTA-LIRR-Bridgehampton": {
+      "name": "Bridgehampton",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          4370.5,
+          765
+        ]
+      ]
+    },
+    "MTA-LIRR-EastHampton": {
+      "name": "East Hampton",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          4574,
+          653
+        ]
+      ]
+    },
+    "MTA-LIRR-Amagansett": {
+      "name": "Amagansett",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          4640,
+          621
+        ]
+      ]
+    },
+    "MTA-LIRR-Montauk": {
+      "name": "Montauk",
+      "lines": [
+        "Montauk"
+      ],
+      "locations": [
+        [
+          4875,
+          453
+        ]
+      ]
+    },
+    "MTA-LIRR-Hollis": {
+      "name": "Hollis",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          988,
+          1795.5
+        ]
+      ]
+    },
+    "MTA-LIRR-QueensVillage": {
+      "name": "Queens Village",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1058,
+          1763.5
+        ]
+      ]
+    },
+    "MTA-LIRR-BelmontPk": {
+      "name": "Belmont Pk",
+      "lines": [
+        "Belmont Park"
+      ],
+      "locations": [
+        [
+          1157,
+          1761
+        ]
+      ]
+    },
+    "MTA-LIRR-Elmont": {
+      "name": "Elmont",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1115,
+          1737.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Bellerose": {
+      "name": "Bellerose",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1152,
+          1723
+        ]
+      ]
+    },
+    "MTA-LIRR-FloralPark": {
+      "name": "Floral Park",
+      "lines": [
+        "Hempstead",
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1206.5,
+          1702.5
+        ]
+      ]
+    },
+    "MTA-LIRR-StewartManor": {
+      "name": "Stewart Manor",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1260,
+          1714
+        ]
+      ]
+    },
+    "MTA-LIRR-NassauBlvd": {
+      "name": "Nassau Blvd",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1319,
+          1711
+        ]
+      ]
+    },
+    "MTA-LIRR-GardenCity": {
+      "name": "Garden City",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1373,
+          1705
+        ]
+      ]
+    },
+    "MTA-LIRR-CountryLifePress": {
+      "name": "Country Life Press",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1413.5,
+          1708
+        ]
+      ]
+    },
+    "MTA-LIRR-Hempstead": {
+      "name": "Hempstead",
+      "lines": [
+        "Hempstead"
+      ],
+      "locations": [
+        [
+          1447,
+          1741
+        ]
+      ]
+    },
+    "MTA-LIRR-NewHydePk": {
+      "name": "New Hyde Pk",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1259,
+          1678
+        ]
+      ]
+    },
+    "MTA-LIRR-MerillonAv": {
+      "name": "Merillon Av",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1311,
+          1657
+        ]
+      ]
+    },
+    "MTA-LIRR-Mineola": {
+      "name": "Mineola",
+      "lines": [
+        "Port Jefferson",
+        "Ronkonkoma",
+        "Oyster Bay",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          1377.5,
+          1628.5
+        ]
+      ]
+    },
+    "MTA-LIRR-EastWilliston": {
+      "name": "East Williston",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1385,
+          1559
+        ]
+      ]
+    },
+    "MTA-LIRR-Albertson": {
+      "name": "Albertson",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1376,
+          1474
+        ]
+      ]
+    },
+    "MTA-LIRR-Roslyn": {
+      "name": "Roslyn",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1375.5,
+          1398.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Greenvale": {
+      "name": "Greenvale",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1383,
+          1295
+        ]
+      ]
+    },
+    "MTA-LIRR-GlenHead": {
+      "name": "Glen Head",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1395.5,
+          1223.5
+        ]
+      ]
+    },
+    "MTA-LIRR-SeaCliff": {
+      "name": "Sea Cliff",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1386,
+          1167
+        ]
+      ]
+    },
+    "MTA-LIRR-GlenStreet": {
+      "name": "Glen Street",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1392,
+          1119
+        ]
+      ]
+    },
+    "MTA-LIRR-GlenCove": {
+      "name": "Glen Cove",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1434,
+          1069.5
+        ]
+      ]
+    },
+    "MTA-LIRR-LocustValley": {
+      "name": "Locust Valley",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1478,
+          1041
+        ]
+      ]
+    },
+    "MTA-LIRR-OysterBay": {
+      "name": "Oyster Bay",
+      "lines": [
+        "Oyster Bay"
+      ],
+      "locations": [
+        [
+          1650.5,
+          1046.5
+        ]
+      ]
+    },
+    "MTA-LIRR-CarlePlace": {
+      "name": "Carle Place",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1486.5,
+          1584.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Westbury": {
+      "name": "Westbury",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1565.5,
+          1550
+        ]
+      ]
+    },
+    "MTA-LIRR-Hicksville": {
+      "name": "Hicksville",
+      "lines": [
+        "Port Jefferson",
+        "Ronkonkoma",
+        "Montauk"
+      ],
+      "locations": [
+        [
+          1699,
+          1491.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Syosset": {
+      "name": "Syosset",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1778.5,
+          1237.5
+        ]
+      ]
+    },
+    "MTA-LIRR-ColdSpringHarbor": {
+      "name": "Cold Spring Harbor",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          1907,
+          1175
+        ]
+      ]
+    },
+    "MTA-LIRR-Huntington": {
+      "name": "Huntington",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2018,
+          1105
+        ]
+      ]
+    },
+    "MTA-LIRR-Greenlawn": {
+      "name": "Greenlawn",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2133,
+          1041
+        ]
+      ]
+    },
+    "MTA-LIRR-Northport": {
+      "name": "Northport",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2235.5,
+          988.5
+        ]
+      ]
+    },
+    "MTA-LIRR-KingsPark": {
+      "name": "Kings Park",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2394.5,
+          983
+        ]
+      ]
+    },
+    "MTA-LIRR-Smithtown": {
+      "name": "Smithtown",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2581.5,
+          1054.5
+        ]
+      ]
+    },
+    "MTA-LIRR-StJames": {
+      "name": "St. James",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2632.5,
+          978
+        ]
+      ]
+    },
+    "MTA-LIRR-StonyBrook": {
+      "name": "Stony Brook",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2720,
+          813
+        ]
+      ]
+    },
+    "MTA-LIRR-PortJefferson": {
+      "name": "Port Jefferson",
+      "lines": [
+        "Port Jefferson"
+      ],
+      "locations": [
+        [
+          2886.5,
+          758
+        ]
+      ]
+    },
+    "MTA-LIRR-Bethpage": {
+      "name": "Bethpage",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          1851.5,
+          1593
+        ]
+      ]
+    },
+    "MTA-LIRR-Farmingdale": {
+      "name": "Farmingdale",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          1962,
+          1592
+        ]
+      ]
+    },
+    "MTA-LIRR-Pinelawn": {
+      "name": "Pinelawn",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2079,
+          1539
+        ]
+      ]
+    },
+    "MTA-LIRR-Wyandanch": {
+      "name": "Wyandanch",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2197.5,
+          1485
+        ]
+      ]
+    },
+    "MTA-LIRR-DeerPark": {
+      "name": "Deer Park",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2276.5,
+          1449.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Brentwood": {
+      "name": "Brentwood",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2434.5,
+          1386
+        ]
+      ]
+    },
+    "MTA-LIRR-CentralIslip": {
+      "name": "Central Islip",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2554,
+          1337
+        ]
+      ]
+    },
+    "MTA-LIRR-Ronkonkoma": {
+      "name": "Ronkonkoma",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          2771,
+          1258
+        ]
+      ]
+    },
+    "MTA-LIRR-Medford": {
+      "name": "Medford",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          3055.5,
+          1198.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Yaphank": {
+      "name": "Yaphank",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          3234,
+          1148
+        ]
+      ]
+    },
+    "MTA-LIRR-Riverhead": {
+      "name": "Riverhead",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          3705.5,
+          808.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Mattituck": {
+      "name": "Mattituck",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          3929,
+          597
+        ]
+      ]
+    },
+    "MTA-LIRR-Southold": {
+      "name": "Southold",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          4086,
+          370.5
+        ]
+      ]
+    },
+    "MTA-LIRR-Greenport": {
+      "name": "Greenport",
+      "lines": [
+        "Ronkonkoma"
+      ],
+      "locations": [
+        [
+          4180.5,
+          224.5
+        ]
+      ]
     }
+  }
 ]

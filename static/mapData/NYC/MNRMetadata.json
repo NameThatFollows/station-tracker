@@ -1,61 +1,61 @@
 {
-    "mapWidth": 3885,
-    "mapHeight": 3448,
-    "tileSize": 2500,
-    "mapRows": 2,
-    "mapCols": 2,
-    "dotRadius": 12,
-    "dpi": 300,
-    "minZoom": 0.4,
-    "maxZoom": 1,
-    "lines": [
-        [
-            {
-                "key": "Harlem",
-                "name": "Harlem"
-            },
-            {
-                "key": "Hudson",
-                "name": "Hudson"
-            },
-            {
-                "key": "New Haven",
-                "name": "New Haven"
-            },
-            {
-                "key": "Danbury",
-                "name": "Danbury"
-            },
-            {
-                "key": "New Canaan",
-                "name": "New Canaan"
-            },
-            {
-                "key": "Waterbury",
-                "name": "Waterbury"
-            },
-            {
-                "key": "Pascack Valley",
-                "name": "Pascack Valley"
-            },
-            {
-                "key": "Port Jervis",
-                "name": "Port Jervis"
-            }
-        ],
-        [
-            {
-                "key": "Bergen County",
-                "name": "NJ Transit: Bergen County"
-            },
-            {
-                "key": "Main Line",
-                "name": "NJ Transit: Main Line"
-            },
-            {
-                "key": "Pascack Valley",
-                "name": "NJ Transit: Pascack Valley"
-            }
-        ]
+  "mapWidth": 3885,
+  "mapHeight": 3448,
+  "tileSize": 2500,
+  "mapRows": 2,
+  "mapCols": 2,
+  "dotRadius": 12,
+  "dpi": 300,
+  "minZoom": 0.4,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "Harlem",
+        "name": "Harlem"
+      },
+      {
+        "key": "Hudson",
+        "name": "Hudson"
+      },
+      {
+        "key": "New Haven",
+        "name": "New Haven"
+      },
+      {
+        "key": "Danbury",
+        "name": "Danbury"
+      },
+      {
+        "key": "New Canaan",
+        "name": "New Canaan"
+      },
+      {
+        "key": "Waterbury",
+        "name": "Waterbury"
+      },
+      {
+        "key": "Pascack Valley",
+        "name": "Pascack Valley"
+      },
+      {
+        "key": "Port Jervis",
+        "name": "Port Jervis"
+      }
+    ],
+    [
+      {
+        "key": "Bergen County",
+        "name": "NJ Transit: Bergen County"
+      },
+      {
+        "key": "Main Line",
+        "name": "NJ Transit: Main Line"
+      },
+      {
+        "key": "Pascack Valley",
+        "name": "NJ Transit: Pascack Valley"
+      }
     ]
+  ]
 }

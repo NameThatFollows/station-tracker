@@ -1,117 +1,117 @@
 {
-    "mapWidth": 6300,
-    "mapHeight": 9900,
-    "tileSize": 2500,
-    "mapRows": 4,
-    "mapCols": 3,
-    "dotRadius": 30,
-    "dpi": 300,
-    "minZoom": 0.4,
-    "maxZoom": 1,
-    "lines": [
-        [
-            {
-                "key": "Atlantic City",
-                "name": "Atlantic City"
-            },
-            {
-                "key": "Main Line",
-                "name": "Main Line"
-            },
-            {
-                "key": "Bergen County",
-                "name": "Bergen County"
-            },
-            {
-                "key": "Pascack Valley",
-                "name": "Pascack Valley"
-            },
-            {
-                "key": "Meadowlands",
-                "name": "Meadowlands"
-            },
-            {
-                "key": "Montclair-Boonton",
-                "name": "Montclair-Boonton"
-            },
-            {
-                "key": "Morristown",
-                "name": "Morristown"
-            },
-            {
-                "key": "Gladstone",
-                "name": "Gladstone"
-            },
-            {
-                "key": "Northeast Corridor",
-                "name": "Northeast Corridor"
-            },
-            {
-                "key": "Princeton",
-                "name": "Princeton Dinky"
-            },
-            {
-                "key": "North Jersey Coast",
-                "name": "North Jersey Coast"
-            },
-            {
-                "key": "Raritan Valley",
-                "name": "Raritan Valley"
-            }
-        ],
-        [
-            {
-                "key": "PATCO",
-                "name": "PATCO"
-            },
-            {
-                "key": "River Line",
-                "name": "River Line"
-            },
-            {
-                "key": "Grove Street",
-                "name": "Newark Light Rail: Grove Street-Newark Penn Station"
-            },
-            {
-                "key": "Broad Street",
-                "name": "Newark Light Rail: Broad Street Station-Newark Penn Station"
-            },
-            {
-                "key": "HB-33",
-                "name": "PATH: Hoboken-33rd Street"
-            },
-            {
-                "key": "JS-33",
-                "name": "PATH: Journal Square-33rd Street"
-            },
-            {
-                "key": "N-WTC",
-                "name": "PATH: Newark-World Trade Center"
-            },
-            {
-                "key": "HB-WTC",
-                "name": "PATH: Hoboken-World Trade Center"
-            },
-            {
-                "key": "Tonnelle-Hoboken",
-                "name": "HBLR: Tonnelle Avenue-Hoboken Terminal"
-            },
-            {
-                "key": "West Side-Tonnelle",
-                "name": "HBLR: West Side Avenue-Tonnelle Avenue"
-            },
-            {
-                "key": "8th-Hoboken",
-                "name": "HBLR: 8th Street-Hoboken Terminal"
-            },
-            {
-                "key": "AirTrain Newark",
-                "name": "AirTrain Newark"
-            },
-            {
-                "key": "Port Jervis",
-                "name": "Metro-North: Port Jervis"
-            }
-        ]
+  "mapWidth": 6300,
+  "mapHeight": 9900,
+  "tileSize": 2500,
+  "mapRows": 4,
+  "mapCols": 3,
+  "dotRadius": 30,
+  "dpi": 300,
+  "minZoom": 0.4,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "Atlantic City",
+        "name": "Atlantic City"
+      },
+      {
+        "key": "Main Line",
+        "name": "Main Line"
+      },
+      {
+        "key": "Bergen County",
+        "name": "Bergen County"
+      },
+      {
+        "key": "Pascack Valley",
+        "name": "Pascack Valley"
+      },
+      {
+        "key": "Meadowlands",
+        "name": "Meadowlands"
+      },
+      {
+        "key": "Montclair-Boonton",
+        "name": "Montclair-Boonton"
+      },
+      {
+        "key": "Morristown",
+        "name": "Morristown"
+      },
+      {
+        "key": "Gladstone",
+        "name": "Gladstone"
+      },
+      {
+        "key": "Northeast Corridor",
+        "name": "Northeast Corridor"
+      },
+      {
+        "key": "Princeton",
+        "name": "Princeton Dinky"
+      },
+      {
+        "key": "North Jersey Coast",
+        "name": "North Jersey Coast"
+      },
+      {
+        "key": "Raritan Valley",
+        "name": "Raritan Valley"
+      }
+    ],
+    [
+      {
+        "key": "PATCO",
+        "name": "PATCO"
+      },
+      {
+        "key": "River Line",
+        "name": "River Line"
+      },
+      {
+        "key": "Grove Street",
+        "name": "Newark Light Rail: Grove Street-Newark Penn Station"
+      },
+      {
+        "key": "Broad Street",
+        "name": "Newark Light Rail: Broad Street Station-Newark Penn Station"
+      },
+      {
+        "key": "HB-33",
+        "name": "PATH: Hoboken-33rd Street"
+      },
+      {
+        "key": "JS-33",
+        "name": "PATH: Journal Square-33rd Street"
+      },
+      {
+        "key": "N-WTC",
+        "name": "PATH: Newark-World Trade Center"
+      },
+      {
+        "key": "HB-WTC",
+        "name": "PATH: Hoboken-World Trade Center"
+      },
+      {
+        "key": "Tonnelle-Hoboken",
+        "name": "HBLR: Tonnelle Avenue-Hoboken Terminal"
+      },
+      {
+        "key": "West Side-Tonnelle",
+        "name": "HBLR: West Side Avenue-Tonnelle Avenue"
+      },
+      {
+        "key": "8th-Hoboken",
+        "name": "HBLR: 8th Street-Hoboken Terminal"
+      },
+      {
+        "key": "AirTrain Newark",
+        "name": "AirTrain Newark"
+      },
+      {
+        "key": "Port Jervis",
+        "name": "Metro-North: Port Jervis"
+      }
     ]
+  ]
 }

@@ -1,1342 +1,3163 @@
 [
-    {
-        "NYCPennStation": {
-            "name": "New York Penn Station",
-            "lines": ["Montclair-Boonton", "Morristown", "Gladstone", "Northeast Corridor", "North Jersey Coast", "Raritan Valley"],
-            "locations": [[5506, 2375]],
-            "dotRadius": 65
-        },
-        "Philadelphia30thStreet": {
-            "name": "Philadelphia 30th Street Station",
-            "lines": ["Atlantic City"],
-            "locations": [[1783, 6308]],
-            "dotRadius": 65
-        },
-        "NJT-HobokenTerminal": {
-            "name": "Hoboken Terminal",
-            "lines": ["North Jersey Coast", "Raritan Valley", "Montclair-Boonton", "Morristown", "Gladstone", "Pascack Valley", "Main Line", "Bergen County", "Meadowlands"],
-            "locations": [[5195.5, 2915]],
-            "dotRadius": 65
-        },
-        "NJT-Secaucus": {
-            "name": "Secaucus Junction",
-            "lines": ["Northeast Corridor", "North Jersey Coast", "Raritan Valley", "Montclair-Boonton", "Morristown", "Gladstone", "Pascack Valley", "Main Line", "Bergen County", "Meadowlands"],
-            "locations": [[4796, 2545]],
-            "dotRadius": 65
-        },
-        "NJT-NewarkBroadSt": {
-            "name": "Newark Broad St",
-            "lines": ["Montclair-Boonton", "Morristown", "Gladstone"],
-            "locations": [[4124, 2934]],
-            "dotRadius": 65
-        },
-        "NJT-NewarkPennStation": {
-            "name": "Newark Penn Station",
-            "lines": ["North Jersey Coast", "Raritan Valley", "Northeast Corridor"],
-            "locations": [[4377, 3215]],
-            "dotRadius": 65
-        },
-        "NJT-Kingsland": {
-            "name": "Kingsland",
-            "lines": ["Main Line"],
-            "locations": [[4170, 2316.5]]
-        },
-        "NJT-Lyndhurst": {
-            "name": "Lyndhurst",
-            "lines": ["Main Line"],
-            "locations": [[4113.5, 2262.5]]
-        },
-        "NJT-Delawanna": {
-            "name": "Delawanna",
-            "lines": ["Main Line"],
-            "locations": [[4064.5, 2213.5]]
-        },
-        "NJT-Passaic": {
-            "name": "Passaic",
-            "lines": ["Main Line"],
-            "locations": [[4015, 2165]]
-        },
-        "NJT-Clifton": {
-            "name": "Clifton",
-            "lines": ["Main Line"],
-            "locations": [[3960.5, 2115]]
-        },
-        "NJT-Paterson": {
-            "name": "Paterson",
-            "lines": ["Main Line"],
-            "locations": [[3932, 1931.5]]
-        },
-        "NJT-Hawthorne": {
-            "name": "Hawthorne",
-            "lines": ["Main Line"],
-            "locations": [[3932, 1850.5]]
-        },
-        "NJT-GlenRock-MainLine": {
-            "name": "Glen Rock Main Line",
-            "lines": ["Main Line"],
-            "locations": [[3931, 1699]]
-        },
-        "NJT-Ridgewood": {
-            "name": "Ridgewood",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1603]]
-        },
-        "NJT-HoHoKus": {
-            "name": "Ho-Ho-Kus",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1515]]
-        },
-        "NJT-Waldwick": {
-            "name": "Waldwick",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1426.5]]
-        },
-        "NJT-Allendale": {
-            "name": "Allendale",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1338]]
-        },
-        "NJT-Ramsey": {
-            "name": "Ramsey",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1250]]
-        },
-        "NJT-RamseyRoute17": {
-            "name": "Ramsey-Route 17",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1162]]
-        },
-        "NJT-Mahwah": {
-            "name": "Mahwah, NJ",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 1074]]
-        },
-        "MTA-MNR-Suffern": {
-            "name": "Suffern, NY",
-            "lines": ["Main Line", "Bergen County"],
-            "locations": [[3969, 985.5]]
-        },
-        "NJT-Rutherford": {
-            "name": "Rutherford",
-            "lines": ["Bergen County"],
-            "locations": [[4444, 2202]]
-        },
-        "NJT-Wesmont": {
-            "name": "Wesmont",
-            "lines": ["Bergen County"],
-            "locations": [[4380.5, 2143]]
-        },
-        "NJT-Garfield": {
-            "name": "Garfield",
-            "lines": ["Bergen County"],
-            "locations": [[4316.5, 2085]]
-        },
-        "NJT-Plauderville": {
-            "name": "Plaunderville",
-            "lines": ["Bergen County"],
-            "locations": [[4253, 2026]]
-        },
-        "NJT-Broadway-Fairlawn": {
-            "name": "Broadway-Fairlawn",
-            "lines": ["Bergen County"],
-            "locations": [[4189.5, 1968]]
-        },
-        "NJT-Radburn-Fairlawn": {
-            "name": "Radburn-Fairlawn",
-            "lines": ["Bergen County"],
-            "locations": [[4126, 1909]]
-        },
-        "NJT-GlenRockBoroHall": {
-            "name": "Glen Rock Boro Hall",
-            "lines": ["Bergen County"],
-            "locations": [[4007.5, 1699.5]]
-        },
-        "NJT-MeadowlandsSportsComplex": {
-            "name": "Meadowlands Sports Complex",
-            "lines": ["Meadowlands"],
-            "locations": [[4796, 2316]]
-        },
-        "NJT-WoodRidge": {
-            "name": "Wood-Ridge",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 2180]]
-        },
-        "NJT-TeterboroWilliamsAv": {
-            "name": "Teterboro-Williams Av",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 2092]]
-        },
-        "NJT-EssexStHackensack": {
-            "name": "Essex St-Hackensack",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 2004]]
-        },
-        "NJT-AndersonStHackensack": {
-            "name": "Anderson St-Hackensack",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1916]]
-        },
-        "NJT-NewBridgeLanding": {
-            "name": "New Bridge Landing",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1836]]
-        },
-        "NJT-RiverEdge": {
-            "name": "River Edge",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1756]]
-        },
-        "NJT-Oradell": {
-            "name": "Oradell",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1676]]
-        },
-        "NJT-Emerson": {
-            "name": "Emerson",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1600]]
-        },
-        "NJT-Westwood": {
-            "name": "Westwood",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1528]]
-        },
-        "NJT-Hillsdale": {
-            "name": "Hillsdale",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1448]]
-        },
-        "NJT-WoodcliffLake": {
-            "name": "Woodcliff Lake",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1372]]
-        },
-        "NJT-ParkRidge": {
-            "name": "Park Ridge",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1301]]
-        },
-        "NJT-Montvale": {
-            "name": "Montvale, NJ",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1224]]
-        },
-        "MTA-MNR-PearlRiver": {
-            "name": "Pearl River, NY",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1131]]
-        },
-        "MTA-MNR-Nanuet": {
-            "name": "Nanuet",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 1060]]
-        },
-        "MTA-MNR-SpringValley": {
-            "name": "Spring Valley",
-            "lines": ["Pascack Valley"],
-            "locations": [[4644, 990]]
-        },
-        "NJT-Watsessing": {
-            "name": "Watsessing",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3793, 2832]]
-        },
-        "NJT-Bloomfield": {
-            "name": "Bloomfield",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3764, 2756]]
-        },
-        "NJT-GlenRidge": {
-            "name": "Glen Ridge",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3765, 2675]]
-        },
-        "NJT-BaySt": {
-            "name": "Bay St",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3764, 2597]]
-        },
-        "NJT-WalnutSt": {
-            "name": "Walnut St",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3756, 2511]]
-        },
-        "NJT-WatchungAve": {
-            "name": "Watchung Ave",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3717, 2444]]
-        },
-        "NJT-UpperMontclair": {
-            "name": "Upper Montclair",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3654, 2373]]
-        },
-        "NJT-MountainAve": {
-            "name": "Mountain Ave",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3588, 2306]]
-        },
-        "NJT-MontclairHeights": {
-            "name": "Montclair Heights",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3522, 2239]]
-        },
-        "NJT-MontclairStateUniversity": {
-            "name": "Montclair State University",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3456, 2170]]
-        },
-        "NJT-LittleFalls": {
-            "name": "Little Falls",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3377, 2091]]
-        },
-        "NJT-WayneRt23": {
-            "name": "Wayne Rt. 23",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3270, 2087]]
-        },
-        "NJT-MountainViewWayne": {
-            "name": "Mountain View Wayne",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3168, 2087]]
-        },
-        "NJT-LincolnPark": {
-            "name": "Lincoln Park",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[3072, 2087]]
-        },
-        "NJT-Towaco": {
-            "name": "Towaco",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[2969, 2087]]
-        },
-        "NJT-Boonton": {
-            "name": "Boonton",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[2876, 2126]]
-        },
-        "NJT-MountainLakes": {
-            "name": "Mountain Lakes",
-            "lines": ["Montclair-Boonton"],
-            "locations": [[2799, 2204]]
-        },
-        "NJT-Denville": {
-            "name": "Denville",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2558, 2378]]
-        },
-        "NJT-Dover": {
-            "name": "Dover",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2460, 2378]]
-        },
-        "NJT-MountArlington": {
-            "name": "Mount Arlington",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2362, 2378]]
-        },
-        "NJT-LakeHopatcong": {
-            "name": "Lake Hopatcong",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2264, 2378]]
-        },
-        "NJT-Netcong": {
-            "name": "Netcong",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2167, 2378]]
-        },
-        "NJT-MountOlive": {
-            "name": "Mount Olive",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[2068, 2378]]
-        },
-        "NJT-Hackettstown": {
-            "name": "Hackettstown",
-            "lines": ["Montclair-Boonton", "Morristown"],
-            "locations": [[1965, 2441]]
-        },
-        "NJT-EOrange": {
-            "name": "E. Orange",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3801, 2967]]
-        },
-        "NJT-BrickChurch": {
-            "name": "Brick Church",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3705, 2967]]
-        },
-        "NJT-Orange": {
-            "name": "Orange",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3614, 2967]]
-        },
-        "NJT-HighlandAve": {
-            "name": "Highland Ave",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3517, 2967]]
-        },
-        "NJT-MountainStation": {
-            "name": "Mountain Station",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3420, 2967]]
-        },
-        "NJT-SouthOrange": {
-            "name": "South Orange",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3324, 2967]]
-        },
-        "NJT-Maplewood": {
-            "name": "Maplewood",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3228, 2967]]
-        },
-        "NJT-Millburn": {
-            "name": "Millburn",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3132, 2967]]
-        },
-        "NJT-ShortHills": {
-            "name": "Short Hills",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[3037, 2967]]
-        },
-        "NJT-Summit": {
-            "name": "Summit",
-            "lines": ["Morristown", "Gladstone"],
-            "locations": [[2941, 2967]]
-        },
-        "NJT-Chatham": {
-            "name": "Chatham",
-            "lines": ["Morristown"],
-            "locations": [[2925, 2842]]
-        },
-        "NJT-Madison": {
-            "name": "Madison",
-            "lines": ["Morristown"],
-            "locations": [[2896, 2767]]
-        },
-        "NJT-ConventStation": {
-            "name": "Convent Station",
-            "lines": ["Morristown"],
-            "locations": [[2839, 2705]]
-        },
-        "NJT-Morristown": {
-            "name": "Morristown",
-            "lines": ["Morristown"],
-            "locations": [[2781, 2643]]
-        },
-        "NJT-MorrisPlains": {
-            "name": "Morris Plains",
-            "lines": ["Morristown"],
-            "locations": [[2723, 2579]]
-        },
-        "NJT-MountTabor": {
-            "name": "Mount Tabor",
-            "lines": ["Morristown"],
-            "locations": [[2656, 2513]]
-        },
-        "NJT-NewProvidence": {
-            "name": "New Providence",
-            "lines": ["Gladstone"],
-            "locations": [[2870, 3039]]
-        },
-        "NJT-MurrayHill": {
-            "name": "Murray Hill",
-            "lines": ["Gladstone"],
-            "locations": [[2815, 3088]]
-        },
-        "NJT-BerkeleyHeights": {
-            "name": "Berkeley Heights",
-            "lines": ["Gladstone"],
-            "locations": [[2761, 3141]]
-        },
-        "NJT-Gillette": {
-            "name": "Gillette",
-            "lines": ["Gladstone"],
-            "locations": [[2694, 3148]]
-        },
-        "NJT-Stirling": {
-            "name": "Sterling",
-            "lines": ["Gladstone"],
-            "locations": [[2624, 3148]]
-        },
-        "NJT-Millington": {
-            "name": "Millington",
-            "lines": ["Gladstone"],
-            "locations": [[2549, 3148]]
-        },
-        "NJT-Lyons": {
-            "name": "Lyons",
-            "lines": ["Gladstone"],
-            "locations": [[2489, 3085]]
-        },
-        "NJT-BaskingRidge": {
-            "name": "Basking Ridge",
-            "lines": ["Gladstone"],
-            "locations": [[2439, 3028]]
-        },
-        "NJT-Bernardsville": {
-            "name": "Bernardsville",
-            "lines": ["Gladstone"],
-            "locations": [[2350, 3054]]
-        },
-        "NJT-FarHills": {
-            "name": "Far Hills",
-            "lines": ["Gladstone"],
-            "locations": [[2280, 3071]]
-        },
-        "NJT-Peapack": {
-            "name": "Peapack",
-            "lines": ["Gladstone"],
-            "locations": [[2218, 3007]]
-        },
-        "NJT-Gladstone": {
-            "name": "Gladstone",
-            "lines": ["Gladstone"],
-            "locations": [[2156, 2942]]
-        },
-        "NJT-Union": {
-            "name": "Union",
-            "lines": ["Raritan Valley"],
-            "locations": [[4003, 3571]]
-        },
-        "NJT-RosellePark": {
-            "name": "Roselle Park",
-            "lines": ["Raritan Valley"],
-            "locations": [[3840, 3593]]
-        },
-        "NJT-Cranford": {
-            "name": "Cranford",
-            "lines": ["Raritan Valley"],
-            "locations": [[3696, 3593]]
-        },
-        "NJT-Garwood": {
-            "name": "Garwood",
-            "lines": ["Raritan Valley"],
-            "locations": [[3555, 3593]]
-        },
-        "NJT-Westfield": {
-            "name": "Westfield",
-            "lines": ["Raritan Valley"],
-            "locations": [[3411, 3593]]
-        },
-        "NJT-Fanwood": {
-            "name": "Fanwood",
-            "lines": ["Raritan Valley"],
-            "locations": [[3270, 3654]]
-        },
-        "NJT-Netherwood": {
-            "name": "Netherwood",
-            "lines": ["Raritan Valley"],
-            "locations": [[3205, 3724]]
-        },
-        "NJT-Plainfield": {
-            "name": "Plainfield",
-            "lines": ["Raritan Valley"],
-            "locations": [[3132, 3795]]
-        },
-        "NJT-Dunellen": {
-            "name": "Dunellen",
-            "lines": ["Raritan Valley"],
-            "locations": [[3054, 3879]]
-        },
-        "NJT-BoundBrook": {
-            "name": "Bound Brook",
-            "lines": ["Raritan Valley"],
-            "locations": [[2914, 3933]]
-        },
-        "NJT-Bridgewater": {
-            "name": "Bridgewater",
-            "lines": ["Raritan Valley"],
-            "locations": [[2822, 3933]]
-        },
-        "NJT-Somerville": {
-            "name": "Somerville",
-            "lines": ["Raritan Valley"],
-            "locations": [[2726, 3933]]
-        },
-        "NJT-Raritan": {
-            "name": "Raritan",
-            "lines": ["Raritan Valley"],
-            "locations": [[2631, 3933]]
-        },
-        "NJT-NorthBranch": {
-            "name": "North Branch",
-            "lines": ["Raritan Valley"],
-            "locations": [[2444, 3780]]
-        },
-        "NJT-WhiteHouse": {
-            "name": "White House",
-            "lines": ["Raritan Valley"],
-            "locations": [[2317, 3716]]
-        },
-        "NJT-Lebanon": {
-            "name": "Lebanon",
-            "lines": ["Raritan Valley"],
-            "locations": [[2226, 3712]]
-        },
-        "NJT-Annandale": {
-            "name": "Annandale",
-            "lines": ["Raritan Valley"],
-            "locations": [[2155, 3681]]
-        },
-        "NJT-HighBridge": {
-            "name": "High Bridge",
-            "lines": ["Raritan Valley"],
-            "locations": [[2098, 3607]]
-        },
-        "NJT-NewarkAirport": {
-            "name": "Newark Liberty Int'l Airport",
-            "lines": ["North Jersey Coast", "Northeast Corridor"],
-            "locations": [[4408, 3405]]
-        },
-        "NJT-NElizabeth": {
-            "name": "N. Elizabeth",
-            "lines": ["North Jersey Coast", "Northeast Corridor"],
-            "locations": [[4408, 3522]]
-        },
-        "NJT-Elizabeth": {
-            "name": "Elizabeth",
-            "lines": ["North Jersey Coast", "Northeast Corridor"],
-            "locations": [[4408, 3639]]
-        },
-        "NJT-Linden": {
-            "name": "Linden",
-            "lines": ["North Jersey Coast", "Northeast Corridor"],
-            "locations": [[4408, 3752]]
-        },
-        "NJT-Rahway": {
-            "name": "Rahway",
-            "lines": ["North Jersey Coast", "Northeast Corridor"],
-            "locations": [[4408, 3865]]
-        },
-        "NJT-Metropark": {
-            "name": "Metropark",
-            "lines": ["Northeast Corridor"],
-            "locations": [[4217, 4148]]
-        },
-        "NJT-Metuchen": {
-            "name": "Metuchen",
-            "lines": ["Northeast Corridor"],
-            "locations": [[4124, 4244]]
-        },
-        "NJT-Edison": {
-            "name": "Edison",
-            "lines": ["Northeast Corridor"],
-            "locations": [[4054, 4313]]
-        },
-        "NJT-NewBrunswick": {
-            "name": "New Brunswick",
-            "lines": ["Northeast Corridor"],
-            "locations": [[3980, 4386]]
-        },
-        "NJT-JerseyAve": {
-            "name": "Jersey Ave",
-            "lines": ["Northeast Corridor"],
-            "locations": [[3808, 4557]]
-        },
-        "NJT-PrincetonJunction": {
-            "name": "Princeton Junction",
-            "lines": ["Northeast Corridor"],
-            "locations": [[3445, 4925]]
-        },
-        "NJT-Princeton": {
-            "name": "Princeton",
-            "lines": ["Princeton"],
-            "locations": [[3346, 4824]]
-        },
-        "NJT-Hamilton": {
-            "name": "Hamilton",
-            "lines": ["Northeast Corridor"],
-            "locations": [[3341, 5029]]
-        },
-        "NJT-Trenton": {
-            "name": "Trenton",
-            "lines": ["Northeast Corridor"],
-            "locations": [[3136, 5236]],
-            "dotRadius": 65
-        },
-        "NJT-Avenel": {
-            "name": "Avenel",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4444, 4103]]
-        },
-        "NJT-Woodbridge": {
-            "name": "Woodbridge",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4446, 4281]]
-        },
-        "NJT-PerthAmboy": {
-            "name": "Perth Amboy",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4517, 4365]]
-        },
-        "NJT-SouthAmboy": {
-            "name": "South Amboy",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4595, 4442]]
-        },
-        "NJT-Aberdeen-Matawan": {
-            "name": "Aberdeen-Matawan",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4683, 4534]]
-        },
-        "NJT-Hazlet": {
-            "name": "Hazlet",
-            "lines": ["North Jersey Coast"],
-            "locations": [[4823, 4583]]
-        },
-        "NJT-Middletown": {
-            "name": "Middletown",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5038, 4595]]
-        },
-        "NJT-RedBank": {
-            "name": "Red Bank",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5127, 4688]]
-        },
-        "NJT-LittleSilver": {
-            "name": "Little Silver",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5238, 4793]]
-        },
-        "NJT-MonmouthPark": {
-            "name": "Monmouth Park",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5311, 4869]]
-        },
-        "NJT-LongBranch": {
-            "name": "Long Branch",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5408, 4984]]
-        },
-        "NJT-Elberon": {
-            "name": "Elberon",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5448, 5052]]
-        },
-        "NJT-Allenhurst": {
-            "name": "Allenhurst",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5120]]
-        },
-        "NJT-AsburyPark": {
-            "name": "Asbury Park",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5196]]
-        },
-        "NJT-BradleyBeach": {
-            "name": "Bradley Beach",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5275]]
-        },
-        "NJT-Belmar": {
-            "name": "Belmar",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5347]]
-        },
-        "NJT-SpringLake": {
-            "name": "Spring Lake",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5431]]
-        },
-        "NJT-Manasquan": {
-            "name": "Manasquan",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5509]]
-        },
-        "NJT-PointPleasantBeach": {
-            "name": "Point Pleasant Beach",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5586]]
-        },
-        "NJT-BayHead": {
-            "name": "Bay Head",
-            "lines": ["North Jersey Coast"],
-            "locations": [[5452, 5656]]
-        },
-        "NJT-Pennsauken": {
-            "name": "Pennsauken",
-            "lines": ["Atlantic City"],
-            "locations": [[2688, 6158]],
-            "dotRadius": 65
-        },
-        "NJT-CherryHill": {
-            "name": "Cherry Hill",
-            "lines": ["Atlantic City"],
-            "locations": [[2922, 6246]]
-        },
-        "NJT-Lindenwold": {
-            "name": "Lindenwold",
-            "lines": ["Atlantic City"],
-            "locations": [[3264, 6312]],
-            "dotRadius": 65
-        },
-        "NJT-Atco": {
-            "name": "Atco",
-            "lines": ["Atlantic City"],
-            "locations": [[3527, 6578]]
-        },
-        "NJT-Hammonton": {
-            "name": "Hammonton",
-            "lines": ["Atlantic City"],
-            "locations": [[3811, 6864]]
-        },
-        "NJT-EggHarborCity": {
-            "name": "Egg Harbor City",
-            "lines": ["Atlantic City"],
-            "locations": [[4088, 7139]]
-        },
-        "NJT-Absecon": {
-            "name": "Absecon",
-            "lines": ["Atlantic City"],
-            "locations": [[4388, 7441]]
-        },
-        "NJT-AtlanticCity": {
-            "name": "Atlantic City",
-            "lines": ["Atlantic City"],
-            "locations": [[4966, 8020]]
-        }
+  {
+    "NYCPennStation": {
+      "name": "New York Penn Station",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown",
+        "Gladstone",
+        "Northeast Corridor",
+        "North Jersey Coast",
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          5506,
+          2375
+        ]
+      ],
+      "dotRadius": 65
     },
-    {
-        "MTA-MNR-Suffern": {
-            "name": "Suffern, NY",
-            "lines": ["Port Jervis"],
-            "locations": [[3969, 985.5]]
-        },
-        "MTA-MNR-Sloatsburg": {
-            "name": "Sloatsburg",
-            "lines": ["Port Jervis"],
-            "locations": [[3972, 837.5]]
-        },
-        "MTA-MNR-Tuxedo": {
-            "name": "Tuxedo",
-            "lines": ["Port Jervis"],
-            "locations": [[3972, 710]]
-        },
-        "MTA-MNR-Harriman": {
-            "name": "Harriman",
-            "lines": ["Port Jervis"],
-            "locations": [[3972, 577]]
-        },
-        "MTA-MNR-SalisburyMills": {
-            "name": "Salisbury Mills-Cornwall",
-            "lines": ["Port Jervis"],
-            "locations": [[3817, 322]]
-        },
-        "MTA-MNR-CampbellHall": {
-            "name": "Campbell Hall",
-            "lines": ["Port Jervis"],
-            "locations": [[3531, 322]]
-        },
-        "MTA-MNR-Middletown": {
-            "name": "Middletown/Town of Wallkill",
-            "lines": ["Port Jervis"],
-            "locations": [[3210, 322]]
-        },
-        "MTA-MNR-Otisville": {
-            "name": "Otisville",
-            "lines": ["Port Jervis"],
-            "locations": [[2888, 321.5]]
-        },
-        "MTA-MNR-PortJervis": {
-            "name": "Port Jervis",
-            "lines": ["Port Jervis"],
-            "locations": [[2660, 439]]
-        },
-        "PATCO-1516": {
-            "name": "15th/16th & Locust St",
-            "lines": ["PATCO"],
-            "locations": [[1900, 6426]],
-            "dotRadius": 18
-        },
-        "PATCO-1213": {
-            "name": "12th/13th & Locust St",
-            "lines": ["PATCO"],
-            "locations": [[1981, 6426]],
-            "dotRadius": 18
-        },
-        "PATCO-910": {
-            "name": "9th/10th & Locust St",
-            "lines": ["PATCO"],
-            "locations": [[2056, 6426]],
-            "dotRadius": 18
-        },
-        "PATCO-8thMarket": {
-            "name": "8th St/Market St",
-            "lines": ["PATCO"],
-            "locations": [[2091, 6340]],
-            "dotRadius": 18
-        },
-        "PATCO-CityHall": {
-            "name": "City Hall",
-            "lines": ["PATCO"],
-            "locations": [[2599, 6306]],
-            "dotRadius": 18
-        },
-        "PATCO-FerryAve": {
-            "name": "Ferry Ave",
-            "lines": ["PATCO"],
-            "locations": [[2744, 6406]],
-            "dotRadius": 18
-        },
-        "PATCO-Collingswood": {
-            "name": "Collingswood",
-            "lines": ["PATCO"],
-            "locations": [[2819, 6372]],
-            "dotRadius": 18
-        },
-        "PATCO-Westmont": {
-            "name": "Westmont",
-            "lines": ["PATCO"],
-            "locations": [[2865, 6327]],
-            "dotRadius": 18
-        },
-        "PATCO-Haddonfield": {
-            "name": "Haddonfield",
-            "lines": ["PATCO"],
-            "locations": [[2965, 6320]],
-            "dotRadius": 18
-        },
-        "PATCO-Woodcrest": {
-            "name": "Woodcrest",
-            "lines": ["PATCO"],
-            "locations": [[3062, 6320]],
-            "dotRadius": 18
-        },
-        "PATCO-Ashland": {
-            "name": "Ashland",
-            "lines": ["PATCO"],
-            "locations": [[3162, 6320]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-EntertainmentCtr": {
-            "name": "Entertainment Ctr",
-            "lines": ["River Line"],
-            "locations": [[2389, 6431]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Aquarium": {
-            "name": "Aquarium",
-            "lines": ["River Line"],
-            "locations": [[2433, 6381]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-CooperSt": {
-            "name": "Cooper St/Rutgers",
-            "lines": ["River Line"],
-            "locations": [[2524, 6311]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-36St": {
-            "name": "36 St",
-            "lines": ["River Line"],
-            "locations": [[2686, 6253]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-PennsaukenRt73": {
-            "name": "Pennsauken/Rt 73",
-            "lines": ["River Line"],
-            "locations": [[2779, 6037]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Palmyra": {
-            "name": "Palmyra",
-            "lines": ["River Line"],
-            "locations": [[2828, 5979]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Riverton": {
-            "name": "Riverton",
-            "lines": ["River Line"],
-            "locations": [[2876, 5923]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Cinnaminson": {
-            "name": "Cinnaminson",
-            "lines": ["River Line"],
-            "locations": [[2920, 5873]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Riverside": {
-            "name": "Riverside",
-            "lines": ["River Line"],
-            "locations": [[2971, 5815]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Delanco": {
-            "name": "Delanco",
-            "lines": ["River Line"],
-            "locations": [[3020, 5759]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Beverly": {
-            "name": "Beverly/Edgewater Park",
-            "lines": ["River Line"],
-            "locations": [[3073, 5699]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-BurlingtonSouth": {
-            "name": "Burlington South",
-            "lines": ["River Line"],
-            "locations": [[3125, 5641]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-BurlingtonTowneCtr": {
-            "name": "Burlington Towne Ctr",
-            "lines": ["River Line"],
-            "locations": [[3180, 5580]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Florence": {
-            "name": "Florence",
-            "lines": ["River Line"],
-            "locations": [[3234, 5520]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Roebling": {
-            "name": "Roebling",
-            "lines": ["River Line"],
-            "locations": [[3288, 5455]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-Bordentown": {
-            "name": "Bordentown",
-            "lines": ["River Line"],
-            "locations": [[3296, 5386]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-CassSt": {
-            "name": "Cass St",
-            "lines": ["River Line"],
-            "locations": [[3246, 5333]],
-            "dotRadius": 18
-        },
-        "NJT-RiverLine-HamiltonAve": {
-            "name": "Hamilton Ave",
-            "lines": ["River Line"],
-            "locations": [[3197, 5287]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-P2": {
-            "name": "P2",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4533, 3514]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-P3": {
-            "name": "P3",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4533, 3478]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-TerminalA": {
-            "name": "Terminal A",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4578, 3453]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-TerminalB": {
-            "name": "Terminal B",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4606, 3407]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-TerminalC": {
-            "name": "Terminal C",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4573, 3361]],
-            "dotRadius": 18
-        },
-        "AirTrainNewark-P4": {
-            "name": "P4",
-            "lines": ["AirTrain Newark"],
-            "locations": [[4516, 3370]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-33St": {
-            "name": "33 St",
-            "lines": ["HB-33", "JS-33"],
-            "locations": [[5584, 2614]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-23St": {
-            "name": "23 St",
-            "lines": ["HB-33", "JS-33"],
-            "locations": [[5584, 2724]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-14St": {
-            "name": "14 St",
-            "lines": ["HB-33", "JS-33"],
-            "locations": [[5584, 2836]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-9St": {
-            "name": "9 St",
-            "lines": ["HB-33", "JS-33"],
-            "locations": [[5584, 2952]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-ChristopherSt": {
-            "name": "Christopher St",
-            "lines": ["HB-33", "JS-33"],
-            "locations": [[5524, 3072]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-WTC": {
-            "name": "World Trade Center",
-            "lines": ["N-WTC", "HB-WTC"],
-            "locations": [[5524, 3268]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-Newport": {
-            "name": "Newport",
-            "lines": ["HB-WTC", "JS-33"],
-            "locations": [[5179, 3117]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-GroveSt": {
-            "name": "Grove St",
-            "lines": ["N-WTC", "JS-33"],
-            "locations": [[5058, 3269]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-JournalSquare": {
-            "name": "Journal Square",
-            "lines": ["N-WTC", "JS-33"],
-            "locations": [[4924, 3194]],
-            "dotRadius": 18
-        },
-        "PANYNJ-PATH-Harrison": {
-            "name": "Harrison",
-            "lines": ["N-WTC"],
-            "locations": [[4512, 3093]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-NJPAC": {
-            "name": "NJPAC/Center Street",
-            "lines": ["Broad Street"],
-            "locations": [[4191, 3180]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-AtlanticSt": {
-            "name": "Atlantic Street",
-            "lines": ["Broad Street"],
-            "locations": [[4184, 3124]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-RiverfrontStadium": {
-            "name": "Riverfront Stadium",
-            "lines": ["Broad Street"],
-            "locations": [[4154, 3090]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-WashingtonPark": {
-            "name": "Washington Park",
-            "lines": ["Broad Street"],
-            "locations": [[4123, 3135]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-MilitaryPark": {
-            "name": "Military Park",
-            "lines": ["Grove Street"],
-            "locations": [[4168, 3220]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-WashingtonSt": {
-            "name": "Washington Street",
-            "lines": ["Grove Street"],
-            "locations": [[4104, 3220]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-WarrenSt": {
-            "name": "Warren Street/NJIT",
-            "lines": ["Grove Street"],
-            "locations": [[4042, 3216]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-NorfolkSt": {
-            "name": "Norfolk Street",
-            "lines": ["Grove Street"],
-            "locations": [[4008, 3195]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-OrangeSt": {
-            "name": "Orange Street",
-            "lines": ["Grove Street"],
-            "locations": [[3983, 3065]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-ParkAv": {
-            "name": "Park Ave",
-            "lines": ["Grove Street"],
-            "locations": [[3982, 2761]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-BloomfieldAv": {
-            "name": "Bloomfield Ave",
-            "lines": ["Grove Street"],
-            "locations": [[3982, 2700]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-DavenportAv": {
-            "name": "Davenport Ave",
-            "lines": ["Grove Street"],
-            "locations": [[3982, 2640]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-BranchBrookPark": {
-            "name": "Branch Brook Park",
-            "lines": ["Grove Street"],
-            "locations": [[3966, 2589]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-SilverLake": {
-            "name": "Silver Lake",
-            "lines": ["Grove Street"],
-            "locations": [[3917, 2580]],
-            "dotRadius": 18
-        },
-        "NJT-Newark-GroveSt": {
-            "name": "Grove St",
-            "lines": ["Grove Street"],
-            "locations": [[3863, 2581]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-TonnelleAv": {
-            "name": "Tonnelle Ave",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5069, 2242]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-BergenlineAv": {
-            "name": "Bergenline Ave",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5133, 2242]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-PortImperial": {
-            "name": "Port Imperial",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5185, 2261]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-LincolnHarbor": {
-            "name": "Lincoln Harbor",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5181, 2574]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-9St": {
-            "name": "9th St/Congress St",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5108, 2683]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-2St": {
-            "name": "2nd St",
-            "lines": ["Tonnelle-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5108, 2742]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-Newport": {
-            "name": "Newport",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5132, 3118]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-HarsimusCove": {
-            "name": "Harsimus Cove",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5133, 3163]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-Harborside": {
-            "name": "Harborside",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5216, 3220]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-EssexSt": {
-            "name": "Essex St",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5182, 3312]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-MarinBlvd": {
-            "name": "Marin Blvd",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5115, 3312]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-JerseyAv": {
-            "name": "Jersey Ave",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5048, 3312]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-LibertyStatePark": {
-            "name": "Liberty State Park",
-            "lines": ["8th-Hoboken", "West Side-Tonnelle"],
-            "locations": [[5020, 3348]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-GarfieldAv": {
-            "name": "Garfield Ave",
-            "lines": ["West Side-Tonnelle"],
-            "locations": [[4979, 3378]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-MLKBlvd": {
-            "name": "MLK Blvd",
-            "lines": ["West Side-Tonnelle"],
-            "locations": [[4907, 3378]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-WSideAv": {
-            "name": "W.Side Ave",
-            "lines": ["West Side-Tonnelle"],
-            "locations": [[4834, 3378]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-RichardSt": {
-            "name": "Richard St",
-            "lines": ["8th-Hoboken"],
-            "locations": [[5020, 3428]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-DanforthAv": {
-            "name": "Danforth Ave",
-            "lines": ["8th-Hoboken"],
-            "locations": [[5020, 3492]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-45St": {
-            "name": "45th St",
-            "lines": ["8th-Hoboken"],
-            "locations": [[5020, 3559]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-34St": {
-            "name": "34th St",
-            "lines": ["8th-Hoboken"],
-            "locations": [[5020, 3624]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-22St": {
-            "name": "22nd St",
-            "lines": ["8th-Hoboken"],
-            "locations": [[5020, 3692]],
-            "dotRadius": 18
-        },
-        "NJT-HBLR-8St": {
-            "name": "8th St",
-            "lines": ["8th-Hoboken"],
-            "locations": [[4993, 3729]],
-            "dotRadius": 18
-        }
+    "Philadelphia30thStreet": {
+      "name": "Philadelphia 30th Street Station",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          1783,
+          6308
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-HobokenTerminal": {
+      "name": "Hoboken Terminal",
+      "lines": [
+        "North Jersey Coast",
+        "Raritan Valley",
+        "Montclair-Boonton",
+        "Morristown",
+        "Gladstone",
+        "Pascack Valley",
+        "Main Line",
+        "Bergen County",
+        "Meadowlands"
+      ],
+      "locations": [
+        [
+          5195.5,
+          2915
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-Secaucus": {
+      "name": "Secaucus Junction",
+      "lines": [
+        "Northeast Corridor",
+        "North Jersey Coast",
+        "Raritan Valley",
+        "Montclair-Boonton",
+        "Morristown",
+        "Gladstone",
+        "Pascack Valley",
+        "Main Line",
+        "Bergen County",
+        "Meadowlands"
+      ],
+      "locations": [
+        [
+          4796,
+          2545
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-NewarkBroadSt": {
+      "name": "Newark Broad St",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          4124,
+          2934
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-NewarkPennStation": {
+      "name": "Newark Penn Station",
+      "lines": [
+        "North Jersey Coast",
+        "Raritan Valley",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4377,
+          3215
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-Kingsland": {
+      "name": "Kingsland",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          4170,
+          2316.5
+        ]
+      ]
+    },
+    "NJT-Lyndhurst": {
+      "name": "Lyndhurst",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          4113.5,
+          2262.5
+        ]
+      ]
+    },
+    "NJT-Delawanna": {
+      "name": "Delawanna",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          4064.5,
+          2213.5
+        ]
+      ]
+    },
+    "NJT-Passaic": {
+      "name": "Passaic",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          4015,
+          2165
+        ]
+      ]
+    },
+    "NJT-Clifton": {
+      "name": "Clifton",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          3960.5,
+          2115
+        ]
+      ]
+    },
+    "NJT-Paterson": {
+      "name": "Paterson",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          3932,
+          1931.5
+        ]
+      ]
+    },
+    "NJT-Hawthorne": {
+      "name": "Hawthorne",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          3932,
+          1850.5
+        ]
+      ]
+    },
+    "NJT-GlenRock-MainLine": {
+      "name": "Glen Rock Main Line",
+      "lines": [
+        "Main Line"
+      ],
+      "locations": [
+        [
+          3931,
+          1699
+        ]
+      ]
+    },
+    "NJT-Ridgewood": {
+      "name": "Ridgewood",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1603
+        ]
+      ]
+    },
+    "NJT-HoHoKus": {
+      "name": "Ho-Ho-Kus",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1515
+        ]
+      ]
+    },
+    "NJT-Waldwick": {
+      "name": "Waldwick",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1426.5
+        ]
+      ]
+    },
+    "NJT-Allendale": {
+      "name": "Allendale",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1338
+        ]
+      ]
+    },
+    "NJT-Ramsey": {
+      "name": "Ramsey",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1250
+        ]
+      ]
+    },
+    "NJT-RamseyRoute17": {
+      "name": "Ramsey-Route 17",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1162
+        ]
+      ]
+    },
+    "NJT-Mahwah": {
+      "name": "Mahwah, NJ",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          1074
+        ]
+      ]
+    },
+    "MTA-MNR-Suffern": {
+      "name": "Suffern, NY",
+      "lines": [
+        "Main Line",
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          3969,
+          985.5
+        ]
+      ]
+    },
+    "NJT-Rutherford": {
+      "name": "Rutherford",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4444,
+          2202
+        ]
+      ]
+    },
+    "NJT-Wesmont": {
+      "name": "Wesmont",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4380.5,
+          2143
+        ]
+      ]
+    },
+    "NJT-Garfield": {
+      "name": "Garfield",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4316.5,
+          2085
+        ]
+      ]
+    },
+    "NJT-Plauderville": {
+      "name": "Plaunderville",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4253,
+          2026
+        ]
+      ]
+    },
+    "NJT-Broadway-Fairlawn": {
+      "name": "Broadway-Fairlawn",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4189.5,
+          1968
+        ]
+      ]
+    },
+    "NJT-Radburn-Fairlawn": {
+      "name": "Radburn-Fairlawn",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4126,
+          1909
+        ]
+      ]
+    },
+    "NJT-GlenRockBoroHall": {
+      "name": "Glen Rock Boro Hall",
+      "lines": [
+        "Bergen County"
+      ],
+      "locations": [
+        [
+          4007.5,
+          1699.5
+        ]
+      ]
+    },
+    "NJT-MeadowlandsSportsComplex": {
+      "name": "Meadowlands Sports Complex",
+      "lines": [
+        "Meadowlands"
+      ],
+      "locations": [
+        [
+          4796,
+          2316
+        ]
+      ]
+    },
+    "NJT-WoodRidge": {
+      "name": "Wood-Ridge",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          2180
+        ]
+      ]
+    },
+    "NJT-TeterboroWilliamsAv": {
+      "name": "Teterboro-Williams Av",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          2092
+        ]
+      ]
+    },
+    "NJT-EssexStHackensack": {
+      "name": "Essex St-Hackensack",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          2004
+        ]
+      ]
+    },
+    "NJT-AndersonStHackensack": {
+      "name": "Anderson St-Hackensack",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1916
+        ]
+      ]
+    },
+    "NJT-NewBridgeLanding": {
+      "name": "New Bridge Landing",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1836
+        ]
+      ]
+    },
+    "NJT-RiverEdge": {
+      "name": "River Edge",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1756
+        ]
+      ]
+    },
+    "NJT-Oradell": {
+      "name": "Oradell",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1676
+        ]
+      ]
+    },
+    "NJT-Emerson": {
+      "name": "Emerson",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1600
+        ]
+      ]
+    },
+    "NJT-Westwood": {
+      "name": "Westwood",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1528
+        ]
+      ]
+    },
+    "NJT-Hillsdale": {
+      "name": "Hillsdale",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1448
+        ]
+      ]
+    },
+    "NJT-WoodcliffLake": {
+      "name": "Woodcliff Lake",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1372
+        ]
+      ]
+    },
+    "NJT-ParkRidge": {
+      "name": "Park Ridge",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1301
+        ]
+      ]
+    },
+    "NJT-Montvale": {
+      "name": "Montvale, NJ",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1224
+        ]
+      ]
+    },
+    "MTA-MNR-PearlRiver": {
+      "name": "Pearl River, NY",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1131
+        ]
+      ]
+    },
+    "MTA-MNR-Nanuet": {
+      "name": "Nanuet",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          1060
+        ]
+      ]
+    },
+    "MTA-MNR-SpringValley": {
+      "name": "Spring Valley",
+      "lines": [
+        "Pascack Valley"
+      ],
+      "locations": [
+        [
+          4644,
+          990
+        ]
+      ]
+    },
+    "NJT-Watsessing": {
+      "name": "Watsessing",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3793,
+          2832
+        ]
+      ]
+    },
+    "NJT-Bloomfield": {
+      "name": "Bloomfield",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3764,
+          2756
+        ]
+      ]
+    },
+    "NJT-GlenRidge": {
+      "name": "Glen Ridge",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3765,
+          2675
+        ]
+      ]
+    },
+    "NJT-BaySt": {
+      "name": "Bay St",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3764,
+          2597
+        ]
+      ]
+    },
+    "NJT-WalnutSt": {
+      "name": "Walnut St",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3756,
+          2511
+        ]
+      ]
+    },
+    "NJT-WatchungAve": {
+      "name": "Watchung Ave",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3717,
+          2444
+        ]
+      ]
+    },
+    "NJT-UpperMontclair": {
+      "name": "Upper Montclair",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3654,
+          2373
+        ]
+      ]
+    },
+    "NJT-MountainAve": {
+      "name": "Mountain Ave",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3588,
+          2306
+        ]
+      ]
+    },
+    "NJT-MontclairHeights": {
+      "name": "Montclair Heights",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3522,
+          2239
+        ]
+      ]
+    },
+    "NJT-MontclairStateUniversity": {
+      "name": "Montclair State University",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3456,
+          2170
+        ]
+      ]
+    },
+    "NJT-LittleFalls": {
+      "name": "Little Falls",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3377,
+          2091
+        ]
+      ]
+    },
+    "NJT-WayneRt23": {
+      "name": "Wayne Rt. 23",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3270,
+          2087
+        ]
+      ]
+    },
+    "NJT-MountainViewWayne": {
+      "name": "Mountain View Wayne",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3168,
+          2087
+        ]
+      ]
+    },
+    "NJT-LincolnPark": {
+      "name": "Lincoln Park",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          3072,
+          2087
+        ]
+      ]
+    },
+    "NJT-Towaco": {
+      "name": "Towaco",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          2969,
+          2087
+        ]
+      ]
+    },
+    "NJT-Boonton": {
+      "name": "Boonton",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          2876,
+          2126
+        ]
+      ]
+    },
+    "NJT-MountainLakes": {
+      "name": "Mountain Lakes",
+      "lines": [
+        "Montclair-Boonton"
+      ],
+      "locations": [
+        [
+          2799,
+          2204
+        ]
+      ]
+    },
+    "NJT-Denville": {
+      "name": "Denville",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2558,
+          2378
+        ]
+      ]
+    },
+    "NJT-Dover": {
+      "name": "Dover",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2460,
+          2378
+        ]
+      ]
+    },
+    "NJT-MountArlington": {
+      "name": "Mount Arlington",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2362,
+          2378
+        ]
+      ]
+    },
+    "NJT-LakeHopatcong": {
+      "name": "Lake Hopatcong",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2264,
+          2378
+        ]
+      ]
+    },
+    "NJT-Netcong": {
+      "name": "Netcong",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2167,
+          2378
+        ]
+      ]
+    },
+    "NJT-MountOlive": {
+      "name": "Mount Olive",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2068,
+          2378
+        ]
+      ]
+    },
+    "NJT-Hackettstown": {
+      "name": "Hackettstown",
+      "lines": [
+        "Montclair-Boonton",
+        "Morristown"
+      ],
+      "locations": [
+        [
+          1965,
+          2441
+        ]
+      ]
+    },
+    "NJT-EOrange": {
+      "name": "E. Orange",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3801,
+          2967
+        ]
+      ]
+    },
+    "NJT-BrickChurch": {
+      "name": "Brick Church",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3705,
+          2967
+        ]
+      ]
+    },
+    "NJT-Orange": {
+      "name": "Orange",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3614,
+          2967
+        ]
+      ]
+    },
+    "NJT-HighlandAve": {
+      "name": "Highland Ave",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3517,
+          2967
+        ]
+      ]
+    },
+    "NJT-MountainStation": {
+      "name": "Mountain Station",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3420,
+          2967
+        ]
+      ]
+    },
+    "NJT-SouthOrange": {
+      "name": "South Orange",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3324,
+          2967
+        ]
+      ]
+    },
+    "NJT-Maplewood": {
+      "name": "Maplewood",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3228,
+          2967
+        ]
+      ]
+    },
+    "NJT-Millburn": {
+      "name": "Millburn",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3132,
+          2967
+        ]
+      ]
+    },
+    "NJT-ShortHills": {
+      "name": "Short Hills",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          3037,
+          2967
+        ]
+      ]
+    },
+    "NJT-Summit": {
+      "name": "Summit",
+      "lines": [
+        "Morristown",
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2941,
+          2967
+        ]
+      ]
+    },
+    "NJT-Chatham": {
+      "name": "Chatham",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2925,
+          2842
+        ]
+      ]
+    },
+    "NJT-Madison": {
+      "name": "Madison",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2896,
+          2767
+        ]
+      ]
+    },
+    "NJT-ConventStation": {
+      "name": "Convent Station",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2839,
+          2705
+        ]
+      ]
+    },
+    "NJT-Morristown": {
+      "name": "Morristown",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2781,
+          2643
+        ]
+      ]
+    },
+    "NJT-MorrisPlains": {
+      "name": "Morris Plains",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2723,
+          2579
+        ]
+      ]
+    },
+    "NJT-MountTabor": {
+      "name": "Mount Tabor",
+      "lines": [
+        "Morristown"
+      ],
+      "locations": [
+        [
+          2656,
+          2513
+        ]
+      ]
+    },
+    "NJT-NewProvidence": {
+      "name": "New Providence",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2870,
+          3039
+        ]
+      ]
+    },
+    "NJT-MurrayHill": {
+      "name": "Murray Hill",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2815,
+          3088
+        ]
+      ]
+    },
+    "NJT-BerkeleyHeights": {
+      "name": "Berkeley Heights",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2761,
+          3141
+        ]
+      ]
+    },
+    "NJT-Gillette": {
+      "name": "Gillette",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2694,
+          3148
+        ]
+      ]
+    },
+    "NJT-Stirling": {
+      "name": "Sterling",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2624,
+          3148
+        ]
+      ]
+    },
+    "NJT-Millington": {
+      "name": "Millington",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2549,
+          3148
+        ]
+      ]
+    },
+    "NJT-Lyons": {
+      "name": "Lyons",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2489,
+          3085
+        ]
+      ]
+    },
+    "NJT-BaskingRidge": {
+      "name": "Basking Ridge",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2439,
+          3028
+        ]
+      ]
+    },
+    "NJT-Bernardsville": {
+      "name": "Bernardsville",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2350,
+          3054
+        ]
+      ]
+    },
+    "NJT-FarHills": {
+      "name": "Far Hills",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2280,
+          3071
+        ]
+      ]
+    },
+    "NJT-Peapack": {
+      "name": "Peapack",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2218,
+          3007
+        ]
+      ]
+    },
+    "NJT-Gladstone": {
+      "name": "Gladstone",
+      "lines": [
+        "Gladstone"
+      ],
+      "locations": [
+        [
+          2156,
+          2942
+        ]
+      ]
+    },
+    "NJT-Union": {
+      "name": "Union",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          4003,
+          3571
+        ]
+      ]
+    },
+    "NJT-RosellePark": {
+      "name": "Roselle Park",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3840,
+          3593
+        ]
+      ]
+    },
+    "NJT-Cranford": {
+      "name": "Cranford",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3696,
+          3593
+        ]
+      ]
+    },
+    "NJT-Garwood": {
+      "name": "Garwood",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3555,
+          3593
+        ]
+      ]
+    },
+    "NJT-Westfield": {
+      "name": "Westfield",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3411,
+          3593
+        ]
+      ]
+    },
+    "NJT-Fanwood": {
+      "name": "Fanwood",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3270,
+          3654
+        ]
+      ]
+    },
+    "NJT-Netherwood": {
+      "name": "Netherwood",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3205,
+          3724
+        ]
+      ]
+    },
+    "NJT-Plainfield": {
+      "name": "Plainfield",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3132,
+          3795
+        ]
+      ]
+    },
+    "NJT-Dunellen": {
+      "name": "Dunellen",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          3054,
+          3879
+        ]
+      ]
+    },
+    "NJT-BoundBrook": {
+      "name": "Bound Brook",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2914,
+          3933
+        ]
+      ]
+    },
+    "NJT-Bridgewater": {
+      "name": "Bridgewater",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2822,
+          3933
+        ]
+      ]
+    },
+    "NJT-Somerville": {
+      "name": "Somerville",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2726,
+          3933
+        ]
+      ]
+    },
+    "NJT-Raritan": {
+      "name": "Raritan",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2631,
+          3933
+        ]
+      ]
+    },
+    "NJT-NorthBranch": {
+      "name": "North Branch",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2444,
+          3780
+        ]
+      ]
+    },
+    "NJT-WhiteHouse": {
+      "name": "White House",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2317,
+          3716
+        ]
+      ]
+    },
+    "NJT-Lebanon": {
+      "name": "Lebanon",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2226,
+          3712
+        ]
+      ]
+    },
+    "NJT-Annandale": {
+      "name": "Annandale",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2155,
+          3681
+        ]
+      ]
+    },
+    "NJT-HighBridge": {
+      "name": "High Bridge",
+      "lines": [
+        "Raritan Valley"
+      ],
+      "locations": [
+        [
+          2098,
+          3607
+        ]
+      ]
+    },
+    "NJT-NewarkAirport": {
+      "name": "Newark Liberty Int'l Airport",
+      "lines": [
+        "North Jersey Coast",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4408,
+          3405
+        ]
+      ]
+    },
+    "NJT-NElizabeth": {
+      "name": "N. Elizabeth",
+      "lines": [
+        "North Jersey Coast",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4408,
+          3522
+        ]
+      ]
+    },
+    "NJT-Elizabeth": {
+      "name": "Elizabeth",
+      "lines": [
+        "North Jersey Coast",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4408,
+          3639
+        ]
+      ]
+    },
+    "NJT-Linden": {
+      "name": "Linden",
+      "lines": [
+        "North Jersey Coast",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4408,
+          3752
+        ]
+      ]
+    },
+    "NJT-Rahway": {
+      "name": "Rahway",
+      "lines": [
+        "North Jersey Coast",
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4408,
+          3865
+        ]
+      ]
+    },
+    "NJT-Metropark": {
+      "name": "Metropark",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4217,
+          4148
+        ]
+      ]
+    },
+    "NJT-Metuchen": {
+      "name": "Metuchen",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4124,
+          4244
+        ]
+      ]
+    },
+    "NJT-Edison": {
+      "name": "Edison",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          4054,
+          4313
+        ]
+      ]
+    },
+    "NJT-NewBrunswick": {
+      "name": "New Brunswick",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          3980,
+          4386
+        ]
+      ]
+    },
+    "NJT-JerseyAve": {
+      "name": "Jersey Ave",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          3808,
+          4557
+        ]
+      ]
+    },
+    "NJT-PrincetonJunction": {
+      "name": "Princeton Junction",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          3445,
+          4925
+        ]
+      ]
+    },
+    "NJT-Princeton": {
+      "name": "Princeton",
+      "lines": [
+        "Princeton"
+      ],
+      "locations": [
+        [
+          3346,
+          4824
+        ]
+      ]
+    },
+    "NJT-Hamilton": {
+      "name": "Hamilton",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          3341,
+          5029
+        ]
+      ]
+    },
+    "NJT-Trenton": {
+      "name": "Trenton",
+      "lines": [
+        "Northeast Corridor"
+      ],
+      "locations": [
+        [
+          3136,
+          5236
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-Avenel": {
+      "name": "Avenel",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4444,
+          4103
+        ]
+      ]
+    },
+    "NJT-Woodbridge": {
+      "name": "Woodbridge",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4446,
+          4281
+        ]
+      ]
+    },
+    "NJT-PerthAmboy": {
+      "name": "Perth Amboy",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4517,
+          4365
+        ]
+      ]
+    },
+    "NJT-SouthAmboy": {
+      "name": "South Amboy",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4595,
+          4442
+        ]
+      ]
+    },
+    "NJT-Aberdeen-Matawan": {
+      "name": "Aberdeen-Matawan",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4683,
+          4534
+        ]
+      ]
+    },
+    "NJT-Hazlet": {
+      "name": "Hazlet",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          4823,
+          4583
+        ]
+      ]
+    },
+    "NJT-Middletown": {
+      "name": "Middletown",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5038,
+          4595
+        ]
+      ]
+    },
+    "NJT-RedBank": {
+      "name": "Red Bank",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5127,
+          4688
+        ]
+      ]
+    },
+    "NJT-LittleSilver": {
+      "name": "Little Silver",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5238,
+          4793
+        ]
+      ]
+    },
+    "NJT-MonmouthPark": {
+      "name": "Monmouth Park",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5311,
+          4869
+        ]
+      ]
+    },
+    "NJT-LongBranch": {
+      "name": "Long Branch",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5408,
+          4984
+        ]
+      ]
+    },
+    "NJT-Elberon": {
+      "name": "Elberon",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5448,
+          5052
+        ]
+      ]
+    },
+    "NJT-Allenhurst": {
+      "name": "Allenhurst",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5120
+        ]
+      ]
+    },
+    "NJT-AsburyPark": {
+      "name": "Asbury Park",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5196
+        ]
+      ]
+    },
+    "NJT-BradleyBeach": {
+      "name": "Bradley Beach",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5275
+        ]
+      ]
+    },
+    "NJT-Belmar": {
+      "name": "Belmar",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5347
+        ]
+      ]
+    },
+    "NJT-SpringLake": {
+      "name": "Spring Lake",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5431
+        ]
+      ]
+    },
+    "NJT-Manasquan": {
+      "name": "Manasquan",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5509
+        ]
+      ]
+    },
+    "NJT-PointPleasantBeach": {
+      "name": "Point Pleasant Beach",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5586
+        ]
+      ]
+    },
+    "NJT-BayHead": {
+      "name": "Bay Head",
+      "lines": [
+        "North Jersey Coast"
+      ],
+      "locations": [
+        [
+          5452,
+          5656
+        ]
+      ]
+    },
+    "NJT-Pennsauken": {
+      "name": "Pennsauken",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          2688,
+          6158
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-CherryHill": {
+      "name": "Cherry Hill",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          2922,
+          6246
+        ]
+      ]
+    },
+    "NJT-Lindenwold": {
+      "name": "Lindenwold",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          3264,
+          6312
+        ]
+      ],
+      "dotRadius": 65
+    },
+    "NJT-Atco": {
+      "name": "Atco",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          3527,
+          6578
+        ]
+      ]
+    },
+    "NJT-Hammonton": {
+      "name": "Hammonton",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          3811,
+          6864
+        ]
+      ]
+    },
+    "NJT-EggHarborCity": {
+      "name": "Egg Harbor City",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          4088,
+          7139
+        ]
+      ]
+    },
+    "NJT-Absecon": {
+      "name": "Absecon",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          4388,
+          7441
+        ]
+      ]
+    },
+    "NJT-AtlanticCity": {
+      "name": "Atlantic City",
+      "lines": [
+        "Atlantic City"
+      ],
+      "locations": [
+        [
+          4966,
+          8020
+        ]
+      ]
     }
+  },
+  {
+    "MTA-MNR-Suffern": {
+      "name": "Suffern, NY",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3969,
+          985.5
+        ]
+      ]
+    },
+    "MTA-MNR-Sloatsburg": {
+      "name": "Sloatsburg",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3972,
+          837.5
+        ]
+      ]
+    },
+    "MTA-MNR-Tuxedo": {
+      "name": "Tuxedo",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3972,
+          710
+        ]
+      ]
+    },
+    "MTA-MNR-Harriman": {
+      "name": "Harriman",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3972,
+          577
+        ]
+      ]
+    },
+    "MTA-MNR-SalisburyMills": {
+      "name": "Salisbury Mills-Cornwall",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3817,
+          322
+        ]
+      ]
+    },
+    "MTA-MNR-CampbellHall": {
+      "name": "Campbell Hall",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3531,
+          322
+        ]
+      ]
+    },
+    "MTA-MNR-Middletown": {
+      "name": "Middletown/Town of Wallkill",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          3210,
+          322
+        ]
+      ]
+    },
+    "MTA-MNR-Otisville": {
+      "name": "Otisville",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          2888,
+          321.5
+        ]
+      ]
+    },
+    "MTA-MNR-PortJervis": {
+      "name": "Port Jervis",
+      "lines": [
+        "Port Jervis"
+      ],
+      "locations": [
+        [
+          2660,
+          439
+        ]
+      ]
+    },
+    "PATCO-1516": {
+      "name": "15th/16th & Locust St",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          1900,
+          6426
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-1213": {
+      "name": "12th/13th & Locust St",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          1981,
+          6426
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-910": {
+      "name": "9th/10th & Locust St",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2056,
+          6426
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-8thMarket": {
+      "name": "8th St/Market St",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2091,
+          6340
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-CityHall": {
+      "name": "City Hall",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2599,
+          6306
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-FerryAve": {
+      "name": "Ferry Ave",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2744,
+          6406
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-Collingswood": {
+      "name": "Collingswood",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2819,
+          6372
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-Westmont": {
+      "name": "Westmont",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2865,
+          6327
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-Haddonfield": {
+      "name": "Haddonfield",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          2965,
+          6320
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-Woodcrest": {
+      "name": "Woodcrest",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          3062,
+          6320
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PATCO-Ashland": {
+      "name": "Ashland",
+      "lines": [
+        "PATCO"
+      ],
+      "locations": [
+        [
+          3162,
+          6320
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-EntertainmentCtr": {
+      "name": "Entertainment Ctr",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2389,
+          6431
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Aquarium": {
+      "name": "Aquarium",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2433,
+          6381
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-CooperSt": {
+      "name": "Cooper St/Rutgers",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2524,
+          6311
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-36St": {
+      "name": "36 St",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2686,
+          6253
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-PennsaukenRt73": {
+      "name": "Pennsauken/Rt 73",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2779,
+          6037
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Palmyra": {
+      "name": "Palmyra",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2828,
+          5979
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Riverton": {
+      "name": "Riverton",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2876,
+          5923
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Cinnaminson": {
+      "name": "Cinnaminson",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2920,
+          5873
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Riverside": {
+      "name": "Riverside",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          2971,
+          5815
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Delanco": {
+      "name": "Delanco",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3020,
+          5759
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Beverly": {
+      "name": "Beverly/Edgewater Park",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3073,
+          5699
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-BurlingtonSouth": {
+      "name": "Burlington South",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3125,
+          5641
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-BurlingtonTowneCtr": {
+      "name": "Burlington Towne Ctr",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3180,
+          5580
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Florence": {
+      "name": "Florence",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3234,
+          5520
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Roebling": {
+      "name": "Roebling",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3288,
+          5455
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-Bordentown": {
+      "name": "Bordentown",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3296,
+          5386
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-CassSt": {
+      "name": "Cass St",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3246,
+          5333
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-RiverLine-HamiltonAve": {
+      "name": "Hamilton Ave",
+      "lines": [
+        "River Line"
+      ],
+      "locations": [
+        [
+          3197,
+          5287
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-P2": {
+      "name": "P2",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4533,
+          3514
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-P3": {
+      "name": "P3",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4533,
+          3478
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-TerminalA": {
+      "name": "Terminal A",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4578,
+          3453
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-TerminalB": {
+      "name": "Terminal B",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4606,
+          3407
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-TerminalC": {
+      "name": "Terminal C",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4573,
+          3361
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "AirTrainNewark-P4": {
+      "name": "P4",
+      "lines": [
+        "AirTrain Newark"
+      ],
+      "locations": [
+        [
+          4516,
+          3370
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-33St": {
+      "name": "33 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5584,
+          2614
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-23St": {
+      "name": "23 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5584,
+          2724
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-14St": {
+      "name": "14 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5584,
+          2836
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-9St": {
+      "name": "9 St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5584,
+          2952
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-ChristopherSt": {
+      "name": "Christopher St",
+      "lines": [
+        "HB-33",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5524,
+          3072
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-WTC": {
+      "name": "World Trade Center",
+      "lines": [
+        "N-WTC",
+        "HB-WTC"
+      ],
+      "locations": [
+        [
+          5524,
+          3268
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-Newport": {
+      "name": "Newport",
+      "lines": [
+        "HB-WTC",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5179,
+          3117
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-GroveSt": {
+      "name": "Grove St",
+      "lines": [
+        "N-WTC",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          5058,
+          3269
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-JournalSquare": {
+      "name": "Journal Square",
+      "lines": [
+        "N-WTC",
+        "JS-33"
+      ],
+      "locations": [
+        [
+          4924,
+          3194
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "PANYNJ-PATH-Harrison": {
+      "name": "Harrison",
+      "lines": [
+        "N-WTC"
+      ],
+      "locations": [
+        [
+          4512,
+          3093
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-NJPAC": {
+      "name": "NJPAC/Center Street",
+      "lines": [
+        "Broad Street"
+      ],
+      "locations": [
+        [
+          4191,
+          3180
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-AtlanticSt": {
+      "name": "Atlantic Street",
+      "lines": [
+        "Broad Street"
+      ],
+      "locations": [
+        [
+          4184,
+          3124
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-RiverfrontStadium": {
+      "name": "Riverfront Stadium",
+      "lines": [
+        "Broad Street"
+      ],
+      "locations": [
+        [
+          4154,
+          3090
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-WashingtonPark": {
+      "name": "Washington Park",
+      "lines": [
+        "Broad Street"
+      ],
+      "locations": [
+        [
+          4123,
+          3135
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-MilitaryPark": {
+      "name": "Military Park",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          4168,
+          3220
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-WashingtonSt": {
+      "name": "Washington Street",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          4104,
+          3220
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-WarrenSt": {
+      "name": "Warren Street/NJIT",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          4042,
+          3216
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-NorfolkSt": {
+      "name": "Norfolk Street",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          4008,
+          3195
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-OrangeSt": {
+      "name": "Orange Street",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3983,
+          3065
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-ParkAv": {
+      "name": "Park Ave",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3982,
+          2761
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-BloomfieldAv": {
+      "name": "Bloomfield Ave",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3982,
+          2700
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-DavenportAv": {
+      "name": "Davenport Ave",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3982,
+          2640
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-BranchBrookPark": {
+      "name": "Branch Brook Park",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3966,
+          2589
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-SilverLake": {
+      "name": "Silver Lake",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3917,
+          2580
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-Newark-GroveSt": {
+      "name": "Grove St",
+      "lines": [
+        "Grove Street"
+      ],
+      "locations": [
+        [
+          3863,
+          2581
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-TonnelleAv": {
+      "name": "Tonnelle Ave",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5069,
+          2242
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-BergenlineAv": {
+      "name": "Bergenline Ave",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5133,
+          2242
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-PortImperial": {
+      "name": "Port Imperial",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5185,
+          2261
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-LincolnHarbor": {
+      "name": "Lincoln Harbor",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5181,
+          2574
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-9St": {
+      "name": "9th St/Congress St",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5108,
+          2683
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-2St": {
+      "name": "2nd St",
+      "lines": [
+        "Tonnelle-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5108,
+          2742
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-Newport": {
+      "name": "Newport",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5132,
+          3118
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-HarsimusCove": {
+      "name": "Harsimus Cove",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5133,
+          3163
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-Harborside": {
+      "name": "Harborside",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5216,
+          3220
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-EssexSt": {
+      "name": "Essex St",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5182,
+          3312
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-MarinBlvd": {
+      "name": "Marin Blvd",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5115,
+          3312
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-JerseyAv": {
+      "name": "Jersey Ave",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5048,
+          3312
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-LibertyStatePark": {
+      "name": "Liberty State Park",
+      "lines": [
+        "8th-Hoboken",
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          5020,
+          3348
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-GarfieldAv": {
+      "name": "Garfield Ave",
+      "lines": [
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          4979,
+          3378
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-MLKBlvd": {
+      "name": "MLK Blvd",
+      "lines": [
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          4907,
+          3378
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-WSideAv": {
+      "name": "W.Side Ave",
+      "lines": [
+        "West Side-Tonnelle"
+      ],
+      "locations": [
+        [
+          4834,
+          3378
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-RichardSt": {
+      "name": "Richard St",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          5020,
+          3428
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-DanforthAv": {
+      "name": "Danforth Ave",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          5020,
+          3492
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-45St": {
+      "name": "45th St",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          5020,
+          3559
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-34St": {
+      "name": "34th St",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          5020,
+          3624
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-22St": {
+      "name": "22nd St",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          5020,
+          3692
+        ]
+      ],
+      "dotRadius": 18
+    },
+    "NJT-HBLR-8St": {
+      "name": "8th St",
+      "lines": [
+        "8th-Hoboken"
+      ],
+      "locations": [
+        [
+          4993,
+          3729
+        ]
+      ],
+      "dotRadius": 18
+    }
+  }
 ]

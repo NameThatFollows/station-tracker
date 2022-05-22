@@ -1,7 +1,7 @@
 import { Application, DisplayObject, Renderer } from "pixi.js";
 
 export default class Manager {
-  private constructor() {}
+  private constructor() { }
   public static app: Application;
   private static currentScene: IScene;
   public static visitedStations: Set<string>;
@@ -24,16 +24,12 @@ export default class Manager {
 
     const storage: string = localStorage.getItem("visitedStations");
     if (storage) {
-      this.visitedStations = new Set(storage.split(";"));
+      this.visitedStations = new Set(storage.split(";").filter(x => x.indexOf(" ") === -1));
     } else {
       this.visitedStations = new Set();
     }
-    console.log(this.visitedStations);
-
     Manager.app.ticker.add(Manager.update)
-
     window.addEventListener("resize", Manager.resize);
-
     this.resize();
   }
 

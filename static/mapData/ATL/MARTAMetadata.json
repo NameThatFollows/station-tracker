@@ -1,35 +1,35 @@
 {
-    "mapWidth": 4950,
-    "mapHeight": 4950,
-    "tileSize": 2500,
-    "mapRows": 2,
-    "mapCols": 2,
-    "dotRadius": 60,
-    "dpi": 150,
-    "minZoom": 0.2,
-    "maxZoom": 0.5,
-    "lines": [
-        [
-            {
-                "key": "Red",
-                "name": "Red"
-            },
-            {
-                "key": "Gold",
-                "name": "Gold"
-            },
-            {
-                "key": "Green",
-                "name": "Green"
-            },
-            {
-                "key": "Blue",
-                "name": "Blue"
-            },
-            {
-                "key": "A",
-                "name": "Streetcar A Line"
-            }
-        ]
+  "mapWidth": 4950,
+  "mapHeight": 4950,
+  "tileSize": 2500,
+  "mapRows": 2,
+  "mapCols": 2,
+  "dotRadius": 60,
+  "dpi": 150,
+  "minZoom": 0.2,
+  "maxZoom": 0.5,
+  "lines": [
+    [
+      {
+        "key": "Red",
+        "name": "Red"
+      },
+      {
+        "key": "Gold",
+        "name": "Gold"
+      },
+      {
+        "key": "Green",
+        "name": "Green"
+      },
+      {
+        "key": "Blue",
+        "name": "Blue"
+      },
+      {
+        "key": "A",
+        "name": "Streetcar A Line"
+      }
     ]
+  ]
 }

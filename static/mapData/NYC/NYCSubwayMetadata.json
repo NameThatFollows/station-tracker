@@ -1,217 +1,217 @@
 {
-    "mapWidth": 6004,
-    "mapHeight": 7259,
-    "tileSize": 2500,
-    "mapRows": 3,
-    "mapCols": 3,
-    "dotRadius": 18,
-    "dpi": 300,
-    "minZoom": 0.2,
-    "maxZoom": 1,
-    "lines": [
-        [
-            {
-                "key": "1",
-                "name": "1"
-            },
-            {
-                "key": "2",
-                "name": "2"
-            },
-            {
-                "key": "3",
-                "name": "3"
-            },
-            {
-                "key": "4",
-                "name": "4"
-            },
-            {
-                "key": "5",
-                "name": "5"
-            },
-            {
-                "key": "6",
-                "name": "6"
-            },
-            {
-                "key": "7",
-                "name": "7"
-            },
-            {
-                "key": "A",
-                "name": "A"
-            },
-            {
-                "key": "B",
-                "name": "B"
-            },
-            {
-                "key": "C",
-                "name": "C"
-            },
-            {
-                "key": "D",
-                "name": "D"
-            },
-            {
-                "key": "E",
-                "name": "E"
-            },
-            {
-                "key": "F",
-                "name": "F"
-            },
-            {
-                "key": "G",
-                "name": "G"
-            },
-            {
-                "key": "J",
-                "name": "J"
-            },
-            {
-                "key": "L",
-                "name": "L"
-            },
-            {
-                "key": "M",
-                "name": "M"
-            },
-            {
-                "key": "N",
-                "name": "N"
-            },
-            {
-                "key": "Q",
-                "name": "Q"
-            },
-            {
-                "key": "R",
-                "name": "R"
-            },
-            {
-                "key": "W",
-                "name": "W"
-            },
-            {
-                "key": "Z",
-                "name": "Z"
-            },
-            {
-                "key": "S",
-                "name": "42nd Street Shuttle"
-            },
-            {
-                "key": "SF",
-                "name": "Franklin Av Shuttle"
-            },
-            {
-                "key": "SR",
-                "name": "Rockaway Park Shuttle"
-            },
-            {
-                "key": "SIR",
-                "name": "Staten Island Railway"
-            }
-        ],
-        [
-            {
-                "key": "HB-33",
-                "name": "PATH: Hoboken-33rd Street"
-            },
-            {
-                "key": "JS-33",
-                "name": "PATH: Journal Square-33rd Street"
-            },
-            {
-                "key": "N-WTC",
-                "name": "PATH: Newark-World Trade Center"
-            },
-            {
-                "key": "HB-WTC",
-                "name": "PATH: Hoboken-World Trade Center"
-            },
-            {
-                "key": "Atlantic",
-                "name": "LIRR: Atlantic"
-            },
-            {
-                "key": "Babylon",
-                "name": "LIRR: Babylon"
-            },
-            {
-                "key": "Belmont Park",
-                "name": "LIRR: Belmont Park"
-            },
-            {
-                "key": "Far Rockaway",
-                "name": "LIRR: Far Rockaway"
-            },
-            {
-                "key": "Hempstead",
-                "name": "LIRR: Hempstead"
-            },
-            {
-                "key": "Long Beach",
-                "name": "LIRR: Long Beach"
-            },
-            {
-                "key": "Montauk",
-                "name": "LIRR: Montauk"
-            },
-            {
-                "key": "Oyster Bay",
-                "name": "LIRR: Oyster Bay"
-            },
-            {
-                "key": "Port Jefferson",
-                "name": "LIRR: PortJefferson"
-            },
-            {
-                "key": "Port Washington",
-                "name": "LIRR: Port Washington"
-            },
-            {
-                "key": "Ronkonkoma",
-                "name": "LIRR: Ronkonkoma"
-            },
-            {
-                "key": "West Hempstead",
-                "name": "LIRR: West Hempstead"
-            },
-            {
-                "key": "Harlem",
-                "name": "Metro-North: Harlem"
-            },
-            {
-                "key": "Hudson",
-                "name": "Metro-North: Hudson"
-            },
-            {
-                "key": "New Haven",
-                "name": "Metro-North: New Haven"
-            },
-            {
-                "key": "New Canaan",
-                "name": "Metro-North: New Canaan"
-            },
-            {
-                "key": "Danbury",
-                "name": "Metro-North: Danbury"
-            },
-            {
-                "key": "Jamaica",
-                "name": "AirTrain JFK: Jamaica Station"
-            },
-            {
-                "key": "Howard Beach",
-                "name": "AirTrain JFK: Howard Beach"
-            },
-            {
-                "key": "Airport Terminals",
-                "name": "AirTrain JFK: Airport Terminals"
-            }
-        ]
+  "mapWidth": 6004,
+  "mapHeight": 7259,
+  "tileSize": 2500,
+  "mapRows": 3,
+  "mapCols": 3,
+  "dotRadius": 18,
+  "dpi": 300,
+  "minZoom": 0.2,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "1",
+        "name": "1"
+      },
+      {
+        "key": "2",
+        "name": "2"
+      },
+      {
+        "key": "3",
+        "name": "3"
+      },
+      {
+        "key": "4",
+        "name": "4"
+      },
+      {
+        "key": "5",
+        "name": "5"
+      },
+      {
+        "key": "6",
+        "name": "6"
+      },
+      {
+        "key": "7",
+        "name": "7"
+      },
+      {
+        "key": "A",
+        "name": "A"
+      },
+      {
+        "key": "B",
+        "name": "B"
+      },
+      {
+        "key": "C",
+        "name": "C"
+      },
+      {
+        "key": "D",
+        "name": "D"
+      },
+      {
+        "key": "E",
+        "name": "E"
+      },
+      {
+        "key": "F",
+        "name": "F"
+      },
+      {
+        "key": "G",
+        "name": "G"
+      },
+      {
+        "key": "J",
+        "name": "J"
+      },
+      {
+        "key": "L",
+        "name": "L"
+      },
+      {
+        "key": "M",
+        "name": "M"
+      },
+      {
+        "key": "N",
+        "name": "N"
+      },
+      {
+        "key": "Q",
+        "name": "Q"
+      },
+      {
+        "key": "R",
+        "name": "R"
+      },
+      {
+        "key": "W",
+        "name": "W"
+      },
+      {
+        "key": "Z",
+        "name": "Z"
+      },
+      {
+        "key": "S",
+        "name": "42nd Street Shuttle"
+      },
+      {
+        "key": "SF",
+        "name": "Franklin Av Shuttle"
+      },
+      {
+        "key": "SR",
+        "name": "Rockaway Park Shuttle"
+      },
+      {
+        "key": "SIR",
+        "name": "Staten Island Railway"
+      }
+    ],
+    [
+      {
+        "key": "HB-33",
+        "name": "PATH: Hoboken-33rd Street"
+      },
+      {
+        "key": "JS-33",
+        "name": "PATH: Journal Square-33rd Street"
+      },
+      {
+        "key": "N-WTC",
+        "name": "PATH: Newark-World Trade Center"
+      },
+      {
+        "key": "HB-WTC",
+        "name": "PATH: Hoboken-World Trade Center"
+      },
+      {
+        "key": "Atlantic",
+        "name": "LIRR: Atlantic"
+      },
+      {
+        "key": "Babylon",
+        "name": "LIRR: Babylon"
+      },
+      {
+        "key": "Belmont Park",
+        "name": "LIRR: Belmont Park"
+      },
+      {
+        "key": "Far Rockaway",
+        "name": "LIRR: Far Rockaway"
+      },
+      {
+        "key": "Hempstead",
+        "name": "LIRR: Hempstead"
+      },
+      {
+        "key": "Long Beach",
+        "name": "LIRR: Long Beach"
+      },
+      {
+        "key": "Montauk",
+        "name": "LIRR: Montauk"
+      },
+      {
+        "key": "Oyster Bay",
+        "name": "LIRR: Oyster Bay"
+      },
+      {
+        "key": "Port Jefferson",
+        "name": "LIRR: PortJefferson"
+      },
+      {
+        "key": "Port Washington",
+        "name": "LIRR: Port Washington"
+      },
+      {
+        "key": "Ronkonkoma",
+        "name": "LIRR: Ronkonkoma"
+      },
+      {
+        "key": "West Hempstead",
+        "name": "LIRR: West Hempstead"
+      },
+      {
+        "key": "Harlem",
+        "name": "Metro-North: Harlem"
+      },
+      {
+        "key": "Hudson",
+        "name": "Metro-North: Hudson"
+      },
+      {
+        "key": "New Haven",
+        "name": "Metro-North: New Haven"
+      },
+      {
+        "key": "New Canaan",
+        "name": "Metro-North: New Canaan"
+      },
+      {
+        "key": "Danbury",
+        "name": "Metro-North: Danbury"
+      },
+      {
+        "key": "Jamaica",
+        "name": "AirTrain JFK: Jamaica Station"
+      },
+      {
+        "key": "Howard Beach",
+        "name": "AirTrain JFK: Howard Beach"
+      },
+      {
+        "key": "Airport Terminals",
+        "name": "AirTrain JFK: Airport Terminals"
+      }
     ]
+  ]
 }
