@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Station Explorer</title>
+	<title>Transit Map Challenge</title>
 
 	<meta id="viewport" name="viewport"
 		content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
@@ -18,17 +18,107 @@
 		}
 
 		#pixi-content {
-			background: #000000;
+			background: #000;
 			width: 100%;
 			height: 100%;
 		}
 
+		#intro-screen {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #EEE;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column;
+			transition: 0.25s ease-in-out;
+		}
+
+		#intro-content {
+			color: #111111;
+			max-width: 400px;
+			height: 100%;
+			line-height: 1.3;
+			padding: 0 60px 10px;
+			overflow-y: auto;
+		}
+
+		#intro-content h1,
+		#intro-content h2 {
+			margin: 15px 0 5px 0;
+			padding: 0;
+		}
+
+
+		#intro-content p,
+		#intro-content ul,
+		#intro-content li {
+			line-height: 1.4;
+			margin: 0;
+		}
+
+		#intro-content p {
+			margin-bottom: 10px;
+		}
+
 		#loading-shade {
-			background: #DDDDDD;
+			background: #DDD;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 			transition: 0.25s ease-in-out;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column;
+		}
+
+		.loader,
+		.loader:after {
+			border-radius: 50%;
+			width: 10em;
+			height: 10em;
+		}
+
+		.loader {
+			margin: 20px auto;
+			font-size: 10px;
+			position: relative;
+			text-indent: -9999em;
+			border-top: 1.1em solid rgba(48, 48, 48, 0.2);
+			border-right: 1.1em solid rgba(48, 48, 48, 0.2);
+			border-bottom: 1.1em solid rgba(48, 48, 48, 0.2);
+			border-left: 1.1em solid #303030;
+			-webkit-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-animation: load8 1.1s infinite linear;
+			animation: load8 1.1s infinite linear;
+		}
+
+		@-webkit-keyframes load8 {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+
+			100% {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes load8 {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+
+			100% {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
 		}
 
 		#loading-shade.done {
@@ -91,26 +181,43 @@
 			transition: 0.25s ease-in-out;
 		}
 
-		#menu .app-title h1 {
+		#menu .app-title .header {
+			display: flex;
+			align-items: center;
 			background-color: #E0E0E0;
-			padding: 15px;
+			justify-content: space-between;
+			height: 80px;
+		}
+
+		#menu .app-title .header h1 {
 			box-sizing: border-box;
-			margin-bottom: 20px;
 			text-align: center;
 			font-size: 20pt;
 			margin: 0;
 		}
 
-		#menu .app-title h2 {
-			background-color: #E6E6E6;
-			font-size: 14pt;
-			font-weight: 500;
-			padding: 5px 5px;
-			margin: 0;
-			text-align: center;
+		#menu .app-title .header #home-button {
+			height: 30px;
+			width: 30px;
+			margin: 0 0 0 10px;
+			background-position: center;
+			background-size: 20px;
+			background-repeat: no-repeat;
 		}
 
-		#menu h2 {
+		#menu .app-title .header #home-button:hover {
+			background-color: #D0D0D0;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		#menu .app-title .header #right-space {
+			height: 30px;
+			width: 30px;
+			margin: 0 10px 0 0;
+		}
+
+		#map-list h2 {
 			font-size: 16pt;
 			margin: 0 0 0 20px;
 		}
@@ -122,6 +229,21 @@
 		.menu-header {
 			width: 100%;
 			padding: 20px 0 10px 0;
+		}
+
+		.menu-station-count {
+			background-color: #E6E6E6;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 5px 0;
+		}
+
+		.menu-station-count h2 {
+			font-size: 14pt;
+			font-weight: 400;
+			margin: 0;
+			padding: 0;
 		}
 
 		.menu-item {
@@ -231,6 +353,7 @@
 			margin-left: 10px;
 			margin-bottom: 2px;
 			border-radius: 50px;
+			flex-shrink: 0;
 		}
 
 		.stations-list-item {
@@ -289,15 +412,60 @@
 		<div id="stations-list">
 		</div>
 	</div>
-	<div id="loading-shade"></div>
-	<div id="menu-shade"></div>
-	<div id="menu-button" title="Switch Maps"></div>
-	<div id="menu">
-		<div class="app-title">
-			<h1>Station Explorer</h1>
-			<h2 id="total-station-count">Stations Visited</h2>
+	<div id="loading-shade">
+		<div class="loader"></div>
+		<p id="progress-text">Loading Assets: </p>
+	</div>
+	<div id="intro-screen">
+		<div id="intro-content">
+			<h1>Transit Map Challenge</h1>
+			<p>How many rail stations have you been to? Select a map on the left and click stations you've been to
+				on the map or use the station list on the right.
+			</p>
+			<h2>Rules</h2>
+			<ul>
+				<li>
+					You must enter and/or exit the station in order for it to count.
+					<ul>
+						<li>Passing through does not count.</li>
+						<li>Transferring to another line does not count.</li>
+					</ul>
+				</li>
+				<li>In the spirit of the challenge, you should explore the neighborhood around the station.</li>
+			</ul>
+			<h2>Notes</h2>
+			<ul>
+				<li>If a station appears on multiple maps, checking that station will check it on all maps.</li>
+				<li>If a map shows connecting stations from other systems, those stations will also be clickable and will show
+					up in a separate section in the stations list.</li>
+			</ul>
+
+			<h2>About</h2>
+			<p>If you would like to request a new map, report a bug, or submit general feedback, please <a
+					href="https://github.com/NameThatFollows/station-explorer/issues/new" target="_blank">create an issue</a>.</p>
+			<p>The source code for this project can be found <a href="https://github.com/NameThatFollows/station-explorer/"
+					target="_blank">here</a>.</p>
 		</div>
-		<h2 id="maps-loading-indicator">Loading maps...</h2>
+	</div>
+	<div id="menu-shade" class="closed"></div>
+	<div id="menu-button" title="Switch Maps"></div>
+	<div id="menu" class="closed">
+		<div class="app-title">
+			<div class="header">
+				<div id="home-button"></div>
+				<div>
+					<h1>Transit Map</h1>
+					<h1>Challenge</h1>
+				</div>
+				<div id="right-space"></div>
+			</div>
+			<div class="menu-station-count">
+				<h2><strong><span id="total-station-count"></span></strong> stations visited</h2>
+			</div>
+		</div>
+		<div id="map-list">
+			<h2 id="maps-loading-indicator">Loading maps...</h2>
+		</div>
 	</div>
 	<div id="pixi-content"><canvas id="pixi-canvas" /></div>
 </body>

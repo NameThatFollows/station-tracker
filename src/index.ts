@@ -23,6 +23,21 @@ menuButton.style.backgroundImage = "url(map.svg)";
 menuButton.addEventListener("click", () => {
   openMapsMenu();
 });
+
+const introScreen = document.getElementById("intro-screen");
+const homeButton = document.getElementById("home-button");
+homeButton.style.backgroundImage = "url(home.svg)";
+homeButton.addEventListener("click", () => {
+  closeMapsMenu();
+  introScreen.style.opacity = "1";
+  introScreen.style.visibility = "visible";
+  setTimeout(() => {
+    currentMapScene = null;
+    currentMap = null;
+    Manager.changeScene(null);
+  }, 1000);
+});
+
 const loadingShade = document.getElementById("loading-shade");
 
 const stationsListContainer = document.getElementById("stations-list-container");
@@ -40,7 +55,7 @@ stationsButton.addEventListener("click", () => {
 const totalStationsCountElement = document.getElementById("total-station-count");
 
 function updateTotalStationCount() {
-  totalStationsCountElement.innerHTML = `<strong>${Manager.visitedStations.size}</strong> Stations Visited`;
+  totalStationsCountElement.innerHTML = "" + Manager.visitedStations.size;
 }
 
 function updateStationListCounts() {
@@ -198,10 +213,17 @@ function changeScene(region, mapName) {
   stationAssociatedListCategories = {};
   stationGroupStationLists = {};
   loadingShade.className = "";
+  introScreen.style.opacity = "0";
+  introScreen.style.visibility = "hidden";
   setTimeout(() => {
     Manager.changeScene(null);
     Loader.shared.reset();
     Loader.shared.add(MAP_DATA[region][mapName].data);
+
+    const processElement = document.getElementById("progress-text")
+    Loader.shared.onProgress.add((loader) => {
+      processElement.textContent = `Loading Assets: ${Math.round(loader.progress)}%`
+    })
     Loader.shared.onComplete.once(() => {
       currentMap = `${region}-${mapName}`;
       const mapScene = new MapScene((stationName) => {
@@ -212,6 +234,9 @@ function changeScene(region, mapName) {
       populateStationsList();
       Manager.changeScene(mapScene);
       updateStationListCounts();
+      setTimeout(() => {
+        processElement.textContent = `Loading Assets: 0%`;
+      }, 1000)
     }, this);
     Loader.shared.load();
   }, 250);
@@ -221,10 +246,11 @@ updateTotalStationCount();
 const mapsLoadingIndicator = document.getElementById("maps-loading-indicator");
 mapsLoadingIndicator.remove();
 for (const [region, mapsMap] of Object.entries(MAP_DATA)) {
+  const mapList = document.getElementById("map-list");
   const regionMenuHeader = document.createElement('div');
   regionMenuHeader.innerHTML = `<h2>${region}</h2>`;
   regionMenuHeader.className = "menu-header";
-  menu.appendChild(regionMenuHeader);
+  mapList.appendChild(regionMenuHeader);
 
   for (const [mapName, mapData] of Object.entries(mapsMap)) {
     const mapMenuItem = document.createElement('div');
@@ -240,6 +266,6 @@ for (const [region, mapsMap] of Object.entries(MAP_DATA)) {
         setTimeout(() => changeScene(region, mapName), 250);
       }
     });
-    menu.appendChild(mapMenuItem);
+    mapList.appendChild(mapMenuItem);
   }
 }
