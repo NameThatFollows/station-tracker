@@ -1,20 +1,35 @@
 <html>
 
 <head>
-	<title>Transit Map Challenge</title>
+	<title>Station Tracker</title>
 
 	<meta id="viewport" name="viewport"
 		content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- The favicon and primary image were generated using the following graphics from Twitter Twemoji:
+		- Graphics Title: 1f687.svg
+		- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+		- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f687.svg
+		- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/) -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
 
 	<style>
 		html,
 		body {
 			margin: 0;
 			padding: 0;
-			height: 100%;
+			height: 100vh;
 			overflow: hidden;
 			font-family: sans-serif;
+			background-color: #EEE;
+		}
+
+		a {
+			color: inherit;
 		}
 
 		#pixi-content {
@@ -27,21 +42,20 @@
 			position: absolute;
 			width: 100%;
 			height: 100%;
-			background: #EEE;
+			background: #F8F8F8;
 			display: flex;
 			align-items: center;
-			justify-content: center;
 			flex-flow: column;
 			transition: 0.25s ease-in-out;
+			overflow-y: auto;
 		}
 
 		#intro-content {
-			color: #111111;
-			max-width: 400px;
-			height: 100%;
+			color: #222;
+			max-width: 500px;
 			line-height: 1.3;
-			padding: 0 60px 10px;
-			overflow-y: auto;
+			margin: 60px;
+			box-sizing: content-box;
 		}
 
 		#intro-content h1,
@@ -186,7 +200,7 @@
 			align-items: center;
 			background-color: #E0E0E0;
 			justify-content: space-between;
-			height: 80px;
+			height: 60px;
 		}
 
 		#menu .app-title .header h1 {
@@ -418,33 +432,42 @@
 	</div>
 	<div id="intro-screen">
 		<div id="intro-content">
-			<h1>Transit Map Challenge</h1>
-			<p>How many rail stations have you been to? Select a map on the left and click stations you've been to
-				on the map or use the station list on the right.
-			</p>
+			<image src="subway.svg" alt="flat 2d image of a forward-facing subway train" width="200" height="200" />
+			<h1>Station Tracker</h1>
+			<p>Select a map on the left and click stations you've been to on the map. On each map, use the stations list on
+				the right to check-off stations, see remaining stations, and see how many stations you've visited on the map and
+				for each line.</p>
 			<h2>Rules</h2>
 			<ul>
 				<li>
-					You must enter and/or exit the station in order for it to count.
+					You must enter and/or exit the station to count it.
 					<ul>
 						<li>Passing through does not count.</li>
-						<li>Transferring to another line does not count.</li>
+						<li>Transferring within a station does not count.</li>
+						<li>If there are fare gates, you must pass through them.</li>
 					</ul>
 				</li>
-				<li>In the spirit of the challenge, you should explore the neighborhood around the station.</li>
 			</ul>
 			<h2>Notes</h2>
 			<ul>
-				<li>If a station appears on multiple maps, checking that station will check it on all maps.</li>
-				<li>If a map shows connecting stations from other systems, those stations will also be clickable and will show
-					up in a separate section in the stations list.</li>
+				<li>If a station appears on multiple maps, checking that station will check it on all maps and count it once in
+					the total station count.</li>
+				<li>Many maps have multiple systems represented. In the stations list, these secondary systems are represented
+					in the "Other Systems" section.</li>
 			</ul>
 
 			<h2>About</h2>
 			<p>If you would like to request a new map, report a bug, or submit general feedback, please <a
-					href="https://github.com/NameThatFollows/station-explorer/issues/new" target="_blank">create an issue</a>.</p>
-			<p>The source code for this project can be found <a href="https://github.com/NameThatFollows/station-explorer/"
-					target="_blank">here</a>.</p>
+					href="https://github.com/NameThatFollows/station-tracker/issues/new" target="_blank">create an
+					issue</a>.</p>
+			<p>This project was heavily inspired by Geoff Marshall's <a
+					href="https://www.youtube.com/watch?v=wRDV8SLojJo&t=763s" target="_blank">Tube Map Challenge</a> and Mike
+				Solomon's <a href="http://thecleverest.com/subway/" target="_blank">What's Your Subway Station Number</a> web
+				app, which is no longer maintained.
+			</p>
+			<p><a href="https://github.com/NameThatFollows/station-tracker/" target="_blank">(source code)</a></p>
+
+			<br />
 		</div>
 	</div>
 	<div id="menu-shade" class="closed"></div>
@@ -454,8 +477,7 @@
 			<div class="header">
 				<div id="home-button"></div>
 				<div>
-					<h1>Transit Map</h1>
-					<h1>Challenge</h1>
+					<h1>Station Tracker</h1>
 				</div>
 				<div id="right-space"></div>
 			</div>
