@@ -60,6 +60,9 @@ function updateTotalStationCount() {
 
 function updateStationListCounts() {
   for (const [badgeName, headerDiv] of Object.entries(stationCountBadgeContent)) {
+    if (!(badgeName in stationGroupStationLists)) {
+      continue;
+    }
     const stationGroupList = stationGroupStationLists[badgeName];
     const visitedStations = new Set(Array.from(stationGroupList).filter(x => Manager.visitedStations.has(x)));
     headerDiv.innerHTML = `${visitedStations.size}/${stationGroupList.size}`;

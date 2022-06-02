@@ -1,0 +1,117 @@
+{
+  "mapWidth": 4800,
+  "mapHeight": 4800,
+  "tileSize": 1000,
+  "mapRows": 5,
+  "mapCols": 5,
+  "dotRadius": 20,
+  "dpi": 100,
+  "minZoom": 0.2,
+  "maxZoom": 1,
+  "lines": [
+    [
+      {
+        "key": "Red",
+        "name": "Red Line"
+      },
+      {
+        "key": "Mattapan",
+        "name": "Mattapan Line"
+      },
+      {
+        "key": "Orange",
+        "name": "Orange Line"
+      },
+      {
+        "key": "Blue",
+        "name": "Blue Line"
+      },
+      {
+        "key": "GLB",
+        "name": "Green Line B"
+      },
+      {
+        "key": "GLC",
+        "name": "Green Line C"
+      },
+      {
+        "key": "GLD",
+        "name": "Green Line D"
+      },
+      {
+        "key": "GLE",
+        "name": "Green Line E"
+      },
+      {
+        "key": "SL1",
+        "name": "Silver Line 1"
+      },
+      {
+        "key": "SL2",
+        "name": "Silver Line 2"
+      },
+      {
+        "key": "SL3",
+        "name": "Silver Line 3"
+      },
+      {
+        "key": "SL4",
+        "name": "Silver Line 4"
+      },
+      {
+        "key": "SL5",
+        "name": "Silver Line 5"
+      }
+    ],
+    [
+      {
+        "key": "Fairmount",
+        "name": "Fairmount Line"
+      },
+      {
+        "key": "Fitchburg",
+        "name": "Fitchburg Line"
+      },
+      {
+        "key": "Farmingham",
+        "name": "Farmingham/Worcester Line"
+      },
+      {
+        "key": "Franklin",
+        "name": "Franklin/Foxboro Line"
+      },
+      {
+        "key": "Greenbush",
+        "name": "Greenbush Line"
+      },
+      {
+        "key": "Haverhill",
+        "name": "Haverhill Line"
+      },
+      {
+        "key": "Kingston",
+        "name": "Kingston Line"
+      },
+      {
+        "key": "Lowell",
+        "name": "Lowell Line"
+      },
+      {
+        "key": "Middleborough",
+        "name": "Middleborough/Lakeville Line"
+      },
+      {
+        "key": "Needham",
+        "name": "Needham Line"
+      },
+      {
+        "key": "Newburyport",
+        "name": "Newburyport/Rockport Line"
+      },
+      {
+        "key": "Providence",
+        "name": "Providence/Stoughton Line"
+      }
+    ]
+  ]
+}
