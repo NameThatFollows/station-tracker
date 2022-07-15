@@ -48,6 +48,28 @@ export const MAP_DATA = {
       ],
     },
   },
+  "D.C./Baltimore": {
+    "MARC": {
+      name: "MARC",
+      thumbnail: "./mapData/DC/MARCThumbnail.png",
+      data: [
+        { name: "Map-0-0", url: "./mapData/DC/MARC-0-0.jpg" },
+        { name: "Map-0-1", url: "./mapData/DC/MARC-0-1.jpg" },
+        { name: "Map-0-2", url: "./mapData/DC/MARC-0-2.jpg" },
+        { name: "Map-0-3", url: "./mapData/DC/MARC-0-3.jpg" },
+        { name: "Map-1-0", url: "./mapData/DC/MARC-1-0.jpg" },
+        { name: "Map-1-1", url: "./mapData/DC/MARC-1-1.jpg" },
+        { name: "Map-1-2", url: "./mapData/DC/MARC-1-2.jpg" },
+        { name: "Map-1-3", url: "./mapData/DC/MARC-1-3.jpg" },
+        { name: "Map-2-0", url: "./mapData/DC/MARC-2-0.jpg" },
+        { name: "Map-2-1", url: "./mapData/DC/MARC-2-1.jpg" },
+        { name: "Map-2-2", url: "./mapData/DC/MARC-2-2.jpg" },
+        { name: "Map-2-3", url: "./mapData/DC/MARC-2-3.jpg" },
+        { name: "Station Data", url: "./mapData/DC/MARCStationData.json" },
+        { name: "Metadata", url: "./mapData/DC/MARCMetadata.json" },
+      ]
+    }
+  },
   "New York City": {
     "MTA-NYCSubway": {
       name: "MTA New York City Subway (Hertz)",
