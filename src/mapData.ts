@@ -49,6 +49,23 @@ export const MAP_DATA = {
     },
   },
   "D.C./Baltimore": {
+    "DCMetro": {
+      name: "DC Metro",
+      thumbnail: "./mapData/DC/DCMetroThumbnail.png",
+      data: [
+        { name: "Map-0-0", url: "./mapData/DC/DCMetro-0-0.jpg" },
+        { name: "Map-0-1", url: "./mapData/DC/DCMetro-0-1.jpg" },
+        { name: "Map-0-2", url: "./mapData/DC/DCMetro-0-2.jpg" },
+        { name: "Map-1-0", url: "./mapData/DC/DCMetro-1-0.jpg" },
+        { name: "Map-1-1", url: "./mapData/DC/DCMetro-1-1.jpg" },
+        { name: "Map-1-2", url: "./mapData/DC/DCMetro-1-2.jpg" },
+        { name: "Map-2-0", url: "./mapData/DC/DCMetro-2-0.jpg" },
+        { name: "Map-2-1", url: "./mapData/DC/DCMetro-2-1.jpg" },
+        { name: "Map-2-2", url: "./mapData/DC/DCMetro-2-2.jpg" },
+        { name: "Station Data", url: "./mapData/DC/DCMetroStationData.json" },
+        { name: "Metadata", url: "./mapData/DC/DCMetroMetadata.json" },
+      ]
+    },
     "MARC": {
       name: "MARC",
       thumbnail: "./mapData/DC/MARCThumbnail.png",

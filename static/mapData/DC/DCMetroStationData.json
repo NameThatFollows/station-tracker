@@ -1,0 +1,472 @@
+[
+  {
+    "DCMetro-ShadyGrove": {
+      "name": "Shady Grove",
+      "lines": [
+        "Red"
+      ],
+      "locations": [
+        [1123, 1238]
+      ]
+    },
+    "DCMetro-Rockville": {
+      "name": "Rockville",
+      "lines": ["Red"],
+      "locations": [[1242, 1357]]
+    },
+    "DCMetro-Twinbrook": {
+      "name": "Twinbrook",
+      "lines": ["Red"],
+      "locations": [[1362, 1477]]
+    },
+    "DCMetro-WhiteFlint": {
+      "name": "White Flint",
+      "lines": ["Red"],
+      "locations": [[1482, 1597]]
+    },
+    "DCMetro-GrosvenorStrathmore": {
+      "name": "Grosvenor-Strathmore",
+      "lines": ["Red"],
+      "locations": [[1601, 1717]]
+    },
+    "DCMetro-MedicalCenter": {
+      "name": "Medical Center",
+      "lines": ["Red"],
+      "locations": [[1721, 1836]]
+    },
+    "DCMetro-Bethesda": {
+      "name": "Bethesda",
+      "lines": ["Red"],
+      "locations": [[1841, 1956]]
+    },
+    "DCMetro-FriendshipHeights": {
+      "name": "Friendship Heights",
+      "lines": ["Red"],
+      "locations": [[1953, 2068]]
+    },
+    "DCMetro-TenleytownAU": {
+      "name": "Tenleytown-AU",
+      "lines": ["Red"],
+      "locations": [[2035, 2127]]
+    },
+    "DCMetro-VanNessUDC": {
+      "name": "Van Ness-UDC",
+      "lines": ["Red"],
+      "locations": [[2143, 2143]]
+    },
+    "DCMetro-ClevelandPark": {
+      "name": "Cleveland Park",
+      "lines": ["Red"],
+      "locations": [[2215, 2214]]
+    },
+    "DCMetro-WoodleyPark": {
+      "name": "Woodley Park",
+      "lines": ["Red"],
+      "locations": [[2300, 2299]]
+    },
+    "DCMetro-DupontCircle": {
+      "name": "Dupont Circle",
+      "lines": ["Red"],
+      "locations": [[2386, 2384]]
+    },
+    "DCMetro-FarragutNorth": {
+      "name": "Farragut North",
+      "lines": ["Red"],
+      "locations": [[2453, 2489]]
+    },
+    "DCMetro-MetroCenter": {
+      "name": "Metro Center",
+      "lines": ["Red", "Orange", "Blue", "Silver"],
+      "locations": [[2682, 2858]],
+      "dotRadius": 70
+    },
+    "DCMetro-GalleryPlace": {
+      "name": "Gallery Place",
+      "lines": ["Red", "Yellow", "Green"],
+      "locations": [[3002, 2859]],
+      "dotRadius": 70
+    },
+    "DCMetro-JudiciarySq": {
+      "name": "Judiciary Sq",
+      "lines": ["Red"],
+      "locations": [[3209, 2860]]
+    },
+    "DCMetro-UnionStation": {
+      "name": "Union Station",
+      "lines": ["Red"],
+      "locations": [[3426, 2767]]
+    },
+    "DCMetro-NoMaGallaudetU": {
+      "name": "NoMa-Gallaudet U",
+      "lines": ["Red"],
+      "locations": [[3426, 2629]]
+    },
+    "DCMetro-RhodeIslandAve": {
+      "name": "Rhode Island Ave",
+      "lines": ["Red"],
+      "locations": [[3426, 2490]]
+    },
+    "DCMetro-BrooklandCUA": {
+      "name": "Brookland-CUA",
+      "lines": ["Red"],
+      "locations": [[3426, 2351]]
+    },
+    "DCMetro-FortTotten": {
+      "name": "Fort Totten",
+      "lines": ["Red", "Yellow", "Green"],
+      "locations": [[3154, 2023]],
+      "dotRadius": 70
+    },
+    "DCMetro-Takoma": {
+      "name": "Takoma",
+      "lines": ["Red"],
+      "locations": [[2849, 1715]]
+    },
+    "DCMetro-SilverSpring": {
+      "name": "Silver Spring",
+      "lines": ["Red"],
+      "locations": [[2797, 1402]]
+    },
+    "DCMetro-ForestGlen": {
+      "name": "Forest Glen",
+      "lines": ["Red"],
+      "locations": [[2797, 1271]]
+    },
+    "DCMetro-Wheaton": {
+      "name": "Wheaton",
+      "lines": ["Red"],
+      "locations": [[2797, 1139]]
+    },
+    "DCMetro-Glenmont": {
+      "name": "Glenmont",
+      "lines": ["Red"],
+      "locations": [[2797, 1007]]
+    },
+    "DCMetro-Vienna": {
+      "name": "Vienna",
+      "lines": ["Orange"],
+      "locations": [[628, 2998]]
+    },
+    "DCMetro-DunnLoring": {
+      "name": "Dunn Loring",
+      "lines": ["Orange"],
+      "locations": [[783, 2998]]
+    },
+    "DCMetro-WestFallsChurch": {
+      "name": "West Falls Church",
+      "lines": ["Orange"],
+      "locations": [[938, 2998]]
+    },
+    "DCMetro-EastFallsChurch": {
+      "name": "East Falls Church",
+      "lines": ["Orange"],
+      "locations": [[1141, 3035]],
+      "dotRadius": 70
+    },
+    "DCMetro-Ballston-MU": {
+      "name": "Ballston-MU",
+      "lines": ["Orange", "Silver"],
+      "locations": [[1288, 3035]]
+    },
+    "DCMetro-VirginiaSqGMU": {
+      "name": "Virginia Sq-GMU",
+      "lines": ["Orange", "Silver"],
+      "locations": [[1402, 3035]]
+    },
+    "DCMetro-Clarendon": {
+      "name": "Clarendon",
+      "lines": ["Orange", "Silver"],
+      "locations": [[1516, 3035]]
+    },
+    "DCMetro-CourtHouse": {
+      "name": "Court House",
+      "lines": ["Orange", "Silver"],
+      "locations": [[1630, 3035]]
+    },
+    "DCMetro-Rosslyn": {
+      "name": "Rosslyn",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[1798, 2868]],
+      "dotRadius": 70
+    },
+    "DCMetro-FoggyBottomGWU": {
+      "name": "Foggy Bottom-GWU",
+      "lines": ["Orange","Blue", "Silver"],
+      "locations": [[2202, 2643]]
+    },
+    "DCMetro-FarragutWest": {
+      "name": "Farragut West",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[2328, 2643]]
+    },
+    "DCMetro-McPhersonSq": {
+      "name": "McPherson Sq",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[2553, 2643]]
+    },
+    "DCMetro-FederalTriangle": {
+      "name": "Federal Triangle",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[2682, 3022]]
+    },
+    "DCMetro-Smithsonian": {
+      "name": "Smithsonian",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[2682, 3145]]
+    },
+    "DCMetro-LEnfantPlaza": {
+      "name": "L'Enfant Plaza",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3003, 3281]],
+      "dotRadius": 70
+    },
+    "DCMetro-FederalCenterSW": {
+      "name": "Federal Center SW",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3190, 3279]]
+    },
+    "DCMetro-CapitolSouth": {
+      "name": "Capitol South",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3351, 3279]]
+    },
+    "DCMetro-EasternMarket": {
+      "name": "Eastern Market",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3502, 3250]]
+    },
+    "DCMetro-PotomacAve": {
+      "name": "Potomac Ave",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3589, 3164]]
+    },
+    "DCMetro-StadiumArmory": {
+      "name": "Stadium-Armory",
+      "lines": ["Orange", "Blue", "Silver"],
+      "locations": [[3769, 3125]],
+      "dotRadius": 70
+    },
+    "DCMetro-MinnesotaAve": {
+      "name": "Minnesota Ave",
+      "lines": ["Orange"],
+      "locations": [[4061, 3010]]
+    },
+    "DCMetro-Deanwood": {
+      "name": "Deanwood",
+      "lines": ["Orange"],
+      "locations": [[4157, 2914]]
+    },
+    "DCMetro-Cheverly": {
+      "name": "Cheverly",
+      "lines": ["Orange"],
+      "locations": [[4253, 2818]]
+    },
+    "DCMetro-Landover": {
+      "name": "Landover",
+      "lines": ["Orange"],
+      "locations": [[4349, 2722]]
+    },
+    "DCMetro-NewCarrollton": {
+      "name": "New Carrollton",
+      "lines": ["Orange"],
+      "locations": [[4444, 2626]]
+    },
+    "DCMetro-Huntington": {
+      "name": "Huntington",
+      "lines": ["Yellow"],
+      "locations": [[2603, 4982]]
+    },
+    "DCMetro-EisenhowerAve": {
+      "name": "Eisenhower Ave",
+      "lines": ["Yellow"],
+      "locations": [[2603, 4790]]
+    },
+    "DCMetro-KingStOldTown": {
+      "name": "King St-Old Town",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2566, 4590]],
+      "dotRadius": 70
+    },
+    "DCMetro-BraddockRd": {
+      "name": "Braddock Rd",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2567, 4416]]
+    },
+    "DCMetro-WashingtonNationalAirport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2565, 4283]]
+    },
+    "DCMetro-CrystalCity": {
+      "name": "Crystal City",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2393, 4183]]
+    },
+    "DCMetro-PentagonCity": {
+      "name": "Pentagon City",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2298, 4005]]
+    },
+    "DCMetro-Pentagon": {
+      "name": "Pentagon",
+      "lines": ["Yellow", "Blue"],
+      "locations": [[2301, 3795]],
+      "dotRadius": 70
+    },
+    "DCMetro-Archives": {
+      "name": "Archives",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3002, 3025]]
+    },
+    "DCMetro-MtVernonSq": {
+      "name": "Mt Vernon Sq",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3002, 2682]]
+    },
+    "DCMetro-Shaw-HowardU": {
+      "name": "Shaw-Howard U",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3002, 2525]]
+    },
+    "DCMetro-USt": {
+      "name": "U St",
+      "lines": ["Yellow", "Green"],
+      "locations": [[2879, 2382]]
+    },
+    "DCMetro-ColumbiaHeights": {
+      "name": "Columbia Heights",
+      "lines": ["Yellow", "Green"],
+      "locations": [[2756, 2236]]
+    },
+    "DCMetro-GeorgiaAvePetworth": {
+      "name": "Georgia Ave-Petworth",
+      "lines": ["Yellow", "Green"],
+      "locations": [[2879, 2112]]
+    },
+    "DCMetro-WestHyattsville": {
+      "name": "West Hyattsville",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3318, 1862]]
+    },
+    "DCMetro-PrinceGeorgesPlaza": {
+      "name": "Prince George's Plaza",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3415, 1765]]
+    },
+    "DCMetro-CollegeParkUOfMd": {
+      "name": "College Park-U of Md",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3512, 1668]]
+    },
+    "DCMetro-Greenbelt": {
+      "name": "Greenbelt",
+      "lines": ["Yellow", "Green"],
+      "locations": [[3609, 1571]]
+    },
+    "DCMetro-Waterfront": {
+      "name": "Waterfront",
+      "lines": ["Green"],
+      "locations": [[3173, 3710]]
+    },
+    "DCMetro-NavyYardBallpark": {
+      "name": "Navy Yard-Ballpark",
+      "lines": ["Green"],
+      "locations": [[3300, 3710]]
+    },
+    "DCMetro-Anacostia": {
+      "name": "Anacostia",
+      "lines": ["Green"],
+      "locations": [[3531, 3798]]
+    },
+    "DCMetro-CongressHeights": {
+      "name": "Congress Heights",
+      "lines": ["Green"],
+      "locations": [[3610, 3878]]
+    },
+    "DCMetro-SouthernAve": {
+      "name": "Southern Ave",
+      "lines": ["Green"],
+      "locations": [[3728, 3948]]
+    },
+    "DCMetro-NaylorRd": {
+      "name": "Naylor Rd",
+      "lines": ["Green"],
+      "locations": [[3890, 3922]]
+    },
+    "DCMetro-Suitland": {
+      "name": "Suitland",
+      "lines": ["Green"],
+      "locations": [[3988, 4020]]
+    },
+    "DCMetro-BranchAve": {
+      "name": "Branch Ave",
+      "lines": ["Green"],
+      "locations": [[4085, 4118]]
+    },
+    "DCMetro-FranconiaSpringfield": {
+      "name": "Franconia-Springfield",
+      "lines": ["Blue"],
+      "locations": [[1685, 4981]]
+    },
+    "DCMetro-VanDornSt": {
+      "name": "Van Dorn St",
+      "lines": ["Blue"],
+      "locations": [[1926, 4691]]
+    },
+    "DCMetro-ArlingtonCemetery": {
+      "name": "Arlington Cemetery",
+      "lines": ["Blue"],
+      "locations": [[2072, 3476]]
+    },
+    "DCMetro-BenningRd": {
+      "name": "Benning Rd",
+      "lines": ["Blue", "Silver"],
+      "locations": [[4229, 3161]]
+    },
+    "DCMetro-CapitolHeights": {
+      "name": "Capitol Heights",
+      "lines": ["Blue", "Silver"],
+      "locations": [[4347, 3161]]
+    },
+    "DCMetro-AddisonRd": {
+      "name": "Addison Rd",
+      "lines": ["Blue", "Silver"],
+      "locations": [[4465, 3161]]
+    },
+    "DCMetro-MorganBlvd": {
+      "name": "Morgan Blvd",
+      "lines": ["Blue", "Silver"],
+      "locations": [[4582, 3161]]
+    },
+    "DCMetro-LargoTownCenter": {
+      "name": "Largo Town Center",
+      "lines": ["Blue", "Silver"],
+      "locations": [[4700, 3161]]
+    },
+    "DCMetro-McLean": {
+      "name": "McLean",
+      "lines": ["Silver"],
+      "locations": [[942, 2905]]
+    },
+    "DCMetro-TysonsCorner": {
+      "name": "Tysons Corner",
+      "lines": ["Silver"],
+      "locations": [[863, 2826]]
+    },
+    "DCMetro-Greensboro": {
+      "name": "Greensboro",
+      "lines": ["Silver"],
+      "locations": [[784, 2747]]
+    },
+    "DCMetro-SpringHill": {
+      "name": "Spring Hill",
+      "lines": ["Silver"],
+      "locations": [[705, 2668]]
+    },
+    "DCMetro-WiehleRestonEast": {
+      "name": "Wiehle-Reston East",
+      "lines": ["Silver"],
+      "locations": [[626, 2589]]
+    }
+  }
+]
