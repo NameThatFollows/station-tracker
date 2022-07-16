@@ -1,0 +1,22 @@
+{
+  "mapWidth": 554,
+  "mapHeight": 692,
+  "tileSize": 1000,
+  "mapRows": 1,
+  "mapCols": 1,
+  "dotRadius": 7,
+  "minZoom": 1,
+  "maxZoom": 2,
+  "lines": [
+    [
+      {
+        "key": "Manassas",
+        "name": "Manassas"
+      },
+      {
+        "key": "Fredericksburg",
+        "name": "Fredericksburg"
+      }
+    ]
+  ]
+}

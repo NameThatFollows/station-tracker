@@ -68,6 +68,15 @@ export const MAP_DATA = {
         { name: "Station Data", url: "./mapData/DC/MARCStationData.json" },
         { name: "Metadata", url: "./mapData/DC/MARCMetadata.json" },
       ]
+    },
+    "VRE": {
+      name: "VRE",
+      thumbnail: "./mapData/DC/VREThumbnail.png",
+      data: [
+        { name: "Map-0-0", url: "./mapData/DC/VRE-0-0.jpg" },
+        { name: "Station Data", url: "./mapData/DC/VREStationData.json" },
+        { name: "Metadata", url: "./mapData/DC/VREMetadata.json" },
+      ]
     }
   },
   "New York City": {
